@@ -1,0 +1,108 @@
+/* 两列定宽布局 */
+.g-bd {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.g-sd {
+    float: right;
+    width: 230px;
+    background-color: rgb(242, 123, 29)
+}
+
+.g-mn {
+    float: left;
+    width: 710px;
+    background-color: rgb(250, 210, 50)
+}
+
+/* 文本输入框 */
+.u-ipt {
+    width: 180px;
+    padding: 5px;
+    height: 17px;
+    border: 1px solid #D9D9D9;
+    border-top-color: #c0c0c0;
+    line-height: 17px;
+    font-size: 14px;
+    color: #777;
+    background: #fff;
+}
+
+.g-condition {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.s-font14 {
+    font-size: 12px;
+}
+
+.g-query {
+    width: 990px;
+    margin-top: 10px;
+}
+
+.g-tab {
+    width: 990px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.g-tab-container {
+    width: 100%;
+    height: 360px;
+}
+
+.u-query-text {
+    height: 35px;
+    text-align: right;
+    padding-left: 10px;
+}
+
+#u-tab-sum-con {
+    min-width: 610px;
+    height: 360px;
+    float: left;
+}
+
+.u-tab-sum-Introduction {
+    width: 300px;
+    float: right
+}
+#u-tab-history-con{
+    min-width: 950px;
+    height: 360px;
+    margin: 0 auto
+}
+#u-tab-recent-con{
+    min-width: 950px;
+    height: 360px;
+    margin: 0 auto
+}
+#u-tab-time-con{
+    min-width: 950px;
+    height: 360px;
+    margin: 0 auto
+}
+#u-tab-age-sex-con{
+    min-width: 950px;
+    height: 360px;
+    margin: 0 auto
+}
+#u-tab-time-reg-con{
+    min-width: 950px;
+    height: 360px;
+    margin: 0 auto
+}
+#u-tab-reg-time-con{
+     min-width: 950px;
+     height: 360px;
+     margin: 0 auto
+ }
+.m-query-table{
+    margin:0px;
+    padding: 0px;
+}

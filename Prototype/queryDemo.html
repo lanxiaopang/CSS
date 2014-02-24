@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>新疆来济人员查询</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/jquerysctipttop.css">
+    <link rel="stylesheet" type="text/css" href="css/accordion.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.sapling.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.js"></script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            $('#queryList').sapling({ multiexpand: false, animation: true });
+            $( "#tabs" ).tabs();
+        });
+
+    </script>
+</head>
+<body>
+<div class="g-bd">
+
+
+
+    <div class="g-query">
+        <ul id="queryList">
+            <li>
+                <span class="my-custom-title g-condition">查询条件</span>
+                <ul>
+                    <li>
+                        <div class="">
+                            <span class="font14">开始时间：</span>
+                            <input type="text" class="u-ipt"/>
+                            <span class="font14">截止时间：</span>
+                            <input type="text" class="u-ipt"/><br>
+                            <span class="font14">民族：</span>
+                            <input type="text" class="u-ipt"/>
+                            <span class="font14">性别：</span>
+                            <input type="text" class="u-ipt"/>
+                            <span class="font14">年龄：</span>
+                            <input type="text" class="u-ipt"/><br>
+                            <span class="font14">户籍所在地：</span>
+                            <input type="text" class="u-ipt"/>
+                            <span class="font14">所在辖区：</span>
+                            <input type="text" class="u-ipt"/>
+                            <button type="button" class="u-btn">查询</button>
+                            <br>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="g-tab">
+        <div class="m-hd m-hd-bg">
+            <h2 class="u-tt">标题2</h2>
+            <div class="more"><a href="#">更多&raquo;</a></div>
+            <ul>
+                <li class="z-crt"><a href="#">有背景</a></li>
+                <li><a href="#">标签</a></li>
+                <li><a href="#">标签</a></li>
+                <li><a href="#">标签标签</a></li>
+            </ul>
+        </div>
+
+        <div id="tab1">123123</div>
+        <div id="tab2">123123</div>
+        <div id="tab3">123123</div>
+    </div>
+
+
+    <div class="g-tab">
+        <h2 class="demoHeaders">Tabs</h2>
+
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">First</a></li>
+                <li><a href="#tabs-2">Second</a></li>
+                <li><a href="#tabs-3">Third</a></li>
+            </ul>
+            <div id="tabs-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare,
+                felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.
+            </div>
+            <div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna,
+                interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

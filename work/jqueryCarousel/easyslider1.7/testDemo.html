@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Easy Slider jQuery Plugin Demo</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/easySlider1.7.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#slider").easySlider({
+                auto: false,
+                continuous: true
+            });
+        });
+    </script>
+
+    <link href="css/carousel.css" rel="stylesheet" type="text/css" media="screen"/>
+
+</head>
+<body>
+
+<div id="container">
+    <div id="content">
+        <div id="slider">
+            <ul>
+                <li>
+                    <cms:list item="article" count="15" name="大厅展示" count="6" begin="0">
+                        <a href="${article.link}" target="_blank">
+                            <img src="${Level}${article.RoolImage}"  width="" alt="${Article.Title}" title="${Article.Title}"/>
+                        </a>
+                    </cms:list>
+                </li>
+                <li>
+                    <cms:list item="article" count="15" name="大厅展示" count="6" begin="6">
+                        <a href="${article.link}" target="_blank">
+                            <img src="${Level}${article.RoolImage}" alt="${Article.Title}" title="${Article.Title}"/>
+                        </a>
+                    </cms:list>
+                </li>
+                <li>
+                    <cms:list item="article" count="15" name="大厅展示" count="6" begin="12">
+                        <a href="${article.link}" target="_blank">
+                            <img src="${Level}${article.RoolImage}" alt="${Article.Title}" title="${Article.Title}"/>
+                        </a>
+                    </cms:list>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

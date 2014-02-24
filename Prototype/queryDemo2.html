@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>新疆来济人员查询</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/highcharts-more.js"></script>
+    <script src="js/modules/exporting.js"></script>
+
+</head>
+<body>
+<div class="g-bd">
+
+    <div class="g-query">
+        <div id="m-accordion">
+            <h3>查询条件</h3>
+            <div class="">
+                <table class="m-query-table">
+                    <tr>
+                        <td class="u-query-text">开始时间：</td>
+                        <td><input type="text" class="u-ipt"/></td>
+                        <td class="u-query-text">截止时间：</td>
+                        <td><input type="text" class="u-ipt"/></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="u-query-text">民族：</td>
+                        <td><input type="text" class="u-ipt"/></td>
+                        <td class="u-query-text">性别：</td>
+                        <td><input type="text" class="u-ipt"/></td>
+                        <td class="u-query-text">年龄：</td>
+                        <td><input type="text" class="u-ipt"/></td>
+                    </tr>
+                    <tr>
+                        <td class="u-query-text">户籍所在地：</td>
+                        <td><input type="text" class="u-ipt"/></td>
+                        <td class="u-query-text">所在辖区：</td>
+                        <td><input type="text" class="u-ipt"/></td>
+                        <td></td>
+                        <td>
+                            <button id="u-query-button">查询</button>&nbsp;
+                            <button id="u-query-cancel">取消</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <div class="g-tab">
+        <div id="m-tabs">
+            <ul>
+                <li><a href="#m-tabs-recent">近期数据</a></li>
+                <li><a href="#m-tabs-history">历史数据</a></li>
+                <li><a href="#m-tabs-summary">按户籍所在地</a></li>
+                <li><a href="#m-tabs-time">按时间查询</a></li>
+                <li><a href="#m-tabs-age-sex">按年龄性别查询</a></li>
+                <li><a href="#m-tabs-time-reg">按时间户籍查询</a></li>
+                <li><a href="#m-tabs-reg-time">按户籍查询</a></li>
+            </ul>
+            <div id="m-tabs-summary">
+                <div class="g-tab-container">
+                    <div id="u-tab-sum-con"></div>
+                    <div class="u-tab-sum-Introduction">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014年1月，途径流口和临时住宿在我市的新疆人员共132人，人员主要来自乌鲁木齐，克拉玛依等地。其中乌鲁木齐占45%，比重较大。
+                    </div>
+                </div>
+            </div>
+
+            <div id="m-tabs-recent">
+
+                <div class="g-tab-container">
+                    <div id="u-tab-recent-con">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="m-tabs-history">
+
+                <div class="g-tab-container">
+                    <div id="u-tab-history-con">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="m-tabs-time">
+                <div class="g-tab-container">
+                    <div id="u-tab-time-con">
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="m-tabs-age-sex">
+                <div class="g-tab-container">
+                    <div id="u-tab-age-sex-con">
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="m-tabs-time-reg">
+                <div class="g-tab-container">
+                    <div id="u-tab-time-reg-con">
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="m-tabs-reg-time">
+                <div class="g-tab-container">
+                    <div id="u-tab-reg-time-con">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<script src="js/loadData.js"></script>
+</body>
+</html>

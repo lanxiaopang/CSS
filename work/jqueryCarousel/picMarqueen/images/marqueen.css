@@ -1,0 +1,52 @@
+.demo {
+    width: 1000px;
+    height: 134px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+}
+
+.bx_wrap {
+    width:920px;
+    height:145px;
+    overflow:hidden;
+    background:#fff url(../images/pic_c.gif) repeat-x;
+}
+.bx_container{
+    margin:0 auto;
+}
+.bx_wrap ul img {
+    border: 2px solid #ddd;
+}
+
+.bx_wrap ul li {
+    text-align: center
+}
+
+.bx_wrap ul li a:hover {
+    text-decoration: none;
+    color: #f30
+}
+
+.bx_wrap a.prev {
+    width: 35px;
+    height: 145px;
+    line-height: 145px;
+    outline-style: none;
+    outline-width: 0;
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    text-indent: -999em;
+    background: url(pic_l.gif) no-repeat;
+}
+
+.bx_wrap a.next {
+    width: 35px;
+    height: 145px;
+    line-height: 24px;
+    left: 920px;
+    position: absolute;
+    text-indent: -999em;
+    background: url("pic_r.gif") no-repeat scroll 0% 0% transparent;
+}

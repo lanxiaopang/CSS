@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="图片滚动,jquery插件" />
+<meta name="description" content="Helloweba演示平台，演示XHTML、CSS、jquery、PHP案例和示例" />
+<title>jQuery+CSS实现的图片滚动效果</title>
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<style type="text/css">
+.demo{width: 650px;height: 134px;margin: 60px auto;clear: both;position: relative;border:1px solid #d3d3d3}
+.bx_wrap {margin-left: 10px; margin-top:10px}
+.bx_wrap ul img { border: 2px solid #ddd; }
+.bx_wrap ul li{text-align:center}
+.bx_wrap ul li a:hover{text-decoration:none; color:#f30}
+.bx_wrap a.prev {width:20px;height:24px;line-height:24px;outline-style:none;outline-width: 0;position:absolute; top:45px; left:-2px; text-indent:-999em; background: url(img/arr_left.gif) no-repeat;}
+.bx_wrap a.next {width:20px;height:24px;line-height:24px; left:626px;position: absolute;top:45px; text-indent:-999em; background:url(img/arr_right.gif) no-repeat;}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="bxCarousel.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#demo1').bxCarousel({
+		display_num: 4, 
+		move: 1, 
+		auto: true, 
+		controls: false,
+		margin: 10,
+		auto_hover: true
+	});
+	$('#demo2').bxCarousel({
+		display_num: 4, 
+		move: 4,
+		margin: 10 
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="header">
+   <div id="logo"><h1><a href="http://www.helloweba.com" title="返回helloweba首页">helloweba</a></h1></div>
+</div>
+
+<div id="main">
+  <h2 class="top_title"><a href="http://www.helloweba.com/view-blog-139.html">jQuery+CSS实现的图片滚动效果</a></h2>
+  <div class="demo">
+    <div class="bx_wrap">
+        <div class="bx_container">
+          <ul id="demo1">
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s1.jpg"><br/>图片1</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s2.jpg"><br/>图片2</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s3.jpg"><br/>图片3</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s4.jpg"><br/>图片4</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s5.jpg"><br/>图片5</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s6.jpg"><br/>图片6</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s7.jpg"><br/>图片7</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s1.jpg"><br/>图片1</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s2.jpg"><br/>图片2</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s3.jpg"><br/>图片3</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s4.jpg"><br/>图片4</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s5.jpg"><br/>图片5</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s6.jpg"><br/>图片6</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s7.jpg"><br/>图片7</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+   <div class="demo">
+    <div class="bx_wrap">
+        <div class="bx_container">
+          <ul id="demo2">
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s1.jpg"><br/>图片1</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s2.jpg"><br/>图片2</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s3.jpg"><br/>图片3</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s4.jpg"><br/>图片4</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s5.jpg"><br/>图片5</a></li>
+            <li><a href="#"><img  alt="#" width="140" height="94" src="img/s6.jpg"><br/>图片6</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+</div>
+<div id="footer">
+    <p>Powered by helloweba.com  允许转载、修改和使用本站的DEMO，但请注明出处：<a href="http://www.helloweba.com">www.helloweba.com</a></p>
+</div>
+<p id="stat"><script type="text/javascript" src="http://js.tongji.linezing.com/1870888/tongji.js"></script></p>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../images/marqueen.css"/>
+    <style type="text/css">
+        .demo {
+            width: 650px;
+            height: 134px;
+            margin: 60px auto;
+            clear: both;
+            position: relative;
+            border: 1px solid #d3d3d3
+        }
+
+        .bx_wrap {
+            margin-left: 10px;
+        }
+
+        .bx_wrap ul img {
+            border: 2px solid #ddd;
+        }
+
+        .bx_wrap ul li {
+            text-align: center
+        }
+
+        .bx_wrap ul li a:hover {
+            text-decoration: none;
+            color: #f30
+        }
+
+        .bx_wrap a.prev {
+            width: 20px;
+            height: 24px;
+            line-height: 24px;
+            outline-style: none;
+            outline-width: 0;
+            position: absolute;
+            top: 45px;
+            left: -2px;
+            text-indent: -999em;
+            background: url(../img/arr_left.gif) no-repeat;
+        }
+
+        .bx_wrap a.next {
+            width: 20px;
+            height: 24px;
+            line-height: 24px;
+            left: 626px;
+            position: absolute;
+            top: 45px;
+            text-indent: -999em;
+            background: url(../img/arr_right.gif) no-repeat;
+        }
+    </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../bxCarousel.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#demo2').bxCarousel({
+                display_num: 4,
+                move: 4,
+                auto: true,
+                margin: 10,
+                auto_hover: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+<div id="main">
+    <div class="demo">
+        <div></div>
+        <div class="bx_wrap">
+            <div class="bx_container">
+                <ul id="demo2">
+                    <li><a href="#"><img alt="#" width="140" height="94" src="../img/s1.jpg"><br/>图片1</a></li>
+                    <li><a href="#"><img alt="#" width="140" height="94" src="../img/s2.jpg"><br/>图片2</a></li>
+                    <li><a href="#"><img alt="#" width="140" height="94" src="../img/s3.jpg"><br/>图片3</a></li>
+                    <li><a href="#"><img alt="#" width="140" height="94" src="../img/s4.jpg"><br/>图片4</a></li>
+                    <li><a href="#"><img alt="#" width="140" height="94" src="../img/s5.jpg"><br/>图片5</a></li>
+                    <li><a href="#"><img alt="#" width="140" height="94" src="../img/s6.jpg"><br/>图片6</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
