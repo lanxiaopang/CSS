@@ -1,0 +1,9 @@
+/* 多列定宽布局 */
+.g-bd{width:950px;margin:0 auto;border: 1px solid #000000;}
+.g-sd{float:right;width:230px;background-color: red;}
+.g-left1,.g-left2,.g-left3,.g-left4{float:left;width:100px;}
+
+.g-left1{background-color: green;}
+.g-left2{background-color: blue;}
+.g-left3{background-color: fuchsia;}
+.g-left4{background-color: aqua;}

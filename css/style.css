@@ -1,0 +1,52 @@
+/*两列左侧定宽右侧自适应*/
+.g-bd1{margin:0 0 10px;}
+.g-sd1{position:relative;float:left;width:190px;margin-right:-190px;background-color: rgb(15,14,210);}
+.g-mn1{float:right;width:100%;background-color:  rgb(129,88,126);}
+.g-mn1c{margin-left:200px;}
+
+/* 两列左侧自适应布局 */
+.g-bd2{margin:0 0 10px;}
+.g-sd2{position:relative;float:right;width:230px;margin-left:-230px;background-color: rgb(94,184,94)}
+.g-mn2{float:left;width:100%;background-color: rgb(220,81,76)}
+.g-mn2c{margin-right:240px;}
+
+/* 两列定宽布局 */
+.g-bd{width:950px;margin:0 auto;}
+.g-sd{float:right;width:230px;background-color: rgb(242,123,29)}
+.g-mn{float:left;width:710px;background-color: rgb(250,210,50)}
+
+
+/* 多列定宽布局 */
+.g-left1,.g-left2,.g-left3,.g-left4{float:left;width:100px;}
+
+.g-left1{background-color: green;}
+.g-left2{background-color: blue;}
+.g-left3{background-color: fuchsia;}
+.g-left4{background-color: aqua;}
+
+
+/* 三列中间自适应布局 */
+.g-bd5{margin:0 0 10px;}
+.g-sd51,.g-sd52{position:relative;float:left;width:230px;margin:0 -230px 0 0;}
+.g-sd52{float:right;width:190px;margin:0 0 0 -190px;}
+.g-mn5{float:left;width:100%;}
+.g-mn5c{margin:0 200px 0 240px;background-color:aquamarine}
+
+
+
+
+/* 三列左侧自适应布局 */
+.g-bd4{margin:0 0 10px;}
+.g-sd41,.g-sd42{position:relative;float:right;width:190px;background-color: red;}
+.g-sd41{width:230px;margin-left:10px;}
+.g-mn4{float:left;width:100%;margin-right:-430px;}
+.g-mn4c{margin-right:440px;background-color:aquamarine}
+
+
+
+/* 三列右侧自适应布局 */
+.g-bd3{margin:0 0 10px;}
+.g-sd31,.g-sd32{position:relative;float:left;width:230px;}
+.g-sd31{width:190px;margin-right:10px;}
+.g-mn3{float:right;width:100%;margin-left:-430px;}
+.g-mn3c{margin-left:440px;background-color:aquamarine}

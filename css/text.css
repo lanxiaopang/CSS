@@ -1,0 +1,8 @@
+[hidefocus],summary{outline:0;}
+:focus{outline: 0;}
+sup,sub{font-size:83%;}
+q:before,q:after{content:none;}
+textarea{overflow:hidden;resize:none;}
+label,summary{cursor:default;}
+a,a:hover{text-decoration:none;}
+a,a:hover{color:#333;}
