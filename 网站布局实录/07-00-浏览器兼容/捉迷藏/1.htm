@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>捉迷藏</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<style>
+
+#clear {
+clear: both;
+}
+#layout {
+background: #e6e6e6;  
+
+}
+#layout a:hover{
+background: #333;
+}
+#left {    
+float : left;
+border: 4px solid #333;
+padding : 5px;
+width : 200px;
+height: 200px;
+
+}
+#right div{
+border: 3px solid #0c0; background: #dde;
+}
+
+</style>
+</head>
+<body> 
+<div id="layout"> 
+  <div id="left"> #left <a href="#">链接A</a> </div> 
+  <div id="right"> #right<br/> 
+    被隐藏的文本<br> 
+    <a href="#">链接B</a> <br /> 
+    <br /> 
+    <div>#right中的div. <a href="#">链接C</a></div> 
+    #right中的文本. <a href="#">链接D</a> 
+    <div>#right中的div. <a href="#">链接E</a></div> 
+    #right中的文本. <a href="#">链接F</a> </div> 
+<div id="clear">bottom</div> 
+</div> 
+</body>
+</html>

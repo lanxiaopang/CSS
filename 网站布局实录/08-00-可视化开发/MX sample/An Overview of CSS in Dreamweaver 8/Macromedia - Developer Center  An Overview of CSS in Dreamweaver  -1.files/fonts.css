@@ -1,0 +1,754 @@
+BODY {
+	FONT: 75%/1em Arial, Helvetica, sans-serif
+}
+ACRONYM {
+	FONT-WEIGHT: bold
+}
+BLOCKQUOTE.pullquote CITE {
+	FONT-WEIGHT: bold
+}
+CAPTION {
+	FONT-WEIGHT: bold
+}
+DT {
+	FONT-WEIGHT: bold
+}
+DL.no-indent DT {
+	FONT-WEIGHT: bold
+}
+LABEL {
+	FONT-WEIGHT: bold
+}
+TH {
+	FONT-WEIGHT: bold
+}
+#configurator LABEL {
+	FONT-WEIGHT: bold
+}
+#contentBody TABLE.data-meta TH {
+	FONT-WEIGHT: bold
+}
+#msg-error P {
+	FONT-WEIGHT: bold
+}
+#pod LABEL {
+	FONT-WEIGHT: bold
+}
+#pod INPUT.submit {
+	FONT-WEIGHT: bold
+}
+#pod UL.nav-pod {
+	FONT-WEIGHT: bold
+}
+#util-article UL LI {
+	FONT-WEIGHT: bold
+}
+.caption A {
+	FONT-WEIGHT: bold
+}
+.form-columns LABEL {
+	FONT-WEIGHT: bold
+}
+.metalabel {
+	FONT-WEIGHT: bold
+}
+.msg-alert {
+	FONT-WEIGHT: bold
+}
+.price-lrg {
+	FONT-WEIGHT: bold
+}
+.new {
+	FONT-WEIGHT: bold
+}
+.required {
+	FONT-WEIGHT: bold
+}
+.submit {
+	FONT-WEIGHT: bold
+}
+.submit-disabled {
+	FONT-WEIGHT: bold
+}
+ADDRESS {
+	FONT-WEIGHT: normal
+}
+ACRONYM {
+	FONT-WEIGHT: normal
+}
+CODE STRONG {
+	FONT-WEIGHT: normal
+}
+H1 {
+	FONT-WEIGHT: normal
+}
+PRE STRONG {
+	FONT-WEIGHT: normal
+}
+SELECT {
+	FONT-WEIGHT: normal
+}
+TEXTAREA {
+	FONT-WEIGHT: normal
+}
+#configurator .input-group LABEL {
+	FONT-WEIGHT: normal
+}
+#fma H2 {
+	FONT-WEIGHT: normal
+}
+#pod TABLE.data-meta TH {
+	FONT-WEIGHT: normal
+}
+#pod TABLE.data-meta TD {
+	FONT-WEIGHT: normal
+}
+#pod UL.nav-pod UL {
+	FONT-WEIGHT: normal
+}
+.caption .link-list A {
+	FONT-WEIGHT: normal
+}
+.data-rating TH {
+	FONT-WEIGHT: normal
+}
+.data-rating LABEL {
+	FONT-WEIGHT: normal
+}
+.form-columns LABEL.label-description {
+	FONT-WEIGHT: normal
+}
+.input-group LABEL {
+	FONT-WEIGHT: normal
+}
+.input-left LABEL {
+	FONT-WEIGHT: normal
+}
+.label-right {
+	FONT-WEIGHT: normal
+}
+.nav-pagination DT {
+	FONT-WEIGHT: normal
+}
+.form-columns .label-right {
+	FONT-WEIGHT: normal
+}
+.promoHeader {
+	FONT-WEIGHT: normal
+}
+.searchInputField {
+	FONT-WEIGHT: normal
+}
+INPUT.textfield {
+	FONT-WEIGHT: normal
+}
+.button-with-option {
+	FONT-WEIGHT: normal
+}
+SPAN.article-date {
+	FONT-WEIGHT: normal! important
+}
+.stamp-date {
+	FONT-WEIGHT: normal! important
+}
+UNKNOWN {
+	
+}
+:unknown INPUT.submit {
+	
+}
+H1 {
+	FONT-SIZE: 1.75em
+}
+#fma H2 {
+	FONT-SIZE: 1.55em
+}
+.msg-promo {
+	FONT-SIZE: 1.55em
+}
+.promoHeader {
+	FONT-SIZE: 1.55em
+}
+.price-lrg {
+	FONT-SIZE: 1.45em
+}
+BLOCKQUOTE.pullquote P {
+	FONT-SIZE: 1.4em
+}
+H2 {
+	FONT-SIZE: 1.35em
+}
+.metalabel {
+	FONT-SIZE: 1.2em
+}
+DIV.portal-features H3 {
+	FONT-SIZE: 1.2em
+}
+DIV.portal-features H4 {
+	FONT-SIZE: 1.2em
+}
+DIV.popupheader {
+	FONT-SIZE: 14px
+}
+.char-footnote {
+	FONT-SIZE: 1.1em
+}
+CAPTION {
+	FONT-SIZE: 1em
+}
+H3 {
+	FONT-SIZE: 1em
+}
+H4 {
+	FONT-SIZE: 1em
+}
+H5 {
+	FONT-SIZE: 1em
+}
+OL {
+	FONT-SIZE: 1em
+}
+LI {
+	FONT-SIZE: 1em
+}
+LI OL {
+	FONT-SIZE: 1em
+}
+LI UL {
+	FONT-SIZE: 1em
+}
+P {
+	FONT-SIZE: 1em
+}
+SELECT {
+	FONT-SIZE: 1em
+}
+TD {
+	FONT-SIZE: 1em
+}
+TEXTAREA {
+	FONT-SIZE: 1em
+}
+#configurator .input-group LABEL {
+	FONT-SIZE: 1em
+}
+#contentBody TABLE.data-meta TH {
+	FONT-SIZE: 1em
+}
+#pod TABLE.data-meta TH {
+	FONT-SIZE: 1em
+}
+#pod TABLE.data-meta TD {
+	FONT-SIZE: 1em
+}
+#pod INPUT.textfield {
+	FONT-SIZE: 1em
+}
+#util-article OL {
+	FONT-SIZE: 1em
+}
+#util-article UL {
+	FONT-SIZE: 1em
+}
+.data-rating TH {
+	FONT-SIZE: 1em
+}
+.data-rating LABEL {
+	FONT-SIZE: 1em
+}
+.data-rating TD {
+	FONT-SIZE: 1em
+}
+.form-columns .input-group LABEL {
+	FONT-SIZE: 1em
+}
+.form-columns .input-left LABEL {
+	FONT-SIZE: 1em
+}
+.form-columns .label-right {
+	FONT-SIZE: 1em
+}
+.input-group LABEL {
+	FONT-SIZE: 1em
+}
+.input-left LABEL {
+	FONT-SIZE: 1em
+}
+.required {
+	FONT-SIZE: 1em
+}
+.searchInputField {
+	FONT-SIZE: 1em
+}
+INPUT.textfield {
+	FONT-SIZE: 1em
+}
+UNKNOWN {
+	FONT-SIZE: 12px
+}
+ACRONYM {
+	FONT-SIZE: 0.95em
+}
+#pod INPUT.submit {
+	FONT-SIZE: 0.95em
+}
+.msg-alert {
+	FONT-SIZE: 0.95em
+}
+BLOCKQUOTE ADDRESS {
+	FONT-SIZE: 0.9em
+}
+BLOCKQUOTE CITE {
+	FONT-SIZE: 0.9em
+}
+.caption {
+	FONT-SIZE: 0.9em
+}
+.caption .link-list A {
+	FONT-SIZE: 0.9em
+}
+.legalnotice {
+	FONT-SIZE: 0.9em
+}
+.new {
+	FONT-SIZE: 0.9em
+}
+BLOCKQUOTE.pullquote CITE {
+	FONT-SIZE: 0.85em
+}
+TH {
+	FONT-SIZE: 0.85em
+}
+#configurator LABEL {
+	FONT-SIZE: 0.85em
+}
+#globalfooter {
+	FONT-SIZE: 0.85em
+}
+#depthpath {
+	FONT-SIZE: 0.85em
+}
+#pod {
+	FONT-SIZE: 0.85em
+}
+#util-article {
+	FONT-SIZE: 0.85em
+}
+.nav-pagination {
+	FONT-SIZE: 0.85em
+}
+.pagination {
+	FONT-SIZE: 0.85em
+}
+A.submit {
+	FONT-SIZE: 0.85em
+}
+.form-columns LABEL {
+	FONT-SIZE: 0.85em
+}
+.form-columns LABEL.label-description {
+	FONT-SIZE: 0.85em
+}
+.submit {
+	FONT-SIZE: 0.8em
+}
+.submit-disabled {
+	FONT-SIZE: 0.8em
+}
+.form-columns LABEL INPUT {
+	FONT-SIZE: 1.15em
+}
+.form-columns LABEL SELECT {
+	FONT-SIZE: 1.15em
+}
+.caption A {
+	FONT-SIZE: 1.1em
+}
+OL.char-marker LI SUP {
+	FONT-SIZE: 10px
+}
+ HTML OL.char-marker LI SUP {
+	FONT-SIZE: x-small
+}
+#globalfooter {
+	LINE-HEIGHT: 1.5em
+}
+#searchBarTop DIV.results-summary {
+	LINE-HEIGHT: 1.45em
+}
+#searchBarBottom DIV.results-summary {
+	LINE-HEIGHT: 1.45em
+}
+#searchBarTop DIV.prev-next {
+	LINE-HEIGHT: 1.45em
+}
+#searchBarBottom DIV.prev-next {
+	LINE-HEIGHT: 1.45em
+}
+BLOCKQUOTE ADDRESS {
+	LINE-HEIGHT: 1.35em
+}
+BLOCKQUOTE CITE {
+	LINE-HEIGHT: 1.35em
+}
+BLOCKQUOTE {
+	LINE-HEIGHT: 1.35em
+}
+ADDRESS {
+	LINE-HEIGHT: 1.35em
+}
+CITE {
+	LINE-HEIGHT: 1.35em
+}
+P {
+	LINE-HEIGHT: 1.35em
+}
+PRE {
+	LINE-HEIGHT: 1.35em
+}
+SELECT {
+	LINE-HEIGHT: 1.35em
+}
+TD {
+	LINE-HEIGHT: 1.35em
+}
+TEXTAREA {
+	LINE-HEIGHT: 1.35em
+}
+#contentBody TABLE.data-meta TH {
+	LINE-HEIGHT: 1.35em
+}
+#configurator .input-group LABEL {
+	LINE-HEIGHT: 1.35em
+}
+#configurator LABEL {
+	LINE-HEIGHT: 1.35em
+}
+#depthpath {
+	LINE-HEIGHT: 1.35em
+}
+#pod {
+	LINE-HEIGHT: 1.35em
+}
+#util-article {
+	LINE-HEIGHT: 1.35em
+}
+.form-columns LABEL {
+	LINE-HEIGHT: 1.35em
+}
+.input-group LABEL {
+	LINE-HEIGHT: 1.35em
+}
+.input-left LABEL {
+	LINE-HEIGHT: 1.35em
+}
+.nav-pagination {
+	LINE-HEIGHT: 1.35em
+}
+.pagination {
+	LINE-HEIGHT: 1.35em
+}
+.searchInputField {
+	LINE-HEIGHT: 1.35em
+}
+.text {
+	LINE-HEIGHT: 1.35em
+}
+INPUT.textfield {
+	LINE-HEIGHT: 1.35em
+}
+.submit {
+	LINE-HEIGHT: 1.35em
+}
+.submit-disabled {
+	LINE-HEIGHT: 1.35em
+}
+CAPTION {
+	LINE-HEIGHT: 1.3em
+}
+H2 {
+	LINE-HEIGHT: 1.3em
+}
+H3 {
+	LINE-HEIGHT: 1.3em
+}
+H4 {
+	LINE-HEIGHT: 1.3em
+}
+H5 {
+	LINE-HEIGHT: 1.3em
+}
+#pod TABLE.data-meta TH {
+	LINE-HEIGHT: 1.3em
+}
+#pod TABLE.data-meta TD {
+	LINE-HEIGHT: 1.3em
+}
+.msg-promo {
+	LINE-HEIGHT: 1.3em
+}
+DIV.portal-features H3 {
+	LINE-HEIGHT: 1.3em
+}
+DIV.portal-features H4 {
+	LINE-HEIGHT: 1.3em
+}
+TH {
+	LINE-HEIGHT: 1.2em
+}
+#fma H2 {
+	LINE-HEIGHT: 1.2em
+}
+#pod INPUT.submit {
+	LINE-HEIGHT: 1.2em
+}
+.msg-alert {
+	LINE-HEIGHT: 1.2em
+}
+.promoHeader {
+	LINE-HEIGHT: 1.2em
+}
+.form-columns LABEL.label-description {
+	LINE-HEIGHT: 1.15em
+}
+H1 {
+	LINE-HEIGHT: 1.1em
+}
+#pod INPUT.textfield {
+	LINE-HEIGHT: 1em
+}
+DIV.popupheader {
+	LINE-HEIGHT: 1em
+}
+SELECT {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#pod INPUT.textfield {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#configurator .input-group LABEL {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#contentBody TABLE.data-meta TH {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.form-columns .input-group LABEL {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.form-columns .input-left LABEL {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.form-columns .label-right {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.input-group LABEL {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.input-left LABEL {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.searchInputField {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textfield {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.caption A {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+DIV.popupheader {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BLOCKQUOTE ADDRESS {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+BLOCKQUOTE CITE {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#configurator LABEL {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#globalfooter {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#depthpath {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#util-article {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#pod {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#pod INPUT.submit {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+OL.char-marker LI SUP {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pagination {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.nav-pagination {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.legalnotice {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.new {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.caption {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.caption .link-list A {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.required {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.submit {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.submit-disabled {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.char-footnote {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.msg-alert {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.form-columns LABEL {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.form-columns LABEL.label-description {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+UNKNOWN {
+	FONT-FAMILY: Courier, monospace
+}
+ HTML CODE {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+ HTML KBD {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+ HTML PRE {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+ HTML SAMP {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+
+@media Unknown    
+{
+CODE {
+	FONT-FAMILY: "Courier New", Courier, monospace! important
+}
+KBD {
+	FONT-FAMILY: "Courier New", Courier, monospace! important
+}
+PRE {
+	FONT-FAMILY: "Courier New", Courier, monospace! important
+}
+SAMP {
+	FONT-FAMILY: "Courier New", Courier, monospace! important
+}
+    }
+#iframe-popup {
+	TEXT-ALIGN: left
+}
+BODY.rate-this {
+	TEXT-ALIGN: left
+}
+.data-rating TH#first {
+	TEXT-ALIGN: left
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+.data-rating TH#last {
+	TEXT-ALIGN: right
+}
+TH.price {
+	TEXT-ALIGN: right
+}
+TD.price {
+	TEXT-ALIGN: right
+}
+.nav-right {
+	TEXT-ALIGN: right
+}
+DIV.nav-pagination {
+	TEXT-ALIGN: right
+}
+.form-columns DIV.columns-2-AB-A {
+	TEXT-ALIGN: right
+}
+.form-columns DIV.columns-2-aaB-aa {
+	TEXT-ALIGN: right
+}
+.form-columns DIV.columns-3-aabbC-aa {
+	TEXT-ALIGN: right
+}
+.submit {
+	TEXT-ALIGN: center
+}
+.data-rating TD {
+	TEXT-ALIGN: center
+}
+.button-group {
+	TEXT-ALIGN: center
+}
+COL.data-decimal {
+	TEXT-ALIGN: right! important
+}
+COL.data-image {
+	TEXT-ALIGN: center! important
+}
+A {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+abbr {
+	FONT-STYLE: normal
+}
+ADDRESS {
+	FONT-STYLE: normal
+}
+ACRONYM {
+	FONT-STYLE: normal
+}
+CITE {
+	FONT-STYLE: normal
+}
+.simple-chinese {
+	PADDING-LEFT: 1px
+}
+.traditional-chinese {
+	PADDING-LEFT: 1px
+}
+.japanese {
+	PADDING-LEFT: 1px
+}
+.korean {
+	PADDING-LEFT: 1px
+}
+.price {
+	WHITE-SPACE: nowrap
+}
+#static-messaging H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.2em
+}

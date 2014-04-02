@@ -1,0 +1,270 @@
+DIV.full-width {
+	BACKGROUND: url(/images/master/layouts/fullwidth/background_content.gif) repeat-y center top
+}
+DIV.partial-width {
+	BACKGROUND: url(/images/master/layouts/fullwidth/background_content.gif) repeat-y center top
+}
+DIV.with-pod {
+	BACKGROUND: url(/images/master/layouts/pod/background_content.gif) repeat-y
+}
+#infoPod {
+	BACKGROUND: url(/images/master/layouts/pod/background_content.gif) repeat-y
+}
+DIV.with-pod {
+	BACKGROUND-POSITION: center top
+}
+#infoPod {
+	BACKGROUND-POSITION: right top
+}
+DIV.with-pod #gecko {
+	WIDTH: 560px
+}
+DIV.full-width #gecko {
+	WIDTH: auto
+}
+DIV.full-width #gecko {
+	BACKGROUND: url(/images/master/layouts/fullwidth/cap_top.gif) no-repeat center top; FLOAT: none
+}
+DIV.partial-width #gecko {
+	BACKGROUND: url(/images/master/layouts/fullwidth/cap_top.gif) no-repeat center top; FLOAT: none
+}
+DIV.with-pod #gecko {
+	BACKGROUND: url(/images/master/layouts/pod/cap_content.gif) no-repeat center top; FLOAT: left
+}
+DIV.partial-width #contentBody {
+	WIDTH: 526px
+}
+ HTML DIV.partial-width #contentBody {
+	WIDTH: 558px
+}
+DIV.with-pod #contentBody {
+	WIDTH: auto! important
+}
+.with-pod#capBottom {
+	BACKGROUND: url(/images/master/layouts/pod/cap_bottom.gif) no-repeat center top
+}
+#pod {
+	WIDTH: 169px
+}
+#infoPod {
+	WIDTH: 169px
+}
+ HTML #pod {
+	WIDTH: 189px
+}
+ HTML #infoPod {
+	WIDTH: 189px
+}
+#infoPodCap {
+	WIDTH: 189px
+}
+#infoPodCapBottom {
+	WIDTH: 189px
+}
+#pod {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(/images/master/layouts/pod/cap_pod.gif) no-repeat right top; PADDING-BOTTOM: 20px; PADDING-TOP: 23px
+}
+#pod-fma {
+	WIDTH: 189px
+}
+#promo {
+	WIDTH: 189px
+}
+#infoPod {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 1px; COLOR: #555; PADDING-TOP: 0px
+}
+#fma DIV.columns-2-aaB-aa {
+	TEXT-ALIGN: center
+}
+#fma DIV.columns-2-aaB-aa IMG {
+	MARGIN: 0.5em 0px
+}
+#fma DIV.columns-2-aaB-B H2 {
+	MARGIN-TOP: 0em
+}
+#fma DIV.columns-2-aaB-B FORM {
+	MARGIN-TOP: 1.6em
+}
+#fma DIV.hr {
+	BORDER-TOP: #c3c8cb 1px solid; FONT-SIZE: 1px; MARGIN: 0px -10px; LINE-HEIGHT: 1px
+}
+#fma H2.promoHeader {
+	PADDING-BOTTOM: 12px; PADDING-TOP: 0.15em
+}
+#fma H2 {
+	PADDING-BOTTOM: 12px; PADDING-TOP: 0.15em
+}
+#configurator H4.promoHeader {
+	PADDING-BOTTOM: 12px; PADDING-TOP: 0.15em
+}
+.productsHome#fma H2.promoHeader {
+	MARGIN-TOP: 0px; PADDING-BOTTOM: 12px; PADDING-TOP: 10px
+}
+.promoHeader#feature {
+	MARGIN-TOP: 0px; PADDING-TOP: 0px
+}
+.productsHome#fma {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; TOP: 0px; HEIGHT: 142px
+}
+#fma IMG.promoImage {
+	LEFT: 0px; WIDTH: 232px; POSITION: absolute; TOP: 0px; HEIGHT: 142px
+}
+#fma IMG.promoFeatureImage {
+	LEFT: 0px; WIDTH: 232px; POSITION: absolute; TOP: 0px; HEIGHT: 111px
+}
+#fma DIV.promoMessage {
+	LEFT: 233px; WIDTH: 317px; POSITION: absolute; TOP: 0px; HEIGHT: 142px
+}
+#fma DIV.promoFeatureMessage {
+	LEFT: 233px; WIDTH: 315px; POSITION: absolute; TOP: 0px; HEIGHT: 130px
+}
+#fma P.promo-iow {
+	MARGIN-TOP: -0.9em
+}
+#fma DIV.badge-promo {
+	LEFT: 549px; WIDTH: 173px; POSITION: absolute; TOP: 0px
+}
+#promoButtons {
+	MARGIN-TOP: 2em
+}
+#fma {
+	PADDING-BOTTOM: 1px
+}
+.fma-nobleed#fma {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 16px; PADDING-BOTTOM: 0px; MARGIN: 16px 1px 1em 0px; PADDING-TOP: 0px
+}
+HR {
+	CLEAR: both; BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND: #c3c8cb; MARGIN: 0px 0px 1em; BORDER-LEFT: medium none; COLOR: #c3c8cb; BORDER-BOTTOM: medium none; HEIGHT: 1px
+}
+HR.no-margin {
+	CLEAR: both; BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND: #c3c8cb; BORDER-LEFT: medium none; COLOR: #c3c8cb; BORDER-BOTTOM: medium none; HEIGHT: 1px
+}
+.dashed {
+	BORDER-RIGHT: medium none; BORDER-TOP: #cccccc 1px dashed; BACKGROUND: #fff; BORDER-LEFT: medium none; COLOR: #fff; BORDER-BOTTOM: medium none; HEIGHT: 1px
+}
+#infoPod DIV.hr {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 4px
+}
+DIV.full-width FORM.form-columns DIV.columns-2-Abb-bb DIV.promo-box {
+	BORDER-RIGHT: #d5d5ca 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #d5d5ca 1px solid; PADDING-LEFT: 8px; LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px -16px; BORDER-LEFT: #d5d5ca 1px solid; WIDTH: 176px; PADDING-TOP: 7px; BORDER-BOTTOM: #d5d5ca 1px solid; POSITION: relative; TOP: 0px; BACKGROUND-COLOR: #f7f7ee
+}
+DIV.promo-box H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; MARGIN: -7px -8px 0px; PADDING-TOP: 3px; BACKGROUND-COLOR: #c3c8cb
+}
+DIV.promo-box UL.link-list {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: outside; LEFT: 0px; PADDING-BOTTOM: 0.25em; MARGIN: 0px -8px; PADDING-TOP: 0.25em; LIST-STYLE-TYPE: none; POSITION: relative; TOP: 0px; TEXT-ALIGN: left
+}
+DIV.promo-box UL.link-list LI {
+	CLEAR: both; PADDING-RIGHT: 4px; BORDER-TOP: #d5d5ca 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 0.2em; MARGIN: 0px 8px 0px 4px; LINE-HEIGHT: 1.4em; PADDING-TOP: 0.15em
+}
+DIV.promo-box P {
+	MARGIN: 0.5em 0px
+}
+DIV.partial-width .columns-2-Abb-bb#options-box {
+	BORDER-RIGHT: #eee 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #eee 1px solid; MARGIN-TOP: -8px; PADDING-LEFT: 16px; MARGIN-BOTTOM: 1.5em; PADDING-BOTTOM: 10px; BORDER-LEFT: #eee 1px solid; WIDTH: 173px; MARGIN-RIGHT: 0px; PADDING-TOP: 8px; BORDER-BOTTOM: #eee 1px solid
+}
+DIV.full-width .columns-2-Abb-bb#options-box {
+	BORDER-RIGHT: #eee 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #eee 1px solid; MARGIN-TOP: -8px; PADDING-LEFT: 16px; MARGIN-BOTTOM: 1.5em; PADDING-BOTTOM: 10px; BORDER-LEFT: #eee 1px solid; WIDTH: 173px; MARGIN-RIGHT: 0px; PADDING-TOP: 8px; BORDER-BOTTOM: #eee 1px solid
+}
+#options-box UL {
+	MARGIN-TOP: 1em; COLOR: gray
+}
+DIV.msg-alert {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 28px; MIN-HEIGHT: 1em; LEFT: 0px; PADDING-BOTTOM: 4px; MARGIN: 4px 0px; PADDING-TOP: 4px; POSITION: relative; TOP: 0px
+}
+ HTML DIV.msg-alert {
+	HEIGHT: 1em
+}
+DIV.msg-alert IMG {
+	LEFT: 8px; WIDTH: 16px; POSITION: absolute; TOP: 3px; HEIGHT: 16px
+}
+P.msg-error {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 4px 0px -3px; PADDING-TOP: 0px
+}
+DIV.msg-error {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 4px 0px -3px; PADDING-TOP: 0px
+}
+P.msg-error IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: -0.3em; PADDING-TOP: 0px
+}
+DIV.msg-error IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: -0.3em; PADDING-TOP: 0px
+}
+ HTML P.msg-error {
+	MARGIN: 4px 0px -0.1em
+}
+ HTML DIV.msg-error {
+	MARGIN: 4px 0px -0.1em
+}
+ HTML P.msg-error IMG {
+	MARGIN: -0.6em
+}
+ HTML DIV.msg-error IMG {
+	MARGIN: -0.6em
+}
+IFRAME {
+	Z-INDEX: 2000; LEFT: 0px; VISIBILITY: hidden; WIDTH: 500px; POSITION: absolute; TOP: 0px; HEIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+IFRAME.inpage#configurator {
+	Z-INDEX: 1; VISIBILITY: visible; WIDTH: 326px; POSITION: static! important; HEIGHT: auto; BACKGROUND-COLOR: #f9fafa
+}
+#contentBody IFRAME.rate-this {
+	VISIBILITY: visible; POSITION: static; HEIGHT: 23em
+}
+#iframe-popup {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 4px
+}
+BODY#iframe-inpage {
+	BACKGROUND: #f9fafa
+}
+#EmxPopup {
+	Z-INDEX: 1001; LEFT: 0px; VISIBILITY: hidden; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: transparent
+}
+#EmxPopup #topLeft {
+	LEFT: 0px; WIDTH: 8px; POSITION: absolute; TOP: 0px; HEIGHT: 8px
+}
+#EmxPopup #top {
+	LEFT: 8px; POSITION: absolute; TOP: 0px; HEIGHT: 8px
+}
+#EmxPopup #topRight {
+	RIGHT: 0px; WIDTH: 8px; POSITION: absolute; TOP: 0px; HEIGHT: 8px
+}
+#EmxPopup #right {
+	RIGHT: 0px; WIDTH: 8px; POSITION: absolute; TOP: 8px
+}
+#EmxPopup #bottomLeft {
+	LEFT: 0px; WIDTH: 8px; BOTTOM: 0px; POSITION: absolute; HEIGHT: 8px
+}
+#EmxPopup #bottom {
+	LEFT: 8px; BOTTOM: 0px; POSITION: absolute; HEIGHT: 8px
+}
+#EmxPopup #bottomRight {
+	RIGHT: 0px; WIDTH: 8px; BOTTOM: 0px; POSITION: absolute; HEIGHT: 8px
+}
+#EmxPopup #left {
+	LEFT: 0px; WIDTH: 8px; POSITION: absolute; TOP: 8px
+}
+#EmxPopup #innerDIV {
+	LEFT: 8px; POSITION: absolute; TOP: 8px; BACKGROUND-COLOR: #fff
+}
+#EmxPopup #innerDIV #emxpopup-title {
+	FONT-WEIGHT: bold; LEFT: 16px; POSITION: absolute; TOP: 4px; TEXT-ALIGN: left
+}
+#EmxPopup #innerDIV #closeIcon {
+	RIGHT: 0px; WIDTH: 16px; POSITION: absolute; TOP: 0px; HEIGHT: 16px
+}
+#EmxPopup #emxPopupContentArea {
+	LEFT: 8px; OVERFLOW: hidden; POSITION: absolute; TOP: 24px; TEXT-ALIGN: left
+}
+#static-messaging {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#static-messaging DIV {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 16px; PADDING-BOTTOM: 16px; MARGIN: 0px auto 16px; WIDTH: 250px; PADDING-TOP: 16px
+}
+#static-messaging H2 {
+	MARGIN: 0px 0px 0.5em
+}
+#static-messaging H2 IMG {
+	VERTICAL-ALIGN: text-bottom; MARGIN-RIGHT: 4px
+}

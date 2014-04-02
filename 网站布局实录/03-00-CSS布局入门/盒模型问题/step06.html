@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>盒模型问题-空白边叠加</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#a{
+	
+	width:100px;	
+	height:100px;
+	background-color:#eeeeee;
+	border:5px solid #bbbbbb;
+	margin:10px;
+	float:left;
+
+}
+#b{
+	width:100px;
+	height:100px;
+	border:5px solid #bbbbbb;
+	background-color:#999999;
+	margin:10px;	
+	float:left;
+	clear:left;
+	
+}
+-->
+</style></head>
+
+<body>
+
+<div id="a">a</div>
+<div id="b">b</div>
+
+</body>
+</html>

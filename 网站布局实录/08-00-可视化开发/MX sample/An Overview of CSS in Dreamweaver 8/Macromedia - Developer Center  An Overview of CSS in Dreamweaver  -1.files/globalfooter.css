@@ -1,0 +1,54 @@
+#globalfooter {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: 0px auto; BORDER-LEFT: 0px; WIDTH: 732px; PADDING-TOP: 20px; BORDER-BOTTOM: 0px; POSITION: relative; TOP: 0px; TEXT-ALIGN: left
+}
+#privacy {
+	MARGIN-BOTTOM: 0.5em
+}
+#copyright {
+	MARGIN-BOTTOM: 0px
+}
+#terms {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0.5em
+}
+#globalfooter .menu {
+	LIST-STYLE-TYPE: none
+}
+#globalfooter .menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.5em; PADDING-TOP: 0px
+}
+#globalfooter .menu LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left center; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 2px; BACKGROUND-REPEAT: no-repeat
+}
+UNKNOWN {
+	PADDING-LEFT: 8px; BACKGROUND-IMAGE: url(/images/globalfooter/pipe.gif); MARGIN-LEFT: 8px
+}
+#globalfooter .menu:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+ HTML #globalfooter .menu LI {
+	PADDING-LEFT: 8px; BACKGROUND-IMAGE: url(/images/globalfooter/pipe.gif); MARGIN-LEFT: -9px; MARGIN-RIGHT: 17px
+}
+ HTML #globalfooter .menu {
+	HEIGHT: 1em
+}
+IMG.googlelogo {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN-LEFT: 0.4em; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#globalfooter {
+	COLOR: #444
+}
+#globalfooter .note {
+	COLOR: #444
+}
+#globalfooter A {
+	COLOR: #111; TEXT-DECORATION: none
+}
+#globalfooter A:hover {
+	COLOR: #111; TEXT-DECORATION: none
+}
+#globalfooter A:visited {
+	COLOR: #111; TEXT-DECORATION: none
+}
+#globalfooter A:hover {
+	BACKGROUND-COLOR: #ccc
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CSS图表</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<style>
+body{
+	background-color:#595959;
+}
+#dropbar{
+	border:1px solid #000;
+	width:300px;
+	height:8px;
+	background:url("right.gif");
+}
+#left{
+	height:8px;
+	background:url("left.gif");	
+	text-align:right;	
+	overflow:hidden;
+}
+#mark{	
+	position:relative;
+	top:-4px;
+	left:2px;
+	display:block;
+	width:5px;
+	height:16px;
+ 	background:url("marker.gif") no-repeat;
+}
+</style>
+</head>
+
+<body><br />
+<br />
+<br />
+
+<div id="dropbar">
+	<div id="left" style="width:50%;"><span id="mark"></span></div>
+</div>
+
+
+</body>
+</html>

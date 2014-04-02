@@ -1,0 +1,72 @@
+DL.article-reqs DT {
+	MARGIN-BOTTOM: 0px
+}
+DL.article-reqs DD {
+	MARGIN-LEFT: 0px
+}
+.article-reqs DT {
+	CLEAR: both
+}
+DL.article-reqs DD.note {
+	MARGIN-TOP: -1em
+}
+DL.article-meta DT {
+	MARGIN-BOTTOM: 0px
+}
+DL.article-meta DD {
+	MARGIN-LEFT: 0px
+}
+DL.nav-pagination {
+	POSITION: relative; HEIGHT: 3em
+}
+DL.nav-pagination {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL.nav-pagination DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL.nav-pagination DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL.nav-pagination DT {
+	POSITION: absolute; TOP: 0.2em
+}
+DL.nav-pagination DD {
+	POSITION: absolute; TOP: 0.2em
+}
+DL.nav-pagination DT {
+	RIGHT: 42px
+}
+DL.nav-pagination DD.next {
+	RIGHT: 0px; BACKGROUND-IMAGE: url(/images/buttons/page/next.gif)
+}
+DL.nav-pagination DD.prev {
+	RIGHT: 16px; BACKGROUND-IMAGE: url(/images/buttons/page/prev.gif)
+}
+DL.nav-pagination DD.null {
+	BACKGROUND-IMAGE: url(/images/buttons/page/next_null.gif)
+}
+DL.nav-pagination DD.null {
+	BACKGROUND-IMAGE: url(/images/buttons/page/prev_null.gif)
+}
+DL.nav-pagination A {
+	BACKGROUND-POSITION: 0px 0px; WIDTH: 17px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px; BACKGROUND-COLOR: transparent
+}
+DL.nav-pagination DD {
+	BACKGROUND-POSITION: 0px 0px; WIDTH: 17px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px; BACKGROUND-COLOR: transparent
+}
+DL.nav-pagination A {
+	DISPLAY: block; OVERFLOW: hidden; TEXT-INDENT: -9999px
+}
+DL.nav-pagination DD.prev A:hover {
+	BACKGROUND-IMAGE: url(/images/buttons/page/prev_hover.gif); BACKGROUND-COLOR: transparent
+}
+DL.nav-pagination DD.prev A:unknown {
+	BACKGROUND-IMAGE: url(/images/buttons/page/prev_hover.gif); BACKGROUND-COLOR: transparent
+}
+DL.nav-pagination DD.next A:hover {
+	BACKGROUND-IMAGE: url(/images/buttons/page/next_hover.gif); BACKGROUND-COLOR: transparent
+}
+DL.nav-pagination DD.next A:unknown {
+	BACKGROUND-IMAGE: url(/images/buttons/page/next_hover.gif); BACKGROUND-COLOR: transparent
+}

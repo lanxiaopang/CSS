@@ -1,0 +1,90 @@
+body{
+	font-size:12px;
+	line-height:140%;
+}
+#header {
+	width: 700px;
+	height: 100px;
+	background-color: #666666;
+	color: #FFFFFF;
+	overflow:hidden;
+}
+#header h1 {
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#layout {
+	width: 700px;
+}
+#left {
+	float: left;
+	width: 150px;
+	background-color: #8DAD1F;
+	
+}
+
+#right {
+	width: 530px;
+	float: left;
+	padding: 10px;
+	
+}
+.codeview {
+	padding:10px;
+	background-color: #F6F6F6;
+	border-width: 1px;
+	border-color: #339900;
+	border-style: dashed;
+}
+
+#titlelist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-bottom-width: 0px;
+}
+#titlelist li {
+	padding-top: 5px;
+	padding-left: 10px;
+	border-bottom: 1px solid #A3C431;
+	padding-bottom: 5px;
+	color: #fff;
+}
+#nav li {
+	float: left;
+	list-style-type: none;
+}
+#nav {
+	margin-left:400px;
+	margin-top: 36px;
+}
+
+#nav a {
+	display: block;
+	background-color: #999999;
+	padding: 5px;
+	margin-left: 3px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#nav a:hover {
+	background-color: #787878;
+}
+#nav #current {
+	background-color: #FFFFFF;
+	color: #666666;
+}
+.red {
+	color: #FF0000;
+}
+.strongText {
+	color: #003366;
+	font-weight: bold;
+	background-color: #FFFF00;
+}
+.blue {
+	color: #0000FF;
+}

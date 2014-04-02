@@ -1,0 +1,9 @@
+#layout {
+	background-color:#fff;
+	color:#000;
+	width:500px;
+}
+h1{
+	border-bottom:1px solid #aaa;
+	padding-bottom:10px;
+}

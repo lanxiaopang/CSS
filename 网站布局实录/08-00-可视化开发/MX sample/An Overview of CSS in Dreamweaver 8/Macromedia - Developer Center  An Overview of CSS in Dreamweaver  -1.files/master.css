@@ -1,0 +1,201 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: auto
+}
+#layoutLogic {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 450px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 756px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.with-pod#layoutLogic {
+	MARGIN-TOP: 9px
+}
+#pod {
+	POSITION: relative
+}
+.with-pod #gecko {
+	POSITION: relative
+}
+#infoPodCap {
+	POSITION: relative
+}
+#infoPodCapBottom {
+	POSITION: relative
+}
+#promo {
+	POSITION: relative
+}
+#pod-fma {
+	POSITION: relative
+}
+#promo {
+	CLEAR: right; FLOAT: right
+}
+#pod-fma {
+	CLEAR: right; FLOAT: right
+}
+#pod {
+	CLEAR: right; FLOAT: right
+}
+#infoPod {
+	CLEAR: right; FLOAT: right
+}
+#infoPodCap {
+	CLEAR: right; FLOAT: right
+}
+#infoPodCapBottom {
+	CLEAR: right; FLOAT: right
+}
+#pod {
+	TOP: -9px
+}
+#pod-fma {
+	TOP: -9px
+}
+#infoPodCap {
+	TOP: -9px
+}
+.with-pod #gecko {
+	TOP: -9px
+}
+#infoPodCap {
+	MARGIN-BOTTOM: -9px
+}
+#promo {
+	MARGIN-BOTTOM: -8px; TOP: -8px
+}
+#promo {
+	PADDING-BOTTOM: 18px
+}
+#infoPodCapBottom {
+	PADDING-BOTTOM: 18px
+}
+UNKNOWN {
+	MARGIN-BOTTOM: -9px
+}
+#pod-fma {
+	MARGIN-BOTTOM: -9px
+}
+#pod-fma #promo {
+	CLEAR: none; FLOAT: none; WIDTH: auto
+}
+#pod-fma #infoPod {
+	CLEAR: none; FLOAT: none; WIDTH: auto
+}
+#pod-fma #infoPodCap {
+	CLEAR: none; FLOAT: none; WIDTH: auto
+}
+#pod-fma #infoPodCapBottom {
+	CLEAR: none; FLOAT: none; WIDTH: auto
+}
+#pod-fma #infoPodCap {
+	MARGIN-BOTTOM: 0px; TOP: 0px
+}
+#pod-fma #promo {
+	MARGIN-BOTTOM: 9px; PADDING-BOTTOM: 0px
+}
+#pod-fma #infoPodCapBottom {
+	MARGIN-BOTTOM: 9px; PADDING-BOTTOM: 0px
+}
+ HTML BODY {
+	TEXT-ALIGN: center
+}
+ HTML #layoutLogic {
+	HEIGHT: 450px
+}
+ HTML .with-pod #contentBody H3 {
+	POSITION: relative
+}
+ HTML .with-pod #contentBody DIV.options-pod {
+	POSITION: relative
+}
+ HTML .with-pod #contentBody DIV.options-pod  {
+	POSITION: relative
+}
+#capBottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; FONT: 1px/1px monospace; WIDTH: 756px; PADDING-TOP: 0px; HEIGHT: 10px
+}
+BR.clear-both {
+	DISPLAY: block; FONT: 1px/1px monospace
+}
+DIV.clear-both {
+	DISPLAY: block; FONT: 1px/1px monospace
+}
+BR.clear-left {
+	DISPLAY: block; FONT: 1px/1px monospace
+}
+DIV.clear-left {
+	DISPLAY: block; FONT: 1px/1px monospace
+}
+.clear-both {
+	CLEAR: both
+}
+.clear-left {
+	CLEAR: left
+}
+#flash-pixel {
+	DISPLAY: none
+}
+#infoPod H3 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; MARGIN: 0px -10px 10px; LINE-HEIGHT: 1em; PADDING-TOP: 1px; POSITION: relative
+}
+#accesslink {
+	DISPLAY: block; LEFT: -999px; WIDTH: 1px; POSITION: absolute; TOP: 0px; HEIGHT: 1px
+}
+#depthpath {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 16px; MIN-HEIGHT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 8px
+}
+#depthpath OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UNKNOWN {
+	DISPLAY: inline
+}
+UNKNOWN {
+	content: " /"
+}
+#depthpath LI.last-child A {
+	FONT-WEIGHT: bold
+}
+ HTML #depthpath LI {
+	PADDING-RIGHT: 1.5ex; PADDING-LEFT: 0px; BACKGROUND: url(/images/master/markers/depthmarker.gif) no-repeat right 3px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 1ex 0px 0px; PADDING-TOP: 0px
+}
+ HTML #depthpath OL {
+	HEIGHT: 1em
+}
+ HTML #gecko {
+	HEIGHT: 1em
+}
+#contentBody DIV.h-nav {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0.1em; MARGIN: 0px -8px 0.85em; PADDING-TOP: 0.1em
+}
+#contentBody DIV.h-nav H3 {
+	DISPLAY: inline! important
+}
+#contentBody DIV.h-nav A {
+	DISPLAY: inline! important
+}
+H1 {
+	PADDING-RIGHT: 4em; PADDING-LEFT: 16px; PADDING-BOTTOM: 0.35em; PADDING-TOP: 0.5em
+}
+#contentBody {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 16px; PADDING-BOTTOM: 50px; MARGIN: 16px 1px 0px; PADDING-TOP: 0px
+}
+#contentFooter {
+	MARGIN: 20px auto; WIDTH: 756px
+}
+#mmfooterlogo {
+	FLOAT: left; MARGIN-LEFT: 18px
+}
+#copyright-terms {
+	FLOAT: left; MARGIN-LEFT: 14px; WIDTH: 650px
+}
+#copyright-terms P {
+	MARGIN-BOTTOM: 0.2em
+}
+#badge-google {
+	MARGIN-TOP: -2px; FLOAT: right; WIDTH: 153px; MARGIN-RIGHT: 11px; TEXT-ALIGN: right
+}
+IMG.googlelogo {
+	MARGIN-LEFT: 0.3em; VERTICAL-ALIGN: middle
+}
+#fma {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}

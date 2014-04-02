@@ -1,0 +1,405 @@
+#globalnav UL.menu {
+	LIST-STYLE-TYPE: none
+}
+#globalnav .menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#globalnav .menu LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left center; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat
+}
+#globalnav .menu DD {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left center; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat
+}
+UNKNOWN {
+	BACKGROUND-IMAGE: url(/images/globalnav/pipe.gif)
+}
+#globalnav .menu LI A {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#globalnav .menu DD A {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#globalnav-helpmenu #greeting {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#globalmessaging {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#globalnav .menu:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+ HTML #globalnav .menu LI {
+	PADDING-LEFT: 1px; BACKGROUND-IMAGE: url(/images/globalnav/pipe.gif); MARGIN-LEFT: -1px
+}
+ HTML #globalnav .menu DD {
+	PADDING-LEFT: 1px; BACKGROUND-IMAGE: url(/images/globalnav/pipe.gif); MARGIN-LEFT: -1px
+}
+ HTML #globalnav .menu {
+	HEIGHT: 1em
+}
+#globalnav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 756px; PADDING-TOP: 0px; POSITION: relative; TOP: 0px; HEIGHT: 134px; TEXT-ALIGN: left
+}
+.twoline-gma#globalnav {
+	HEIGHT: 146px
+}
+.minimal#globalnav {
+	HEIGHT: 68px
+}
+.menu#globalnav-companymenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 56px; LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 27px; POSITION: absolute
+}
+ HTML .menu#globalnav-companymenu {
+	PADDING-TOP: 26px
+}
+#globalnav-companymenu DT {
+	MARGIN: 0px
+}
+#macromedia-logo {
+	BACKGROUND-REPEAT: no-repeat; POSITION: absolute
+}
+#adobe-logo {
+	BACKGROUND-REPEAT: no-repeat; POSITION: absolute
+}
+#macromedia-logo {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 8px 0px; PADDING-LEFT: 8px; LEFT: 55px; BACKGROUND-IMAGE: url(/images/globalnav/macromedia.gif); PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 0px; TOP: 0px
+}
+#adobe-logo {
+	PADDING-RIGHT: 8px; BACKGROUND-POSITION: 16px 0px; PADDING-LEFT: 16px; LEFT: 0px; BACKGROUND-IMAGE: url(/images/globalnav/adobe.gif); PADDING-BOTTOM: 14px; PADDING-TOP: 0px; TOP: 0px; BACKGROUND-COLOR: #fff; max-width: 33px
+}
+:unknown #adobe-logo {
+	BACKGROUND-POSITION: 0px 0px; PADDING-LEFT: 0px; MARGIN-LEFT: 16px
+}
+ HTML #adobe-logo {
+	WIDTH: 57px
+}
+ HTML #macromedia-logo {
+	WIDTH: 280px
+}
+#macromedia-logo A {
+	DISPLAY: block; TEXT-INDENT: -1000px
+}
+#adobe-logo A {
+	DISPLAY: block; TEXT-INDENT: -1000px
+}
+#macromedia-logo A {
+	WIDTH: 90px; HEIGHT: 21px
+}
+#adobe-logo A {
+	WIDTH: 33px; HEIGHT: 40px
+}
+#globalnav-companymenu DT A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#globalnav-locale {
+	DISPLAY: block; LEFT: 105px; POSITION: absolute; TOP: 9px
+}
+#globalnav-locale A {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.1em; WIDTH: auto; TEXT-INDENT: 0px; WHITE-SPACE: nowrap; HEIGHT: auto
+}
+#globalnavbar {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 0px; PADDING-LEFT: 0px; LEFT: 0px; BACKGROUND-IMAGE: url(/images/globalnav/bar.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 756px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 68px; HEIGHT: 36px
+}
+.menu#globalnav-menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 9px; Z-INDEX: 2; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; TOP: 0px; HEIGHT: 35px
+}
+.menu#globalnav-menu LI {
+	POSITION: relative; HEIGHT: 35px
+}
+ HTML .menu#globalnav-menu {
+	BEHAVIOR: url(/css/htc/gnavmenu.htc)
+}
+ HTML .menu#globalnav-menu LI {
+	BACKGROUND: url(/images/globalnav/bar_pipe.gif) no-repeat left center
+}
+UNKNOWN {
+	BACKGROUND: url(/images/globalnav/bar_pipe.gif) no-repeat left center
+}
+.menu#globalnav-menu LI A {
+	LINE-HEIGHT: 35px
+}
+ HTML .menu#globalnav-menu LI A {
+	LINE-HEIGHT: 33px
+}
+.de#globalnav .menu#globalnav-menu LI A {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.menu#globalnav-menu LI A {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+UNKNOWN {
+	PADDING-LEFT: 1px
+}
+.menu#globalnav-companymenu {
+	POSITION: absolute
+}
+.menu#globalnav-helpmenu {
+	POSITION: absolute
+}
+.menu#globalnav-companymenu {
+	RIGHT: 0px; TOP: 11px
+}
+.menu#globalnav-helpmenu {
+	RIGHT: 0px; TOP: 11px
+}
+.menu#globalnav-helpmenu LI {
+	FLOAT: right
+}
+.menu#globalnav-helpmenu LI {
+	BACKGROUND-POSITION: right center
+}
+UNKNOWN {
+	PADDING-RIGHT: 1px
+}
+.menu#globalnav-helpmenu {
+	WIDTH: 75%
+}
+#globalnav-cart {
+	BACKGROUND-POSITION: center top; BACKGROUND-IMAGE: url(/images/globalnav/cart.gif); BACKGROUND-REPEAT: no-repeat
+}
+#globalnav-cart A {
+	BACKGROUND-POSITION: center top; BACKGROUND-IMAGE: url(/images/globalnav/cart.gif); BACKGROUND-REPEAT: no-repeat
+}
+#globalnav-cart {
+	WIDTH: 36px
+}
+ HTML #globalnav-cart A {
+	WIDTH: 36px
+}
+#globalnav-cart A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; TEXT-INDENT: -2999px
+}
+ HTML .menu#globalnav-helpmenu LI {
+	PADDING-RIGHT: 1px; MARGIN-RIGHT: -1px
+}
+#greeting {
+	DISPLAY: none
+}
+#signin {
+	DISPLAY: none
+}
+#signout {
+	DISPLAY: none
+}
+#globalnav UL.globalnav-submenu {
+	POSITION: absolute; TOP: 106px
+}
+#globalmessaging {
+	POSITION: absolute; TOP: 106px
+}
+#globalnav UL.globalnav-submenu {
+	LEFT: 8px; VISIBILITY: hidden; WIDTH: 740px
+}
+#globalmessaging {
+	PADDING-LEFT: 27px; LEFT: 16px
+}
+#globalmessaging A {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+#globalmessaging A:hover {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+#getFlashIcon {
+	DISPLAY: block; Z-INDEX: 5000; BACKGROUND: url(/images/globalnav/getflash.gif) no-repeat; LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+#getFlashIcon A {
+	DISPLAY: block; WIDTH: 23px; TEXT-INDENT: -1000px; HEIGHT: 15px
+}
+#getFlashIcon A {
+	TEXT-DECORATION: none
+}
+#getFlashIcon A:hover {
+	TEXT-DECORATION: none
+}
+#globalnav-search {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; Z-INDEX: 2; RIGHT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; WIDTH: 188px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 35px
+}
+#search-input {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #888 1px solid; PADDING-LEFT: 0px; LEFT: 3px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 3px; BORDER-LEFT: #aaa 1px solid; LINE-HEIGHT: 20px; PADDING-TOP: 0px; BORDER-BOTTOM: #eee 1px solid; POSITION: absolute; TOP: 2px; HEIGHT: 18px
+}
+ HTML #search-input {
+	HEIGHT: 20px
+}
+#searchDIV {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; RIGHT: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 11px; BORDER-BOTTOM: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 35px; TEXT-ALIGN: right
+}
+ HTML #searchDIV {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+#search {
+	RIGHT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 35px
+}
+UNKNOWN {
+	HEIGHT: 35px
+}
+FORM.en #search-input {
+	WIDTH: 122px
+}
+FORM.en #searchDIV {
+	WIDTH: 42px
+}
+FORM.de #search-input {
+	WIDTH: 128px
+}
+FORM.de #searchDIV {
+	WIDTH: 37px
+}
+FORM.esES #search-input {
+	WIDTH: 126px
+}
+FORM.esXLA #search-input {
+	WIDTH: 126px
+}
+FORM.ptBR #search-input {
+	WIDTH: 126px
+}
+FORM.esES #searchDIV {
+	WIDTH: 41px
+}
+FORM.esXLA #searchDIV {
+	WIDTH: 41px
+}
+FORM.ptBR #searchDIV {
+	WIDTH: 41px
+}
+FORM.frFR #search-input {
+	WIDTH: 112px
+}
+FORM.frFR #searchDIV {
+	WIDTH: 53px
+}
+FORM.it #search-input {
+	WIDTH: 127px
+}
+FORM.it #searchDIV {
+	WIDTH: 35px
+}
+FORM.ja #search-input {
+	WIDTH: 132px
+}
+FORM.ja #searchDIV {
+	WIDTH: 33px
+}
+FORM.ko #search-input {
+	WIDTH: 132px
+}
+FORM.ko #searchDIV {
+	WIDTH: 33px
+}
+FORM.nl #search-input {
+	WIDTH: 117px
+}
+FORM.nl #searchDIV {
+	WIDTH: 48px
+}
+FORM.sv #search-input {
+	WIDTH: 136px
+}
+FORM.sv #searchDIV {
+	WIDTH: 27px
+}
+FORM.zhCN #search-input {
+	WIDTH: 132px
+}
+FORM.zhTW #search-input {
+	WIDTH: 132px
+}
+FORM.zhCN #searchDIV {
+	WIDTH: 33px
+}
+FORM.zhTW #searchDIV {
+	WIDTH: 33px
+}
+#globalnav .menu {
+	FONT: 10px Verdana, sans-serif
+}
+#globalmessaging {
+	FONT: 10px Verdana, sans-serif
+}
+#globalnav-search {
+	FONT: 10px Verdana, sans-serif
+}
+.ja#globalnav .menu {
+	FONT: 11px Verdana, sans-serif
+}
+.ja#globalnav #globalmessaging {
+	FONT: 11px Verdana, sans-serif
+}
+.ja#globalnav #globalnav-search {
+	FONT: 11px Verdana, sans-serif
+}
+.ja#globalnav .menu {
+	LINE-HEIGHT: 31px
+}
+.ko#globalnav .menu {
+	FONT: 11px Verdana, sans-serif
+}
+.ko#globalnav #globalmessaging {
+	FONT: 11px Verdana, sans-serif
+}
+.ko#globalnav #globalnav-search {
+	FONT: 11px Verdana, sans-serif
+}
+.zhCN#globalnav .menu {
+	FONT: 12px Verdana, sans-serif
+}
+.zhTW#globalnav .menu {
+	FONT: 12px Verdana, sans-serif
+}
+.zhCN#globalnav #globalmessaging {
+	FONT: 12px Verdana, sans-serif
+}
+.zhTW#globalnav #globalmessaging {
+	FONT: 12px Verdana, sans-serif
+}
+.zhCN#globalnav #globalnav-search {
+	FONT: 12px Verdana, sans-serif
+}
+.zhTW#globalnav #globalnav-search {
+	FONT: 12px Verdana, sans-serif
+}
+.zhCN#globalnav .menu {
+	LINE-HEIGHT: 31px
+}
+.zhTW#globalnav .menu {
+	LINE-HEIGHT: 31px
+}
+#globalnav-menu {
+	COLOR: #111
+}
+#globalnav A {
+	COLOR: #111
+}
+#globalmessaging {
+	COLOR: #333
+}
+UL.globalnav-submenu {
+	COLOR: #333
+}
+#globalnav-helpmenu {
+	COLOR: #333
+}
+#globalnav-helpmenu A {
+	COLOR: #333
+}
+#globalnav A:hover {
+	BACKGROUND-COLOR: #ddd
+}
+#macromedia A:hover {
+	BACKGROUND-COLOR: transparent
+}
+#globalnav-menu A:hover {
+	BACKGROUND-COLOR: transparent
+}
+#globalmessaging A {
+	BACKGROUND-COLOR: transparent
+}
+#globalmessaging A:hover {
+	BACKGROUND-COLOR: transparent
+}
+#search-input {
+	BACKGROUND-COLOR: #fff
+}
+#search-input:unknown {
+	BORDER-LEFT-COLOR: #5aba4a; BORDER-BOTTOM-COLOR: #63df52; BORDER-TOP-COLOR: #429252; BORDER-RIGHT-COLOR: #5aba4a
+}

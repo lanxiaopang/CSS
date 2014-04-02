@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<style type="text/css">
+
+
+ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li {
+	float: left;	
+	width: 160px;	
+}
+
+li ul { 
+	display: none;	
+	top: 20px;	
+}
+li:hover ul, li.over ul {
+	display: block;
+}
+
+
+ul li a{
+	display:block;
+	font-size:12px;
+	border: 1px solid #ccc;
+	padding:3px;
+	text-decoration: none;
+	color: #777;
+}
+ul li a:hover{
+	background-color:#f4f4f4;
+}
+</style>
+
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+startList = function() {
+	if (document.all&&document.getElementById) {
+		navRoot = document.getElementById("nav");
+		for (i=0; i<navRoot.childNodes.length; i++) {
+			node = navRoot.childNodes[i];
+			if (node.nodeName=="LI") {
+				node.onmouseover=function() {
+					this.className+=" over";
+				}
+				node.onmouseout=function() {
+					this.className=this.className.replace(" over", "");
+				}
+			}
+		}
+	}
+}
+window.onload=startList;
+
+//--><!]]></script>
+</head>
+
+<body>
+<ul id="nav">
+  <li><a href="">文章</a>
+    <ul>
+      <li><a href="">CSS教程</a> </li>
+	  
+      <li><a href="">DOM教程</a></li>
+      <li><a href="">XML教程</a></li>
+      <li><a href="">Flash教程</a></li>
+	</ul>
+	</li>
+
+  <li><a href="">参考</a>
+    <ul>
+      <li><a href="">XHTML</a></li>
+      <li><a href="">XML</a></li>
+      <li><a href="">CSS</a></li>
+    </ul>
+  </li>
+
+  <li><a href="">Blog</a>
+    <ul>
+      <li><a href="">全部</a></li>
+      <li><a href="">网页技术</a></li>
+      <li><a href="">UI技术</a></li>
+      <li><a href="">FLASH技术</a></li>
+    </ul>
+  </li>
+</ul>
+</body>
+</html>

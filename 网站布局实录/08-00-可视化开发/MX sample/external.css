@@ -1,0 +1,26 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+h1 {
+	font-size: 100%;
+	color: #003366;
+	margin: 0px;
+	padding: 10px;
+}
+
+#wrapper {
+	margin: 0px auto;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	position: relative;
+}
+
+.leftimage {
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+p em {
+	color: #990000;
+}

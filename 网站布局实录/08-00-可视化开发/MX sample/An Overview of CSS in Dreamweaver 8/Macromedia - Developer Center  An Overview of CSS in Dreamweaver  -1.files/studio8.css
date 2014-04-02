@@ -1,0 +1,93 @@
+.productBar A {
+	DISPLAY: block; WIDTH: 558px; TEXT-INDENT: -9999px; HEIGHT: 20px
+}
+.studioBar A {
+	BACKGROUND-IMAGE: url(/images/shared/product_bar/s8_bar_01.gif)
+}
+.studioBar A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/product_bar/s8_bar_02.gif)
+}
+.studioBar-de A {
+	BACKGROUND-IMAGE: url(/images/shared/de/product_bar/s8_bar_01.gif)
+}
+.studioBar-de A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/de/product_bar/s8_bar_02.gif)
+}
+.studioBar-es A {
+	BACKGROUND-IMAGE: url(/images/shared/es_es/product_bar/s8_bar_01.gif)
+}
+.studioBar-es A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/es_es/product_bar/s8_bar_02.gif)
+}
+.studioBar-fr A {
+	BACKGROUND-IMAGE: url(/images/shared/fr_fr/product_bar/s8_bar_01.gif)
+}
+.studioBar-fr A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/fr_fr/product_bar/s8_bar_02.gif)
+}
+.studioBar-it A {
+	BACKGROUND-IMAGE: url(/images/shared/it/product_bar/s8_bar_01.gif)
+}
+.studioBar-it A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/it/product_bar/s8_bar_02.gif)
+}
+.studioBar-ja A {
+	BACKGROUND-IMAGE: url(/images/shared/ja/product_bar/s8_bar_01.gif)
+}
+.studioBar-ja A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/ja/product_bar/s8_bar_02.gif)
+}
+.studioBar-ko A {
+	BACKGROUND-IMAGE: url(/images/shared/ko/product_bar/s8_bar_01.gif)
+}
+.studioBar-ko A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/ko/product_bar/s8_bar_02.gif)
+}
+.studioBar-cn A {
+	BACKGROUND-IMAGE: url(/images/shared/zh_cn/product_bar/s8_bar_01.gif)
+}
+.studioBar-cn A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/zh_cn/product_bar/s8_bar_02.gif)
+}
+.studioBar-tw A {
+	BACKGROUND-IMAGE: url(/images/shared/zh_tw/product_bar/s8_bar_01.gif)
+}
+.studioBar-tw A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/zh_tw/product_bar/s8_bar_02.gif)
+}
+.studioBar-xap A {
+	BACKGROUND-IMAGE: url(/images/shared/en_xap/product_bar/s8_bar_01.gif)
+}
+.studioBar-xap A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/en_xap/product_bar/s8_bar_02.gif)
+}
+.studioBar-xla A {
+	BACKGROUND-IMAGE: url(/images/shared/es_xla/product_bar/s8_bar_01.gif)
+}
+.studioBar-xla A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/es_xla/product_bar/s8_bar_02.gif)
+}
+.studioBar-br A {
+	BACKGROUND-IMAGE: url(/images/shared/pt_br/product_bar/s8_bar_01.gif)
+}
+.studioBar-br A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/pt_br/product_bar/s8_bar_02.gif)
+}
+.studioBar-nl A {
+	BACKGROUND-IMAGE: url(/images/shared/nl/product_bar/s8_bar_01.gif)
+}
+.studioBar-nl A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/nl/product_bar/s8_bar_02.gif)
+}
+.studioBar-be A {
+	BACKGROUND-IMAGE: url(/images/shared/be/product_bar/s8_bar_01.gif)
+}
+.studioBar-be A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/be/product_bar/s8_bar_02.gif)
+}
+.studioBar-gb A {
+	BACKGROUND-IMAGE: url(/images/shared/en_gb/product_bar/s8_bar_01.gif)
+}
+.studioBar-gb A:hover {
+	BACKGROUND-IMAGE: url(/images/shared/en_gb/product_bar/s8_bar_02.gif)
+}

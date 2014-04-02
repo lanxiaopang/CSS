@@ -1,0 +1,82 @@
+table,form,img{
+border:none;
+padding:0 0 0 0;
+margin:0 0 0 0;
+}
+/**链接：鼠标响应隐藏下划线**/
+.redlink a:link,.redlink a:visited,.whitelink a:link,.whitelink a:visited,.yellowlink a:link,.yellowlink a:visited,.orangelink a:link,.orangelink a:visited
+{
+text-decoration:underline;
+}
+.redlink a:active,.redlink a:hover,.whitelink a:active,.whitelink a:hover,.yellowlink a:active,.yellowlink a:hover,.orangelink a:active,.orangelink a:hover
+{
+text-decoration:none;
+}
+
+.whitelink a:link,.whitelink a:visited,.whitelink a:active,.whitelink a:hover,.white
+{
+color:#fff;
+}
+.orangelink a:link,.orangelink a:visited,.orangelink a:active,.orangelink a:hover
+{
+color:#fc0;
+}
+td,p,li,input,select {font-size:12px;}
+.b1 {border:1px solid #000000}
+.l140 {line-height:140%}
+.L15 {line-height:150%}
+.L17 {line-height:170%}
+.F7 {font-size:7px;}
+.s01 {border:1px;border-style:inset;}
+A:link {color:#00007f;}
+A:visited {color:#65038e;}
+A:active {color:#ff0000;}
+A:hover {color:#ff0000;}
+
+A.a03:link,A.a03:visited {text-decoration:none;color:#000000;}
+A.a03:active,A.a03:hover {text-decoration:none;color:#ff0000;}
+
+A.an02:link {text-decoration:none;color:#1110AC}
+A.an02:visited {text-decoration:none;color:#65038e}
+A.an02:active,A.an02:hover {text-decoration:none;color:#ff0000}
+
+A.a251:link,A.a251:visited {text-decoration:none;color:#ffffff;}
+A.a251:active,A.a251:hover {text-decoration:underline;color:#ffffff;}
+
+/**导航样式**/
+#mainnav
+{
+border-left: 1px #000 solid;
+border-right: 1px #000 solid;
+}
+.mainnav-r
+{
+border-right: 1px #000 solid;
+}
+/**导航连接**/
+
+.mainnav a:link,.mainnav a:visited 
+{
+color:#000;
+}
+
+/**链接：鼠标响应显示下划线**/
+.navred a:link,.navred a:visited,.mainnav a
+{
+text-decoration:none;
+}
+.navred a:active,.navred a:hover
+{
+text-decoration:underline;
+}
+/**红色链接**/
+.mainnav a:active,.mainnav a:hover ,.navred a:link,.navred a:visited,.navred a:active,.navred a:hover,.red ,.reddot,.redlink a:link,.redlink a:visited,.redlink a:active,.redlink a:hover
+{
+color:#f00;
+}
+/**导航连接end**/
+.smsimg img{border:1px #e71516 solid;}
+.dot7 ,.reddot{font-size:7px;}
+
+.lh19{line-height:19px}
+.lh17{line-height:17px}

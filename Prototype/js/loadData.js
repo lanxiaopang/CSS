@@ -42,7 +42,7 @@ $(function () {
         },
         credits: { enabled: true, href: "http://www.inspur.com/", text: ''},
         title: {
-            text: '2014年1月新疆来我市人员户籍地分布'
+            text: '2014年1月新疆来我市人员民族分布'
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -63,16 +63,16 @@ $(function () {
             type: 'pie',
             name: '人数',
             data: [
-                ['乌鲁木齐',   45],
-                ['克拉玛依',       26],
+                ['维吾尔族',   45],
+                ['汉族',       26],
                 {
-                    name: '石河子',
+                    name: '哈萨克族',
                     y: 12.8,
                     sliced: true,
                     selected: true
                 },
-                ['哈密',    8],
-                ['和田',     6],
+                ['回族',    8],
+                ['柯尔克孜族',     6],
                 ['其他',   4]
             ]
         }]
@@ -416,7 +416,7 @@ $(function () {
         type: 'bar'
     },
     title: {
-        text: '2013年新疆来我市人员性别及年龄分布'
+        text: '新疆来我市人员性别及年龄分布'
     },
     subtitle: {
         text: ''
@@ -538,7 +538,8 @@ $(function () {
             name: '克拉玛依',
             data: [42, 33, 34, 39, 52, 75, 54, 60, 47, 39, 46, 51]
 
-        }]
+        }],
+        credits: { enabled: true, href: "http://www.inspur.com/", text: ''}
     });
 
 
@@ -554,7 +555,7 @@ $(function () {
             text: ''
         },
         xAxis: {
-            categories: ['和田', '乌鲁木齐', '克拉玛依', '石河子', '其他'],
+            categories: ['市中区', '历下区', '槐荫区','天桥区', '历城区'],
             title: {
                 text: null
             }
@@ -596,13 +597,8 @@ $(function () {
         series: [{
             name: '2011年',
             data: [107, 31, 635, 203, 2]
-        }, {
-            name: '2012年',
-            data: [133, 156, 947, 408, 6]
-        }, {
-            name: '2013年',
-            data: [973, 914, 405, 732, 34]
-        }]
+        }],
+        credits: { enabled: true, href: "http://www.inspur.com/", text: ''}
     });
 });
 
@@ -642,18 +638,16 @@ $('#u-tab-time-con').highcharts({
         borderWidth: 0
     },
     series: [{
-        name: '市中区',
+        name: '流动人口',
         data: [7, 6, 9, 14, 18, 21, 25, 26, 23, 18, 13, 9]
     }, {
-        name: '槐荫区',
+        name: '旅业',
         data: [2, 0, 5, 11, 17, 22, 24, 24, 20, 14, 8, 2]
     }, {
-        name: '天桥区',
-        data: [9, 6, 5, 4, 13, 17, 18, 17, 14, 9, 3, 1]
-    }, {
-        name: '历下区',
+        name: '网吧上网',
         data: [3, 4, 5, 8, 11, 15, 17, 16, 14, 10, 6, 4]
-    }]
+    }],
+    credits: { enabled: true, href: "http://www.inspur.com/", text: ''}
 });
 
 function getColor(averages,ranges){

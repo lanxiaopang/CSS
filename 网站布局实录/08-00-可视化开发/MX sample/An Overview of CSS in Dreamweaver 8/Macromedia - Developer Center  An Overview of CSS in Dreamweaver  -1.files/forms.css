@@ -1,0 +1,438 @@
+#pod SELECT {
+	WIDTH: 161px
+}
+#pod .textfield {
+	WIDTH: 161px
+}
+INPUT.textfield {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: 1px solid; PADDING-LEFT: 0.25em; PADDING-BOTTOM: 2px; BORDER-LEFT: 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: 1px solid
+}
+.form-columns INPUT.textfield {
+	WIDTH: 16em
+}
+.form-columns SELECT {
+	WIDTH: 16em
+}
+INPUT.textfield {
+	MIN-HEIGHT: 1.8em
+}
+SELECT {
+	MIN-HEIGHT: 1.8em
+}
+ HTML INPUT.textfield {
+	HEIGHT: 1.8em
+}
+SELECT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.form-columns DIV FIELDSET {
+	MARGIN-TOP: 0px
+}
+.licenseAgreement {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: 1px solid; PADDING-LEFT: 1em; MIN-HEIGHT: 10em; PADDING-BOTTOM: 1em; MARGIN: 1em 0px; OVERFLOW: auto; BORDER-LEFT: 1px solid; WIDTH: 32em; PADDING-TOP: 1em; BORDER-BOTTOM: 1px solid; HEIGHT: 10em
+}
+TEXTAREA {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; PADDING-LEFT: 4px; MIN-HEIGHT: 10em; MARGIN-BOTTOM: 2px; BORDER-LEFT: 1px solid; WIDTH: 16em; BORDER-BOTTOM: 1px solid; HEIGHT: 10em
+}
+BUTTON {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: middle; CURSOR: pointer; PADDING-TOP: 1px
+}
+ HTML BUTTON {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0px; OVERFLOW: visible; WIDTH: 1px; CURSOR: hand; PADDING-TOP: 0px
+}
+.button-with-option .submit {
+	MARGIN-RIGHT: 1ex
+}
+.button-with-option BUTTON {
+	MARGIN-RIGHT: 1ex
+}
+INPUT.checkbox {
+	MARGIN-RIGHT: 4px
+}
+P INPUT {
+	VERTICAL-ALIGN: middle
+}
+INPUT.login-username {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; WIDTH: 193px; BORDER-BOTTOM: 1px solid
+}
+INPUT.login-password {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; WIDTH: 193px; BORDER-BOTTOM: 1px solid
+}
+INPUT.serialnumber {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; WIDTH: 193px; BORDER-BOTTOM: 1px solid
+}
+INPUT.numeric {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; WIDTH: 193px; BORDER-BOTTOM: 1px solid
+}
+INPUT.login-username {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 4px; WIDTH: 193px; PADDING-TOP: 2px
+}
+INPUT.login-password {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 4px; WIDTH: 193px; PADDING-TOP: 2px
+}
+INPUT.numeric {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+INPUT.serialnumber {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+INPUT.numeric {
+	WIDTH: 56px
+}
+INPUT.serialnumber {
+	MARGIN-LEFT: 0px
+}
+.button-group {
+	PADDING-TOP: 1.5ex
+}
+ HTML .button-group {
+	PADDING-BOTTOM: 1.5ex
+}
+INPUT.formButton {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 4px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+INPUT.formSubmitButton {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+INPUT.submit {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 1px; MARGIN-LEFT: 4px; PADDING-TOP: 1px
+}
+INPUT.submit-disabled {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 1px; MARGIN-LEFT: 4px; PADDING-TOP: 1px
+}
+ HTML INPUT.submit {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0px; OVERFLOW: visible; WIDTH: 0px; PADDING-TOP: 0px
+}
+ HTML INPUT.submit-disabled {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0px; OVERFLOW: visible; WIDTH: 0px; PADDING-TOP: 0px
+}
+INPUT.submit {
+	CURSOR: hand
+}
+A.submit {
+	PADDING-RIGHT: 0.5em; DISPLAY: block; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.3em; MARGIN: 0.25em 0px; WIDTH: 6em; PADDING-TOP: 0.2em
+}
+INPUT.gobutton {
+	BACKGROUND: url(/images/buttons/go_button.gif) white; MARGIN-LEFT: 4px; WIDTH: 20px; HEIGHT: 20px
+}
+.nav-right INPUT {
+	MARGIN-LEFT: 4px! important
+}
+.cancel {
+	MARGIN-RIGHT: 31px! important
+}
+P SELECT {
+	VERTICAL-ALIGN: middle
+}
+ HTML P SELECT {
+	VERTICAL-ALIGN: bottom
+}
+SELECT.multiselect {
+	PADDING-BOTTOM: 16px; HEIGHT: 5em
+}
+#msg-error IMG {
+	DISPLAY: block; LEFT: 0px; FLOAT: left; POSITION: relative; TOP: 2px
+}
+#msg-error {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; MARGIN-BOTTOM: 1em; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+#msg-error P {
+	MARGIN: 3px 0.5em 3px 2em
+}
+#msg-error UL {
+	MARGIN-BOTTOM: 0.25em
+}
+#msg-error OL {
+	MARGIN-BOTTOM: 0.25em
+}
+DIV.error P {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0px
+}
+.required {
+	PADDING-LEFT: 0.1em
+}
+UNKNOWN {
+	RIGHT: -0.8em; MARGIN-LEFT: -0.8em; POSITION: relative; TOP: 0px
+}
+ HTML .form-columns .columns-2-aaB-aa .required {
+	MARGIN-RIGHT: -8px
+}
+ HTML .form-columns .columns-2-AB-A .required {
+	MARGIN-RIGHT: -8px
+}
+P.go-button {
+	MARGIN-TOP: 0.4em; TEXT-ALIGN: right
+}
+DIV.go-button {
+	MARGIN-TOP: 0.4em; TEXT-ALIGN: right
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM.form-columns {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 2em
+}
+DIV.form-columns {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 2em
+}
+FORM.searchUsergroups {
+	WIDTH: 16em
+}
+DIV.form-indent {
+	MARGIN: 0.5em 0px 0.5em 3em
+}
+DIV.form-indent DIV.columns-2-AB-A {
+	WIDTH: 40%
+}
+DIV.form-indent DIV.columns-2-AB-B {
+	WIDTH: 40%
+}
+DIV.formSubmitButtons {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 32px
+}
+FORM.form-columns H2.header-border {
+	MARGIN-TOP: 1.5em; MARGIN-BOTTOM: 0.9em; PADDING-BOTTOM: 0.5em; BORDER-BOTTOM: #e6e6dc 1px solid
+}
+DIV.form-columns H2.header-border {
+	MARGIN-TOP: 1.5em; MARGIN-BOTTOM: 0.9em; PADDING-BOTTOM: 0.5em; BORDER-BOTTOM: #e6e6dc 1px solid
+}
+.input-group {
+	MARGIN-BOTTOM: 1.35em
+}
+.input-group P {
+	PADDING-LEFT: 23px; MARGIN-BOTTOM: 2px; PADDING-TOP: 2px
+}
+UNKNOWN {
+	LEFT: -23px; MARGIN: 0px -23px 0px 0px; WIDTH: 13px; POSITION: relative; TOP: 0px
+}
+UNKNOWN {
+	MARGIN: 0px -17px 0px 0px
+}
+ HTML .input-group P {
+	TEXT-INDENT: -23px
+}
+ HTML .input-group INPUT.radio {
+	MARGIN: -0.5em 0px
+}
+ HTML .input-group INPUT.checkbox {
+	MARGIN: -0.5em 0px
+}
+.input-left {
+	PADDING-LEFT: 18px
+}
+.input-left P {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.5em; PADDING-TOP: 0px
+}
+.input-left UL {
+	MARGIN-BOTTOM: 0.5em
+}
+.input-left P INPUT.radio {
+	FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: -18px; PADDING-TOP: 0px
+}
+.input-left P INPUT.checkbox {
+	FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: -18px; PADDING-TOP: 0px
+}
+.input-left INPUT.textfield {
+	WIDTH: 170px
+}
+.input-left INPUT.login-password {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 0px; WIDTH: 100px! important; PADDING-TOP: 2px
+}
+UNKNOWN {
+	PADDING-LEFT: 2em
+}
+UNKNOWN {
+	PADDING-BOTTOM: 2px; MARGIN-LEFT: -1.8em; PADDING-TOP: 2px
+}
+DIV.label-top {
+	PADDING-BOTTOM: 0.4em
+}
+P LABEL INPUT {
+	VERTICAL-ALIGN: middle
+}
+P LABEL SELECT {
+	VERTICAL-ALIGN: middle
+}
+LABEL.label-top INPUT {
+	MARGIN-TOP: 0.4em
+}
+LABEL.label-top SELECT {
+	MARGIN-TOP: 0.4em
+}
+LABEL.label-top TEXTAREA {
+	MARGIN-TOP: 0.4em
+}
+LABEL.label-left INPUT {
+	MARGIN-LEFT: 1%
+}
+LABEL.label-left SELECT {
+	MARGIN-LEFT: 1%
+}
+LABEL.label-left TEXTAREA {
+	MARGIN-LEFT: 1%
+}
+DIV.input-left P.label {
+	MARGIN-BOTTOM: 0.15em
+}
+.label-description {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0.3em 0px; PADDING-TOP: 0px
+}
+UNKNOWN {
+	MARGIN: 0.3em 1px 0.3em 0px
+}
+LABEL.label-description A.helptextlink {
+	MARGIN-TOP: -6px
+}
+DL.label-left {
+	MARGIN: 0px 0px 0.5em
+}
+LABEL.label-left:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 1px; content: "."
+}
+DL.label-left:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 1px; content: "."
+}
+FORM SPAN.with-price:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 1px; content: "."
+}
+SPAN.label-title {
+	DISPLAY: block
+}
+LABEL.label-left {
+	DISPLAY: block
+}
+SPAN.form-tip {
+	DISPLAY: block
+}
+SPAN.form-controls-left {
+	DISPLAY: block
+}
+SPAN.form-controls-right {
+	DISPLAY: block
+}
+FORM SPAN.with-price {
+	DISPLAY: block
+}
+FORM SPAN.with-price SPAN.price {
+	DISPLAY: block
+}
+ HTML LABEL.label-left {
+	HEIGHT: 1em
+}
+ HTML DL.label-left {
+	HEIGHT: 1em
+}
+ HTML FORM SPAN.with-price {
+	HEIGHT: 1em
+}
+LABEL.label-left SPAN.label-title {
+	FLOAT: left; WIDTH: 32%; MARGIN-RIGHT: 1%; TEXT-ALIGN: right
+}
+DL.label-left DT.label-title {
+	FLOAT: left; WIDTH: 32%; MARGIN-RIGHT: 1%; TEXT-ALIGN: right
+}
+DL.label-left DD {
+	FLOAT: right; MARGIN-BOTTOM: 0.25em; MARGIN-LEFT: 0px; WIDTH: 66%
+}
+DL.label-left DT {
+	MARGIN-TOP: 0px
+}
+LABEL.label-left SPAN.label-title {
+	MARGIN-TOP: 0.25em
+}
+LABEL.label-left SPAN.form-tip {
+	MARGIN-LEFT: 34%
+}
+SPAN.form-controls-left {
+	MARGIN-LEFT: 34%
+}
+SPAN.form-controls-right {
+	MARGIN-LEFT: 34%
+}
+SPAN.form-controls-left {
+	MARGIN-TOP: 2em
+}
+SPAN.form-controls-right {
+	MARGIN-TOP: 2em
+}
+SPAN.form-controls-right {
+	TEXT-ALIGN: right
+}
+LABEL.label-left SPAN.form-tip {
+	CLEAR: both
+}
+.form-tip {
+	FONT: 0.95em/1.35em Verdana, Arial, Helvetica, sans-serif
+}
+FORM SPAN.with-price SPAN.price {
+	MARGIN-TOP: 0.25em; FLOAT: left; TEXT-ALIGN: left
+}
+.form-compact {
+	MARGIN-BOTTOM: 1.5em
+}
+.form-compact P {
+	MARGIN-TOP: 0.25em; MARGIN-BOTTOM: 0.25em
+}
+.form-compact DT.label-title {
+	MARGIN-TOP: 0.25em; MARGIN-BOTTOM: 0.25em
+}
+.form-compact .label-title {
+	FONT: bold 0.85em/1.35em Verdana, Arial, Helvetica, sans-serif; TEXT-TRANSFORM: uppercase
+}
+LEGEND {
+	FONT-WEIGHT: bold; MARGIN-BOTTOM: 1em; LINE-HEIGHT: 1.35em
+}
+UNKNOWN {
+	FLOAT: left; WIDTH: 100%
+}
+UNKNOWN {
+	CLEAR: left
+}
+ HTML LEGEND {
+	LEFT: -1ex; WIDTH: 100%; POSITION: relative; TOP: 0px
+}
+ HTML LEGEND .label-title {
+	WIDTH: 100%
+}
+A.narrow {
+	WIDTH: 4em! important
+}
+A.wide {
+	WIDTH: 10em! important
+}
+A.xwide {
+	WIDTH: 16.5em! important
+}
+.narrow {
+	WIDTH: 13em! important
+}
+.wide {
+	WIDTH: 21em! important
+}
+.xwide {
+	WIDTH: 35em! important
+}
+.max {
+	WIDTH: 99%! important
+}
+.min {
+	WIDTH: auto! important
+}
+.month {
+	WIDTH: 4em! important
+}
+.day {
+	WIDTH: 4em! important
+}
+.xxnarrow {
+	WIDTH: 4em! important
+}
+.year {
+	WIDTH: 5em! important
+}
+.securecode {
+	WIDTH: 3em! important
+}

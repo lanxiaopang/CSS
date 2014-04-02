@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>表单</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<style>	
+#layout{
+	width:700px;
+	margin:0 auto;
+	text-align:center;
+}
+h1{
+	color: #666;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	letter-spacing: -2px;
+	font-size: 40px;
+	padding-bottom:15px;
+	border-bottom:2px solid #8FC629;
+	margin-bottom:10px;
+	text-align:left;
+}
+h2{
+	color:#8FC629;
+	font-size:18px;
+	font-weigth:normal;
+	padding:10px;
+	text-align:left;
+}
+table {
+	width:80%;
+	font-size:12px;
+	color:#333333;
+	border-collapse:collapse;
+	text-align:left;
+}
+th,td{
+	padding:3px;
+	border-top:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	padding:10px;
+}
+th{
+	text-align:left;
+	color:#666666;
+}
+.textInput{
+	width:150px;
+	height:20px;
+	border:1px solid #58805f;
+	line-height:21px;
+}
+select option{
+	background-color:#cef0d4;
+}
+select .l1{
+	background-color:white;
+}
+select .l2 {
+	background-color: #40854c; 
+	color: white;
+}
+.textAreaStyle{
+	width:250px;
+	height:100px;
+	border:1px solid #58805f;
+}
+.submitButton{
+	width:100px;
+	height:25px;
+	margin-top:20px;
+	margin-left:186px;
+	font-size:12px;
+	font-weight:bold;
+	border:2px solid #abd8b3;
+	border-right-color:#58805f;
+	border-bottom-color:#58805f;
+	background-color:#a6d3ae;
+	color:white;
+}
+</style>
+</head>
+<body> 
+<div id="layout"> 
+  <h1>几个有关Web标准的问题</h1> 
+  <h2>帮助我们更好的了解您对Web标准网页设计的想法与看法</h2> 
+  <form name="form1" id="form1" method="post" action=""> 
+    <table border="0" cellspacing="0" cellpadding="0"> 
+      <tr> 
+        <th >您是否曾使用表格式布局？</th> 
+        <td>是
+          <input name="c1"type="radio" value="yes" /> 
+          否
+          <input name="c1" type="radio" value="no" /></td> 
+      </tr> 
+      <tr> 
+        <th >您是否开始使用CSS布局？</th> 
+        <td>是
+          <input name="c2"type="radio" value="yes" /> 
+          否
+          <input name="c2" type="radio" value="no" /></td> 
+      </tr> 
+      <tr> 
+        <th >是否订阅CSS邮件？</th> 
+        <td><input name="submail" type="checkbox" value="sub" /> 
+          是的</td> 
+      </tr> 
+      <tr> 
+        <th >您所从事的行业：</th> 
+        <td> <select name="job"> 
+            <option class="l1">-请选择您所从事的行业-</option> 
+            <option class="l2">-IT行业-</option> 
+            <option>设计师</option> 
+            <option>程序员</option> 
+            <option>总监</option> 
+            <option class="l2">-传统行业-</option> 
+            <option>美术编辑</option> 
+            <option>项目经理</option> 
+          </select> </td> 
+      </tr> 
+      <tr> 
+        <th >请留下您的姓名：</th> 
+        <td><input type="text" name="name" class="textInput"/></td> 
+      </tr> 
+      <tr> 
+        <th >请留下您的Email地址：</th> 
+        <td><input name="email" type="text" class="textInput"/></td> 
+      </tr> 
+      <tr> 
+        <th >请留下您的建议：</th> 
+        <td><textarea name="comment" class="textAreaStyle"></textarea></td> 
+      </tr> 
+    </table> 
+    <input type="submit" name="submit" value="提交" class="submitButton"/> 
+  </form> 
+</div> 
+</body>
+</html>

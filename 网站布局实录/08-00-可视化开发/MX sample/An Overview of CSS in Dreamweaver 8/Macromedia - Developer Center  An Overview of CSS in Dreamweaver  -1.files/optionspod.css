@@ -1,0 +1,180 @@
+#contentBody DIV.op-head {
+	BACKGROUND: url(/images/optionspod/default/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.op-head H3 {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(/images/optionspod/default/hd_l.gif); COLOR: #fff; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent! important
+}
+DIV.op-body {
+	BACKGROUND: url(/images/optionspod/default/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.options-pod {
+	BACKGROUND: url(/images/optionspod/default/bd_r.gif) no-repeat right bottom
+}
+#contentBody DIV.options-pod TABLE.data-meta TH {
+	BACKGROUND-COLOR: transparent
+}
+#contentBody DIV.p-blank {
+	BACKGROUND: url(/images/optionspod/blank/bd_r.gif) no-repeat right bottom
+}
+DIV.p-blank DIV.op-body {
+	BACKGROUND: url(/images/optionspod/blank/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-blank DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/blank/hd_l.gif) no-repeat left top; MARGIN-BOTTOM: 0px; FONT: 1px/1px monospace
+}
+DIV.p-blank DIV.op-head {
+	BACKGROUND: url(/images/optionspod/blank/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-breeze {
+	BACKGROUND: url(/images/optionspod/breeze/bd_r.gif) no-repeat right bottom
+}
+DIV.p-breeze DIV.op-body {
+	BACKGROUND: url(/images/optionspod/breeze/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-breeze DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/breeze/hd_l.gif) no-repeat left top
+}
+#contentBody DIV.p-breeze DIV.op-head {
+	BACKGROUND: url(/images/optionspod/breeze/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-captivate {
+	BACKGROUND: url(/images/optionspod/captivate/bd_r.gif) no-repeat right bottom
+}
+DIV.p-captivate DIV.op-body {
+	BACKGROUND: url(/images/optionspod/captivate/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-captivate DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/captivate/hd_l.gif) no-repeat left top
+}
+#contentBody DIV.p-captivate DIV.op-head {
+	BACKGROUND: url(/images/optionspod/captivate/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-contribute {
+	BACKGROUND: url(/images/optionspod/contribute/bd_r.gif) no-repeat right bottom
+}
+DIV.p-contribute DIV.op-body {
+	BACKGROUND: url(/images/optionspod/contribute/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-contribute DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/contribute/hd_l.gif) no-repeat left top
+}
+#contentBody DIV.p-contribute DIV.op-head {
+	BACKGROUND: url(/images/optionspod/contribute/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-dreamweaver {
+	BACKGROUND: url(/images/optionspod/dreamweaver/bd_r.gif) no-repeat right bottom
+}
+DIV.p-dreamweaver DIV.op-body {
+	BACKGROUND: url(/images/optionspod/dreamweaver/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-dreamweaver DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/dreamweaver/hd_l.gif) no-repeat left top
+}
+#contentBody DIV.p-dreamweaver DIV.op-head {
+	BACKGROUND: url(/images/optionspod/dreamweaver/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-director {
+	BACKGROUND: url(/images/optionspod/director/bd_r.gif) no-repeat right bottom
+}
+DIV.p-director DIV.op-body {
+	BACKGROUND: url(/images/optionspod/director/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-director DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/director/hd_l.gif) no-repeat left top
+}
+#contentBody DIV.p-director DIV.op-head {
+	BACKGROUND: url(/images/optionspod/director/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-flash {
+	BACKGROUND: url(/images/optionspod/flash/bd_r.gif) no-repeat right bottom
+}
+DIV.p-flash DIV.op-body {
+	BACKGROUND: url(/images/optionspod/flash/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-flash DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/flash/hd_l.gif) no-repeat left top
+}
+DIV.p-flash DIV.op-head {
+	BACKGROUND: url(/images/optionspod/flash/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-flashpaper {
+	BACKGROUND: url(/images/optionspod/flashpaper/bd_r.gif) no-repeat right bottom
+}
+DIV.p-flashpaper DIV.op-body {
+	BACKGROUND: url(/images/optionspod/flashpaper/bd_l.gif) no-repeat left bottom
+}
+DIV.p-flashpaper DIV.op-head {
+	BACKGROUND: url(/images/optionspod/flashpaper/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-flashpaper DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/flashpaper/hd_l.gif) no-repeat left top
+}
+#contentBody DIV.p-flex {
+	BACKGROUND: url(/images/optionspod/flex/bd_r.gif) no-repeat right bottom
+}
+DIV.p-flex DIV.op-body {
+	BACKGROUND: url(/images/optionspod/flex/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-flex DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/flex/hd_l.gif) no-repeat left top
+}
+DIV.p-flex DIV.op-head {
+	BACKGROUND: url(/images/optionspod/flex/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-fireworks {
+	BACKGROUND: url(/images/optionspod/fireworks/bd_r.gif) no-repeat right bottom
+}
+DIV.p-fireworks DIV.op-body {
+	BACKGROUND: url(/images/optionspod/fireworks/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-fireworks DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/fireworks/hd_l.gif) no-repeat left top
+}
+DIV.p-fireworks DIV.op-head {
+	BACKGROUND: url(/images/optionspod/fireworks/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-studio {
+	BACKGROUND: url(/images/optionspod/studio/bd_r.gif) no-repeat right bottom
+}
+DIV.p-studio DIV.op-body {
+	BACKGROUND: url(/images/optionspod/studio/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-studio DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/studio/hd_l.gif) no-repeat left top
+}
+DIV.p-studio DIV.op-head {
+	BACKGROUND: url(/images/optionspod/studio/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-webpublishingsystem {
+	BACKGROUND: url(/images/optionspod/webpublishingsystem/bd_l.gif) no-repeat left bottom
+}
+DIV.p-webpublishingsystem DIV.op-body {
+	BACKGROUND: url(/images/optionspod/webpublishingsystem/bd_r.gif) no-repeat right bottom
+}
+#contentBody DIV.p-webpublishingsystem DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/webpublishingsystem/hd_l.gif) no-repeat left top; MARGIN-RIGHT: 12px! important; HEIGHT: 53px
+}
+#contentBody DIV.p-webpublishingsystem DIV.op-head H3 A {
+	TEXT-INDENT: -999px; HEIGHT: 53px
+}
+DIV.p-webpublishingsystem DIV.op-head {
+	BACKGROUND: url(/images/optionspod/webpublishingsystem/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-halo {
+	BACKGROUND: url(/images/optionspod/halo_inactive/bd_r.gif) no-repeat right bottom
+}
+DIV.p-halo DIV.op-body {
+	BACKGROUND: url(/images/optionspod/halo_inactive/bd_l.gif) no-repeat left bottom
+}
+#contentBody DIV.p-halo DIV.op-head H3 {
+	BACKGROUND: url(/images/optionspod/halo_inactive/hd_l.gif) no-repeat left top
+}
+#contentBody DIV.p-halo DIV.op-head {
+	BACKGROUND: url(/images/optionspod/halo_inactive/hd_r.gif) no-repeat right top
+}
+#contentBody DIV.p-halo H3 {
+	COLOR: #000
+}
+DIV.options-pod DIV.button-group {
+	BORDER-TOP: #c3c8cb 1px solid
+}

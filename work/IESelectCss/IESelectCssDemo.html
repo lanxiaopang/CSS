@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>兼容IE6/IE7/IE8/火狐---下拉菜单select样式设置</title>
+    <style type="text/css">
+        body {background-color:#6C6;}
+        .select_border{
+            width:59px;
+            height:29px;
+            *background:#fff;
+            background:#fff;
+            *border:1px solid #09f;
+            *padding:4px;
+            *height:20px;
+        }
+        .container{
+            *border:0;
+            *position:relative;
+            *height:18px;
+            *overflow:hidden;
+        }
+        .select{
+            border:1px solid #09f;
+            padding:4px 3px;
+            font-size:12px;
+            height:30px;
+            width:60px;
+            *width:52px;
+            margin:-1px;
+        }
+        .select_border,.container {*width:50px;}
+    </style>
+</head>
+<body>
+<p>宽高：93px-28px</p>
+<div class="select_border">
+    <div class="container">
+        <select name="" class="select">
+            <option>北京</option>
+            <option>天津</option>
+            <option>上海</option>
+            <option>重庆</option>
+        </select>
+    </div>
+</div>
+</body>
+</html>

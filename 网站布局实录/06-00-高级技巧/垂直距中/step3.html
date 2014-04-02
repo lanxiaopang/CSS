@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>垂直距中</title>
+<style>
+
+#outBox {
+	border:2px solid #333;
+	height: 300px; 
+	overflow: hidden; 
+	position: relative;
+}
+#outBox[id] {
+	display: table; 
+	position: static;
+}
+#midBox {
+	border:2px solid #555;
+	position: absolute; 
+	top: 50%;
+	width:200px;
+	margin:0 50px;
+}
+#midBox[id] {
+	display: table-cell;
+	vertical-align: middle; 
+	position: static;
+}
+#inBox{
+	position: relative; top: -50%;
+}
+
+
+</style>
+</head>
+
+<body>
+<div id="outBox">
+    <div id="midBox">
+		<div id="inBox">    
+        需要垂直距中的内容<br />   
+		需要垂直距中的内容 
+		</div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CSS图表</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<style>
+body{
+	background-color:#595959;
+}
+#loadbar{
+	width:280px;
+	background-color:#000;
+	border:1px solid #000;
+}
+#bar{
+	display:block;
+	font-family:arial;
+	font-size:12px;
+	background-color:#00d0ff;
+	text-align:center;
+}
+</style>
+<script language="JavaScript">
+i=0;
+function startbar(){	
+	showbar=setInterval("setbar()",500);
+}
+function setbar(){
+	i+=5;
+	if(i>=100){
+		clearInterval(showbar);
+	}
+	document.getElementById("bar").style.width=i+"%";
+	document.getElementById("bar").innerHTML=i+"%";
+}
+
+</script>
+</head>
+
+<body onLoad="startbar();">
+
+<div id="loadbar">
+   <strong id= "bar" style="width:0%;"></strong>
+</div>
+</body>
+</html>

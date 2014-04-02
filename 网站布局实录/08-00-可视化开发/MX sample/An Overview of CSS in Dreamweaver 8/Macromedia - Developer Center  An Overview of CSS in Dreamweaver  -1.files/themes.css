@@ -1,0 +1,513 @@
+@import url( /css/themes/brandheader.css );
+@import url( /css/themes/optionspod.css );
+@import url( /css/themes/studio8.css );
+#contentBody {
+	COLOR: #000
+}
+#pod {
+	COLOR: #333
+}
+BODY {
+	BACKGROUND-POSITION: 0px 0px; BACKGROUND-IMAGE: url(/images/master/background.jpg); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #999
+}
+#capBottom {
+	BACKGROUND: url(/images/master/layouts/fullwidth/cap_bottom.gif) no-repeat center top
+}
+#iframe-popup {
+	BACKGROUND: #fff
+}
+BODY.rate-this {
+	BACKGROUND: #fff
+}
+H1 {
+	BORDER-LEFT-COLOR: #999; BORDER-TOP-COLOR: #999; BORDER-BOTTOM: #999 2px solid; BACKGROUND-REPEAT: no-repeat! important; BORDER-RIGHT-COLOR: #999
+}
+#depthpath {
+	COLOR: #aaa
+}
+SPAN.article-date {
+	COLOR: #888
+}
+P.quote {
+	COLOR: #888
+}
+.stamp-date {
+	COLOR: #888
+}
+DIV.popupheader {
+	BACKGROUND: #fff
+}
+H2.imageHeader-border {
+	BORDER-BOTTOM: #c3c8cb 1px solid
+}
+H2.header-border {
+	BORDER-BOTTOM: #c3c8cb 1px solid
+}
+#contentBody H3 {
+	BACKGROUND-COLOR: #ddd
+}
+#iframe-popup H3 {
+	BACKGROUND-COLOR: #ddd
+}
+DIV.h-nav {
+	BACKGROUND-COLOR: #ddd
+}
+#pod H3 {
+	COLOR: #444
+}
+#infoPodCap {
+	BACKGROUND: url(/images/master/layouts/pod/cap_infopod_top.gif) no-repeat center top; LINE-HEIGHT: 9px; HEIGHT: 9px
+}
+#infoPodCapBottom {
+	BACKGROUND: url(/images/master/layouts/pod/cap_infopod_bottom.gif) #fff no-repeat center top; LINE-HEIGHT: 9px; HEIGHT: 19px
+}
+#infoPod H3 {
+	COLOR: #fff; BORDER-BOTTOM: #444 1px solid; BACKGROUND-COLOR: #666
+}
+H3.header-border {
+	BORDER-BOTTOM: #c3c8cb 1px solid
+}
+H3.imageHeader-border {
+	BORDER-BOTTOM: #c3c8cb 1px solid
+}
+#pod DIV.hr {
+	BORDER-RIGHT: #666 1px solid; BORDER-LEFT: #666 1px solid; BACKGROUND-COLOR: #bbb
+}
+DIV.options-box {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+DIV.options-box H3 {
+	BACKGROUND-COLOR: #ccc! important
+}
+A {
+	COLOR: #005fa9
+}
+A:hover {
+	BACKGROUND-COLOR: #def
+}
+A:visited {
+	COLOR: #a367b1
+}
+A.noHover:hover {
+	BACKGROUND-COLOR: transparent
+}
+.noHover A:hover {
+	BACKGROUND-COLOR: transparent
+}
+A .mask-a {
+	BACKGROUND-COLOR: transparent
+}
+A:hover .mask-a {
+	BACKGROUND-COLOR: transparent
+}
+A .mask-a {
+	COLOR: #888
+}
+A:hover .mask-a {
+	COLOR: #888
+}
+#contentBody DIV.op-head H3 A {
+	COLOR: #f5f5f7
+}
+#contentBody DIV.op-head H3 A:visited {
+	COLOR: #f5f5f7
+}
+#contentBody DIV.op-head H3 A:hover {
+	COLOR: #fff; BACKGROUND-COLOR: transparent
+}
+#msg-error A {
+	COLOR: #f00
+}
+#msg-error A:visited {
+	COLOR: #f00
+}
+#msg-error A:hover {
+	COLOR: #f00
+}
+.submit:visited {
+	COLOR: #2b333c
+}
+#depthpath A {
+	BACKGROUND-COLOR: #fff
+}
+#depthpath A:hover {
+	BACKGROUND-COLOR: #fff
+}
+#depthpath A {
+	COLOR: #aaa
+}
+#depthpath A:visited {
+	COLOR: #aaa
+}
+#depthpath A:hover {
+	COLOR: #1974b2
+}
+#pod .search-pod A {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+TH {
+	BACKGROUND-COLOR: #dae3e4
+}
+TH.data-sectionHead {
+	COLOR: #fff; BACKGROUND-COLOR: #899a9f
+}
+TH.alt {
+	BACKGROUND-COLOR: #f1f1f1
+}
+TR.alt {
+	BACKGROUND-COLOR: #f1f1f1
+}
+.alt TD.data-yes {
+	BACKGROUND-COLOR: #f1f1f1
+}
+TD.data-yes {
+	BACKGROUND: url(/images/check_mark.gif) no-repeat center center
+}
+TD.data-yesplus {
+	BACKGROUND: url(/images/check_markplus.gif) no-repeat center center
+}
+TD.data-yes {
+	TEXT-INDENT: -9999px
+}
+TD.data-no {
+	TEXT-INDENT: -9999px
+}
+TD.data-yesplus {
+	TEXT-INDENT: -9999px
+}
+TR.alt TH.alt {
+	BACKGROUND-COLOR: transparent
+}
+TABLE.data-meta TH {
+	BACKGROUND-COLOR: transparent
+}
+TABLE.data-rating TH {
+	BACKGROUND-COLOR: transparent
+}
+TD.nodata {
+	BACKGROUND-COLOR: transparent
+}
+TD.data-none {
+	BACKGROUND-COLOR: transparent
+}
+TBODY.pckg-calc TH {
+	BACKGROUND-COLOR: transparent
+}
+TABLE.priceData-compact TH {
+	BACKGROUND-COLOR: transparent
+}
+IMG.image-border {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid
+}
+IMG.image-editorial {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid
+}
+IMG.image-noborder {
+	BORDER-RIGHT: white 1px solid; BORDER-TOP: white 1px solid; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid
+}
+.nav-up {
+	BACKGROUND: url(/images/icons/back_to_top.gif) no-repeat right top; LEFT: 0px; POSITION: relative; TOP: 0px; HEIGHT: 25px
+}
+.nav-up A {
+	DISPLAY: block; RIGHT: 0px; OVERFLOW: hidden; WIDTH: 16px; TEXT-INDENT: -1999px; POSITION: absolute; TOP: 0px; HEIGHT: 16px
+}
+.nav-up A:hover {
+	BACKGROUND-COLOR: transparent
+}
+P.nav-bottom {
+	COLOR: #333
+}
+DIV.nav-bottom {
+	COLOR: #333
+}
+P.nav-top {
+	COLOR: #333
+}
+DIV.nav-top {
+	COLOR: #333
+}
+P.nav-right {
+	COLOR: #333
+}
+DIV.nav-right {
+	COLOR: #333
+}
+P.nav-left {
+	COLOR: #333
+}
+DIV.nav-left {
+	COLOR: #333
+}
+DIV.nav-pagination A:hover {
+	BACKGROUND-COLOR: transparent
+}
+#pod UL.nav-pod {
+	BORDER-TOP: #666 1px solid; BORDER-BOTTOM: #aaa 1px solid; BACKGROUND-COLOR: #e8e8e8
+}
+.search-pod {
+	BORDER-TOP: #666 1px solid; BORDER-BOTTOM: #aaa 1px solid; BACKGROUND-COLOR: #e8e8e8
+}
+#pod UL.nav-pod LI {
+	BORDER-TOP: #ccc 1px solid; BACKGROUND-COLOR: #e8e8e8
+}
+#pod UL.nav-pod A {
+	BORDER-TOP: #f7f7f7 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#pod UL.nav-pod A:hover {
+	BACKGROUND-COLOR: #f3f3f3
+}
+UL.rnav-static LI {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+UL.rnav-static LI UL {
+	BORDER-TOP: medium none
+}
+UL.rnav-static LI UL LI {
+	BORDER-BOTTOM: medium none
+}
+#footnote {
+	COLOR: #888
+}
+.footnote {
+	COLOR: #888
+}
+.note {
+	COLOR: #888
+}
+.legalnotice {
+	COLOR: #888
+}
+.caption {
+	COLOR: #888
+}
+DIV.msg-alert {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; COLOR: #cc0000; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fefee8
+}
+.border {
+	BORDER-RIGHT: #eee 1px solid; BORDER-TOP: #eee 1px solid; BORDER-LEFT: #eee 1px solid; BORDER-BOTTOM: #eee 1px solid
+}
+.new {
+	COLOR: #aa2222
+}
+.achtung {
+	COLOR: #aa2222
+}
+BODY.popup {
+	BACKGROUND: #fff; TEXT-ALIGN: left
+}
+DIV.popup {
+	BACKGROUND: #fff; TEXT-ALIGN: left
+}
+DIV.popupheader {
+	BORDER-BOTTOM: #999 1px solid
+}
+CODE {
+	COLOR: #000; BACKGROUND-COLOR: #ececed
+}
+PRE {
+	COLOR: #000; BACKGROUND-COLOR: #f0f0f1
+}
+DIV.preWrapper {
+	COLOR: #000; BACKGROUND-COLOR: #f0f0f1
+}
+CODE STRONG {
+	BACKGROUND-COLOR: #f9f9b7
+}
+PRE STRONG {
+	BACKGROUND-COLOR: #f9f9b7
+}
+.comingSoon {
+	COLOR: #666
+}
+DIV.portal-features H3 {
+	BACKGROUND-COLOR: transparent
+}
+DIV.portal-features H4 {
+	BACKGROUND-COLOR: transparent
+}
+SELECT {
+	BORDER-LEFT-COLOR: #acb5b5; BORDER-BOTTOM-COLOR: #6f7777; BORDER-TOP-COLOR: #c4cccc; BACKGROUND-COLOR: #fefefe; BORDER-RIGHT-COLOR: #acb5b5
+}
+.required {
+	COLOR: #cc0001
+}
+.submit {
+	COLOR: #2b333c
+}
+.submit {
+	BORDER-RIGHT: #acb5b5 3px double; BORDER-TOP: #c4cccc 3px double; BACKGROUND: url(/images/master/background_form_element.gif) #fefefe repeat-x; BORDER-LEFT: #acb5b5 3px double; BORDER-BOTTOM: #6f7777 3px double
+}
+.submit-disabled {
+	BORDER-RIGHT: #acb5b5 3px double; BORDER-TOP: #c4cccc 3px double; BACKGROUND: url(/images/master/background_form_element.gif) #fefefe repeat-x; BORDER-LEFT: #acb5b5 3px double; BORDER-BOTTOM: #6f7777 3px double
+}
+.submit:hover {
+	BORDER-RIGHT: #94da78 3px double; BORDER-TOP: #aedf9a 3px double; BORDER-LEFT: #94da78 3px double; BORDER-BOTTOM: #6ab94b 3px double
+}
+.submit:unknown {
+	BORDER-RIGHT: #94da78 3px double; BORDER-TOP: #aedf9a 3px double; BORDER-LEFT: #94da78 3px double; BORDER-BOTTOM: #6ab94b 3px double
+}
+UNKNOWN {
+	BORDER-RIGHT: #acb5b5 3px double; BORDER-TOP: #c4cccc 3px double; BORDER-LEFT: #acb5b5 3px double; COLOR: #8a8e92; BORDER-BOTTOM: #6f7777 3px double; BACKGROUND-COLOR: #f2f2f2
+}
+SELECT:hover {
+	BORDER-LEFT-COLOR: #5b5; BORDER-BOTTOM-COLOR: #459455; BORDER-TOP-COLOR: #6d5; BORDER-RIGHT-COLOR: #5b5
+}
+SELECT:unknown {
+	BORDER-LEFT-COLOR: #5b5; BORDER-BOTTOM-COLOR: #459455; BORDER-TOP-COLOR: #6d5; BORDER-RIGHT-COLOR: #5b5
+}
+#msg-error P {
+	COLOR: #cc0001
+}
+#msg-error UL {
+	COLOR: #cc0001
+}
+P.msg-error {
+	COLOR: #cc0001
+}
+DIV.msg-error {
+	COLOR: #cc0001
+}
+DIV.error P {
+	COLOR: #cc0001
+}
+#searchBarTop {
+	BORDER-BOTTOM: #acb0b5 1px solid
+}
+#searchBarBottom {
+	BORDER-BOTTOM: #acb0b5 1px solid
+}
+#searchBarTop {
+	BORDER-TOP: #dbe0e6 1px solid; BACKGROUND-COLOR: #e8f0f1
+}
+#searchBarBottom {
+	BACKGROUND-COLOR: #fff
+}
+FORM.form-columns H2.header-border {
+	BORDER-BOTTOM: #e6e6dc 1px solid
+}
+DIV.form-columns H2.header-border {
+	BORDER-BOTTOM: #e6e6dc 1px solid
+}
+.login-username {
+	BORDER-LEFT-COLOR: #aab3b3! important; BORDER-BOTTOM-COLOR: #d5dddd! important; BORDER-TOP-COLOR: #999! important; BACKGROUND-COLOR: #f7f7f7; BORDER-RIGHT-COLOR: #aab3b3! important
+}
+.login-password {
+	BORDER-LEFT-COLOR: #aab3b3! important; BORDER-BOTTOM-COLOR: #d5dddd! important; BORDER-TOP-COLOR: #999! important; BACKGROUND-COLOR: #f7f7f7; BORDER-RIGHT-COLOR: #aab3b3! important
+}
+.licenseAgreement {
+	BORDER-LEFT-COLOR: #aab3b3! important; BORDER-BOTTOM-COLOR: #d5dddd! important; BORDER-TOP-COLOR: #999! important; BACKGROUND-COLOR: #f7f7f7; BORDER-RIGHT-COLOR: #aab3b3! important
+}
+INPUT.textfield {
+	BORDER-LEFT-COLOR: #aab3b3! important; BORDER-BOTTOM-COLOR: #d5dddd! important; BORDER-TOP-COLOR: #999! important; BACKGROUND-COLOR: #f7f7f7; BORDER-RIGHT-COLOR: #aab3b3! important
+}
+TEXTAREA {
+	BORDER-LEFT-COLOR: #aab3b3! important; BORDER-BOTTOM-COLOR: #d5dddd! important; BORDER-TOP-COLOR: #999! important; BACKGROUND-COLOR: #f7f7f7; BORDER-RIGHT-COLOR: #aab3b3! important
+}
+.login-username:unknown {
+	BORDER-LEFT-COLOR: #94da78! important; BORDER-BOTTOM-COLOR: #aedf9a! important; BORDER-TOP-COLOR: #6ab94b! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #94da78! important
+}
+.login-password:unknown {
+	BORDER-LEFT-COLOR: #94da78! important; BORDER-BOTTOM-COLOR: #aedf9a! important; BORDER-TOP-COLOR: #6ab94b! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #94da78! important
+}
+.licenseAgreement:unknown {
+	BORDER-LEFT-COLOR: #94da78! important; BORDER-BOTTOM-COLOR: #aedf9a! important; BORDER-TOP-COLOR: #6ab94b! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #94da78! important
+}
+INPUT.textfield:unknown {
+	BORDER-LEFT-COLOR: #94da78! important; BORDER-BOTTOM-COLOR: #aedf9a! important; BORDER-TOP-COLOR: #6ab94b! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #94da78! important
+}
+TEXTAREA:unknown {
+	BORDER-LEFT-COLOR: #94da78! important; BORDER-BOTTOM-COLOR: #aedf9a! important; BORDER-TOP-COLOR: #6ab94b! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #94da78! important
+}
+.disabled {
+	COLOR: #666
+}
+.readonly {
+	COLOR: #666
+}
+.label-description {
+	COLOR: #666
+}
+INPUT.disabled {
+	BORDER-LEFT-COLOR: #ddd! important; BORDER-BOTTOM-COLOR: #ddd! important; BORDER-TOP-COLOR: #ddd! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #ddd! important
+}
+INPUT.disabled:unknown {
+	BORDER-LEFT-COLOR: #ddd! important; BORDER-BOTTOM-COLOR: #ddd! important; BORDER-TOP-COLOR: #ddd! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #ddd! important
+}
+INPUT.readonly {
+	BORDER-LEFT-COLOR: #ddd! important; BORDER-BOTTOM-COLOR: #ddd! important; BORDER-TOP-COLOR: #ddd! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #ddd! important
+}
+INPUT.readonly:unknown {
+	BORDER-LEFT-COLOR: #ddd! important; BORDER-BOTTOM-COLOR: #ddd! important; BORDER-TOP-COLOR: #ddd! important; BACKGROUND-COLOR: #fff! important; BORDER-RIGHT-COLOR: #ddd! important
+}
+.error LABEL {
+	BACKGROUND-COLOR: #ffffcb! important
+}
+.error INPUT {
+	BACKGROUND-COLOR: #ffffcb! important
+}
+.error SELECT {
+	BACKGROUND-COLOR: #ffffcb! important
+}
+#msg-error {
+	BACKGROUND-COLOR: #ffffcb! important
+}
+.error INPUT:unknown {
+	BACKGROUND-COLOR: #fff! important
+}
+.error SELECT:unknown {
+	BACKGROUND-COLOR: #fff! important
+}
+#pod LABEL {
+	COLOR: #444
+}
+.price {
+	COLOR: #922
+}
+.price A {
+	COLOR: #922
+}
+.price A:visited {
+	COLOR: #922
+}
+TH.price {
+	COLOR: #000
+}
+TD.price A.submit {
+	COLOR: #333
+}
+TD.price A.submit:visited {
+	COLOR: #333
+}
+abbr {
+	CURSOR: help
+}
+.stamp-fileinfo {
+	COLOR: #888
+}
+DEL {
+	COLOR: #000! important
+}
+BLOCKQUOTE.pullquote {
+	BORDER-TOP: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+BLOCKQUOTE.pullquote {
+	COLOR: #333
+}
+BLOCKQUOTE.pullquote SPAN.author {
+	COLOR: #333
+}
+BLOCKQUOTE.pullquote CITE {
+	COLOR: #999
+}
+DIV#static-messaging DIV {
+	BORDER-RIGHT: #d3d3d3 1px solid; BORDER-TOP: #d3d3d3 1px solid; BACKGROUND: #f5f7f7; BORDER-LEFT: #d3d3d3 1px solid; BORDER-BOTTOM: #d3d3d3 1px solid
+}
+#pod-fma {
+	BACKGROUND: url(/images/master/background.jpg) repeat-x 0px -142px
+}
+#pod-fma #promo {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#promo {
+	BACKGROUND: #fff
+}

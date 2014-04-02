@@ -1,0 +1,488 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0074)http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver.html -->
+<?xml version="1.0" encoding="utf-8"?><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Macromedia - Developer Center : An Overview of CSS in Dreamweaver 8</TITLE><!-- InstanceBegin template="/Templates/article.dwt" codeOutsideHTMLIsLocked="false" --><!-- Template $Revision: 2.15 $ applied. -->
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=en-us><LINK href="/favicon.ico" 
+type=image/x-icon rel=icon><LINK href="/favicon.ico" type=image/x-icon 
+rel="shortcut icon"><!-- InstanceParam name="MMlocale" type="text" value="en_us" --><!-- Template $Revision: 1.23 $ applied to "/Templates/article.dwt". -->
+<META content="Julie Hallstrom" name=author>
+<META content=0 name=level>
+<META content="12 September 2005" name=datecreated><!-- InstanceBeginEditable name="addMeta" -->
+<META content=devnet name=area>
+<META content=dreamweaver name=product>
+<META content="Julie Hallstrom" name=author>
+<META 
+content="CSS, user interface,  CSS Styles Panel, Property inspector, workflow" 
+name=keywords>
+<META content="12 September 2005" name=datecreated>
+<META content="12 September 2005" name=datemodified>
+<META content="beginner, intermediate" name=level>
+<META content="An Overview of CSS in Dreamweaver 8" name=shorttitle>
+<META 
+content="Get familiar with all the new CSS features, tools, workflows and user interface improvements. " 
+name=blurb>
+<META content=CSS name=topiccenter>
+<META content=article name=columntype>
+<META content="George Fox" name=editor><!-- InstanceEndEditable --><LINK 
+href="css_dreamweaver_02.html" rel=next><LINK rev=stylesheet media=handheld 
+href="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/handheld.css" 
+type=text/css charset=utf-8 rel=stylesheet><LINK rev=stylesheet 
+media="aural, braille, embossed" 
+href="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/assistive.css" 
+type=text/css charset=utf-8 rel=stylesheet><LINK rev=stylesheet media=print 
+href="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/print.css" 
+type=text/css charset=utf-8 rel=stylesheet><LINK rev=stylesheet media=screen 
+href="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/article_import.css" 
+type=text/css charset=utf-8 rel=stylesheet><!-- InstanceBeginEditable name="nestLink" --><!-- InstanceEndEditable --><!-- InstanceParam name="page_number" type="number" value="1" --><!-- InstanceParam name="page_total" type="number" value="10" --><!-- InstanceParam name="ssi_header" type="boolean" value="true" --><!-- InstanceParam name="author" type="text" value="Julie Hallstrom" --><!-- InstanceParam name="author2" type="text" value="" --><!-- InstanceParam name="author3" type="text" value="" --><!-- InstanceParam name="article_title" type="text" value="An Overview of CSS in Dreamweaver 8" --><!-- InstanceParam name="file_name" type="text" value="css_dreamweaver" --><!-- InstanceParam name="printLayout" type="boolean" value="false" --><!-- InstanceParam name="rev_datecreated" type="text" value="12 September 2005" --><!-- InstanceParam name="rev_datemodified" type="text" value="12 September 2005" --><!-- InstanceParam name="user_level" type="number" value="0" -->
+<SCRIPT 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/global.js" 
+type=text/javascript charset=utf-8></SCRIPT>
+
+<SCRIPT 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/globalnav.js" 
+type=text/javascript charset=utf-8></SCRIPT>
+
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR></HEAD>
+<BODY><!--googleoff: index--><A id=accesslink tabIndex=1 
+href="http://www.macromedia.com/help/accessibility.html">Accessibility</A><!--googleon: index--> 
+<!-- $RCSfile: FlashDetection2k.pm,v $ $Revision: 1.71 $ :  server can't tell if your browser has Flash;  you have a Internet Explorer-like browser on Windows, here is some client-side VBScript to detect if you have Flash. -->
+<SCRIPT language=VBScript>
+Private i, x, MM_FlashControlVersion
+On Error Resume Next
+x = null
+MM_FlashControlVersion = 0
+var Flashmode
+FlashMode = False
+var do_dw_var
+var browser_flash_version
+
+For i = 9 To 1 Step -1
+	Set x = CreateObject("ShockwaveFlash.ShockwaveFlash." & i)
+
+	MM_FlashControlInstalled = IsObject(x)
+
+	If MM_FlashControlInstalled Then
+		MM_FlashControlVersion = CStr(i)
+		Exit For
+	End If
+Next
+x = null
+FlashMode = (MM_FlashControlVersion >= 6)
+do_dw_var = FlashMode
+browser_flash_version = MM_FlashControlVersion
+</SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/flash.iota" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/no_flash.iota" 
+type=text/javascript></SCRIPT>
+<NOSCRIPT><!-- $Source: /source/ubi/globalnav/en_us/no_flash.iota,v $ $Revision: 1.21.16.10 $ --><!--googleoff: index-->
+<DIV id=globalnav><!-- macromedia -->
+<DL class=menu id=globalnav-companymenu>
+  <DT id=adobe-logo><A 
+  onkeypress="openCrosslinkWindow('http://www.adobe.com');return false;" 
+  onclick="openCrosslinkWindow('http://www.adobe.com');return false;" tabIndex=1 
+  href="http://www.adobe.com/" target=AdobeWindow>Adobe</A> </DT>
+  <DT id=macromedia-logo><A tabIndex=1 href="http://www.macromedia.com/">Fomerly 
+  Macromedia</A> </DT>
+  <DD><A onkeypress="openCrosslinkWindow('http://www.adobe.com');return false;" 
+  onclick="openCrosslinkWindow('http://www.adobe.com');return false;" tabIndex=1 
+  href="http://www.adobe.com/" target=AdobeWindow>Adobe Home</A> </DD>
+  <DD><A tabIndex=1 href="http://www.macromedia.com/go/gnav_home">Macromedia 
+  Home</A> </DD>
+  <DD><A onkeypress="openCrosslinkWindow('/go/adobeacquisition');return false;" 
+  title="Open new window" 
+  onclick="openCrosslinkWindow('/go/adobeacquisition');return false;" tabIndex=1 
+  href="http://www.macromedia.com/go/adobeacquisition" 
+  target=AdobeWindow>Acquisition Info</A> </DD></DL><!-- Help menu -->
+<UL class=menu id=globalnav-helpmenu>
+  <LI id=help><A tabIndex=4 
+  href="http://www.macromedia.com/go/gnav_help">Help</A> </LI>
+  <LI id=international><A tabIndex=3 
+  href="http://www.macromedia.com/go/gnav_intl">International</A> </LI>
+  <LI id=globalnav-cart><A tabIndex=2 
+  href="http://www.macromedia.com/go/gnav_cart">Your Cart</A> <!-- membership --></LI>
+  <LI id=signout><A tabIndex=2 
+  href="http://www.macromedia.com/go/gnav_sign_out">Sign Out</A> </LI>
+  <LI id=signin><A tabIndex=2 
+  href="http://www.macromedia.com/cfusion/membership/index.cfm">Sign In</A> 
+</LI>
+  <LI id=account><A tabIndex=2 
+  href="http://www.macromedia.com/go/gnav_your_account">Your Account</A> </LI>
+  <LI id=greeting>Welcome, <SPAN id=screenName>Guest</SPAN> </LI></UL>
+<DIV id=globalnavbar><!-- primary globalnav menu -->
+<UL class=menu id=globalnav-menu>
+  <LI id=home><A tabIndex=5 
+  href="http://www.macromedia.com/go/gnav_home">Home</A> </LI>
+  <LI id=products><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnav_products">Products</A> </LI>
+  <LI id=showcase><A tabIndex=7 
+  href="http://www.macromedia.com/go/gnav_showcase">Showcase</A> </LI>
+  <LI id=support><A tabIndex=8 
+  href="http://www.macromedia.com/go/gnav_support">Support</A> </LI>
+  <LI id=devnet><A tabIndex=9 
+  href="http://www.macromedia.com/go/gnav_devnet">Developers</A> </LI>
+  <LI id=solutions><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnav_solutions">Solutions</A> </LI>
+  <LI id=downloads><A tabIndex=11 
+  href="http://www.macromedia.com/go/gnav_downloads">Downloads</A> </LI>
+  <LI id=company><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnav_company">Company</A> </LI>
+  <LI id=store><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnav_store">Store</A> </LI></UL><!-- Search -->
+<FORM class=en id=globalnav-search name=globalnav-search accept-charset=utf-8 
+action=/go/gnav_search method=get><INPUT type=hidden value=en_us name=loc><INPUT 
+id=search-input tabIndex=14 name=term>
+<DIV id=searchDIV>Search<INPUT id=search tabIndex=15 type=image alt=Search 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/blank.gif"></DIV></FORM></DIV><!-- submenu :: global messaging area -->
+<DIV id=globalmessaging><SPAN id=getFlashIcon><A 
+href="http://www.macromedia.com/go/gnav_sitereqs">Site 
+Requirements—</A></SPAN>You may not have everything you need to view certain 
+sections of Macromedia.com. <SPAN id=site-requirements><A 
+href="http://www.macromedia.com/go/gnav_sitereqs">Please see our site 
+requirements</A></SPAN>.</DIV><!-- submenu :: Products -->
+<UL class="globalnav-submenu menu" id=products-submenu>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_products_home">Products Home</A> 
+  </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_studiomx_home">Studio</A> </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_dwmx_home">Dreamweaver</A> </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_flashmx_home">Flash</A> </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_cfmx_home">ColdFusion</A> </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_contribute_home">Contribute</A> 
+  </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_breeze_home">Breeze</A> </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_dirmx_home">Director</A> </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_flex_home">Flex</A> </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_products_buy">Buy</A> </LI>
+  <LI><A tabIndex=6 
+  href="http://www.macromedia.com/go/gnavtray_products_more">More ›</A> </LI></UL><!-- submenu :: Showcase -->
+<UL class="globalnav-submenu menu" id=showcase-submenu>
+  <LI><A tabIndex=7 
+  href="http://www.macromedia.com/go/gnavtray_showcase_home">Showcase Home</A> 
+  </LI>
+  <LI><A tabIndex=7 
+  href="http://www.macromedia.com/go/gnavtray_show_sodarchive">Site of the Day 
+  Archive</A> </LI>
+  <LI><A tabIndex=7 
+  href="http://www.macromedia.com/go/gnavtray_show_sub">Showcase Submissions</A> 
+  </LI>
+  <LI><A tabIndex=7 
+  href="http://www.macromedia.com/go/gnavtray_show_csp">Customer Success 
+  Program</A> </LI>
+  <LI><A tabIndex=7 
+  href="http://www.macromedia.com/go/gnavtray_showcase_more">More ›</A> </LI></UL><!-- submenu :: Support -->
+<UL class="globalnav-submenu menu" id=support-submenu>
+  <LI><A tabIndex=8 
+  href="http://www.macromedia.com/go/gnavtray_supp_home">Support Home</A> </LI>
+  <LI><A tabIndex=8 
+  href="http://www.macromedia.com/go/gnavtray_supp_cs_home">Customer Service</A> 
+  </LI>
+  <LI><A tabIndex=8 
+  href="http://www.macromedia.com/go/gnavtray_supp_train_home">Training</A> 
+</LI>
+  <LI><A tabIndex=8 
+  href="http://www.macromedia.com/go/gnavtray_supp_programs">Support 
+  Programs</A> </LI>
+  <LI><A tabIndex=8 
+  href="http://www.macromedia.com/go/gnavtray_supp_forums_home">Forums</A> </LI>
+  <LI><A tabIndex=8 
+  href="http://www.macromedia.com/go/gnavtray_supp_knowledgebase">Knowledge 
+  Base</A> </LI>
+  <LI><A tabIndex=8 
+  href="http://www.macromedia.com/go/gnavtray_supp_documentation">Documentation</A> 
+  </LI>
+  <LI><A tabIndex=8 href="http://www.macromedia.com/go/gnavtray_supp_more">More 
+  ›</A> </LI></UL><!-- submenu :: Developers -->
+<UL class="globalnav-submenu menu" id=devnet-submenu>
+  <LI><A tabIndex=9 
+  href="http://www.macromedia.com/go/gnavtray_devnet">Developers Home</A> </LI>
+  <LI><A tabIndex=9 
+  href="http://www.macromedia.com/go/gnavtray_dev_forums">Forums</A> </LI>
+  <LI><A tabIndex=9 
+  href="http://www.macromedia.com/go/gnavtray_dev_exchange_home">Exchange</A> 
+  </LI>
+  <LI><A tabIndex=9 href="http://www.macromedia.com/go/gnavtray_dev_blogs" 
+  target=mm_window>Blogs</A> </LI>
+  <LI><A tabIndex=9 
+  href="http://www.macromedia.com/go/gnavtray_dev_sample_apps">Sample 
+  Applications</A> </LI>
+  <LI><A tabIndex=9 href="http://www.macromedia.com/go/gnavtray_dev_labs" 
+  target=mm_window>Labs</A> </LI>
+  <LI><A tabIndex=9 
+  href="http://www.macromedia.com/go/gnavtray_devnet_more">More ›</A> </LI></UL><!-- submenu :: Solutions -->
+<UL class="globalnav-submenu menu" id=solutions-submenu>
+  <LI><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnavtray_sol_home">Solutions Home</A> </LI>
+  <LI><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnavtray_sol_telecom">Telecommunications</A> 
+  </LI>
+  <LI><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnavtray_sol_govt">Government</A> </LI>
+  <LI><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnavtray_sol_finance">Financial 
+  Services</A> </LI>
+  <LI><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnavtray_sol_edu_home">Education</A> </LI>
+  <LI><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnavtray_sol_mobile">Mobile</A> </LI>
+  <LI><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnavtray_sol_partners">Partners</A> </LI>
+  <LI><A tabIndex=10 
+  href="http://www.macromedia.com/go/gnavtray_sol_students">Students</A> </LI>
+  <LI><A tabIndex=10 href="http://www.macromedia.com/go/gnavtray_sol_more">More 
+  ›</A> </LI></UL><!-- submenu :: Downloads -->
+<UL class="globalnav-submenu menu" id=downloads-submenu>
+  <LI><A tabIndex=11 
+  href="http://www.macromedia.com/go/gnavtray_dl_home">Downloads Home</A> </LI>
+  <LI><A tabIndex=11 href="http://www.macromedia.com/go/gnavtray_dl_trials">Free 
+  Trials</A> </LI>
+  <LI><A tabIndex=11 
+  href="http://www.macromedia.com/go/gnavtray_dl_updates">Updates</A> </LI>
+  <LI><A tabIndex=11 href="http://www.macromedia.com/go/gnavtray_dl_flashpl">Get 
+  Flash Player</A> </LI>
+  <LI><A tabIndex=11 
+  href="http://www.macromedia.com/go/gnavtray_dl_ex_home">Exchange</A> </LI>
+  <LI><A tabIndex=11 href="http://www.macromedia.com/go/gnavtray_dl_more">More 
+  ›</A> </LI></UL><!-- submenu :: Company  -->
+<UL class="globalnav-submenu menu" id=company-submenu>
+  <LI><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnavtray_company_home">Company Home</A> 
+  </LI>
+  <LI><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnavtray_company_news">News Room</A> </LI>
+  <LI><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnavtray_company_community">Community 
+  Affairs</A> </LI>
+  <LI><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnavtray_company_jobs">Jobs</A> </LI>
+  <LI><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnavtray_company_events">Events</A> </LI>
+  <LI><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnavtray_company_investor">Investor 
+  Relations</A> </LI>
+  <LI><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnavtray_company_contact">Contact</A> </LI>
+  <LI><A tabIndex=12 
+  href="http://www.macromedia.com/go/gnavtray_company_more">More ›</A> </LI></UL><!-- submenu :: Store -->
+<UL class="globalnav-submenu menu" id=store-submenu>
+  <LI><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnavtray_html_store_home">Store Home</A> 
+  </LI>
+  <LI><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnavtray_html_store_software">Software</A> 
+  </LI>
+  <LI><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnavtray_html_store_books">Books</A> </LI>
+  <LI><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnavtray_html_store_training">Training</A> 
+  </LI>
+  <LI><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnavtray_html_store_programs">Support 
+  Programs</A> </LI>
+  <LI><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnavtray_html_store_your_hist">Order 
+  History</A> </LI>
+  <LI><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnavtray_html_store_purchase_options">Purchase 
+  Options</A> </LI>
+  <LI><A tabIndex=13 
+  href="http://www.macromedia.com/go/gnavtray_html_store_mvlp">Volume Licensing 
+  ›</A> </LI></UL></DIV><!--googleon: index--></NOSCRIPT>
+<DIV class=full-width id=layoutLogic>
+<DIV id=gecko>
+<DIV id=depthpath><A href="http://www.macromedia.com/">Home</A> / <A 
+href="http://www.macromedia.com/devnet/">Developer Center</A> / <A 
+href="http://www.macromedia.com/devnet/dreamweaver/"><STRONG>Dreamweaver 
+Developer Center</STRONG></A> /</DIV>
+<H1 class=dreamweaver>Dreamweaver Article</H1>
+<DIV id=contentBody>
+<DIV class=columns-2-Abb-A>
+<H2>An Overview of CSS in Dreamweaver 8</H2></DIV>
+<DIV class=columns-2-Abb-bb>
+<DIV class=nav-pagination>Page 1 of 10 <IMG height=17 alt="Previous Page" 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/arrow_left_off.gif" 
+width=16><A 
+href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_02.html"><IMG 
+height=17 alt="Next Page" 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/arrow_right.gif" 
+width=17></A> </DIV></DIV><BR class=clear-both>
+<DIV class=columns-2-aaB-aa id=util-article><!-- InstanceBeginEditable name="AuthorPhoto" --><IMG height=160 
+alt="Julie Hallstrom" 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/julie_hallstrom.jpg" 
+width=160><!-- InstanceEndEditable --> 
+<H4>Julie Hallstrom</H4>
+<P>Macromedia</P>
+<H3>Table of Contents</H3>
+<OL>
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver.html">Introduction</A> 
+
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_02.html">User 
+  Interface Changes </A>
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_03.html">Visual 
+  Display in Dreamweaver Design View</A> 
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_04.html">The 
+  More Things Change, the More They Stay the Same</A> 
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_05.html">Mini-Workflow 
+  Recommendations</A> 
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_06.html">Quickly 
+  Generate Simple Styles and Build Upon Them</A> 
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_07.html">Setting 
+  CSS While Adding Content to the Page</A> 
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_08.html">Using 
+  Dreamweaver to Understand Rules</A> 
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_09.html">Use 
+  the CSS Styles Panel to Create and Edit Properties</A> 
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_10.html">Moving 
+  from Document Style Sheet to External Style Sheet</A> </LI></OL>
+<UL>
+  <LI><A 
+  href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_print.html">Printable 
+  version</A> 
+  <LI><A href="http://www.macromedia.com/support/email/tutorial/main.cgi">Send 
+  feedback</A> 
+  <LI><A 
+  href="http://www.macromedia.com/cfusion/resourcecenter/rc_driver.cfm?pagename=des_dev_nl">Get 
+  an e-mail update of new articles</A> </LI></UL>
+<H4>Created:</H4>
+<P>12 September 2005</P>
+<H4>User&nbsp;Level:</H4>
+<P>All</P></DIV>
+<DIV class=columns-2-aaB-B><!-- InstanceBeginEditable name="ArticleContent" -->
+<P>CSS implementation in this version of Macromedia Dreamweaver is to advanced 
+CSS developers what the previous version provided to beginners. Thankfully, CSS 
+beginners have not been left behind. In this article, I'll take you through all 
+the new CSS features, tools, and user interface changes in Dreamweaver 8. I've 
+provided some sample files to help demonstrate what I cover in this article. 
+Take a moment to download the sample files below, unzip them, and open the 
+csstest.htm file in Dreamweaver 8.</P>
+<P class=note><STRONG>Note:</STRONG> If you are still using Dreamweaver MX 2004 
+and not Dreamweaver 8, please see the article I wrote for the previous version, 
+<A 
+href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_mx2004.html">An 
+Overview of CSS in Dreamweaver MX 2004</A>.</P>
+<H3>Requirements</H3>
+<P>To complete this tutorial you will need to install the following software and 
+files:</P>
+<H4>Dreamweaver 8</H4>
+<DIV class=compact>
+<UL class=iconmarker-16x16>
+  <LI><A href="http://www.macromedia.com/go/devcenter_dw_try"><IMG height=16 
+  alt="" 
+  src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/try_icon.gif" 
+  width=16>Try</A> </LI>
+  <LI><A href="http://www.macromedia.com/go/devcenter_dw_buy"><IMG height=16 
+  alt="" 
+  src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/buy_icon.gif" 
+  width=16>Buy</A> </LI></UL><BR class=clear-both></DIV>
+<H4>Tutorials and sample files:</H4>
+<UL class=iconmarker-16x16>
+  <LI><A 
+  href="http://download.macromedia.com/pub/developer/dw8_css_samples.zip"><IMG 
+  height=16 alt=download 
+  src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/download.gif" 
+  width=16>dw8_css_samples.zip </A><SPAN class=stamp-fileinfo>(ZIP, 2K)</SPAN> 
+  </LI></UL><!-- InstanceEndEditable -->
+<DIV class=nav-pagination>Page 1 of 10 <IMG height=17 alt="Previous Page" 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/arrow_left_off.gif" 
+width=16><A 
+href="http://www.macromedia.com/devnet/dreamweaver/articles/css_dreamweaver_02.html"><IMG 
+height=17 alt="Next Page" 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/arrow_right.gif" 
+width=17></A> </DIV><BR class=clear-both>
+<HR>
+
+<H4>About the author</H4>
+<DIV id=bio>
+<ADDRESS>
+<P>Julie Hallstrom is an online program manager, and also gets to develop and 
+edit content for Macromedia Dreamweaver Technical Support staff. Formerly a 
+designer who hand-coded websites for small companies, she is now the number one 
+fan of Dreamweaver. In addition to editing TechNotes, Julie has been a technical 
+editor for several books on Dreamweaver and 
+Fireworks.</P></ADDRESS></DIV></DIV><BR class=clear-both></DIV></DIV><BR><!-- extra break for opera 7 bug --></DIV>
+<DIV id=capBottom></DIV><!--googleoff: index--><!-- global footer $Revision: 1.11.2.1 $ -->
+<DIV id=globalfooter>
+<UL class=menu>
+  <LI><A 
+  onkeypress="openCrosslinkWindow('http://www.adobe.com/aboutadobe/main.html');return false;" 
+  title="Open new window" 
+  onclick="openCrosslinkWindow('http://www.adobe.com/aboutadobe/main.html');return false;" 
+  href="http://www.adobe.com/aboutadobe/main.html" 
+  target=AdobeWindow>Company</A> </LI>
+  <LI><A href="http://www.macromedia.com/sitemap/">Site Map</A> </LI>
+  <LI><A 
+  onkeypress="openCrosslinkWindow('http://www.adobe.com/misc/privacy.html');return false;" 
+  title="Open new window" 
+  onclick="openCrosslinkWindow('http://www.adobe.com/misc/privacy.html');return false;" 
+  href="http://www.adobe.com/misc/privacy.html" target=AdobeWindow>Privacy &amp; 
+  Security</A> </LI>
+  <LI><A href="http://www.macromedia.com/macromedia/contact/">Contact Us</A> 
+  </LI>
+  <LI><A 
+  href="http://www.macromedia.com/help/accessibility.html">Accessibility</A> 
+  </LI>
+  <LI><A href="http://www.macromedia.com/go/report_piracy">Report Piracy</A> 
+  </LI>
+  <LI><A href="http://www.macromedia.com/go/sendfeedback">Send Feedback</A> 
+</LI></UL>
+<P id=copyright>Copyright © 2006 Adobe Systems Incorporated. <A 
+href="http://www.macromedia.com/help/copyright.html">All rights 
+reserved</A>.</P>
+<P id=terms>Use of this website signifies your agreement to the <A 
+href="http://www.macromedia.com/help/copyright.html">Terms of Use</A>.</P>
+<P id=searchengine>Search powered by<A href="http://www.google.com/" 
+target=new><IMG class=googlelogo height=18 alt="Powered by Google" 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/logo_google.gif" 
+width=43></A></P></DIV><!--googleon: index--><!-- InstanceBeginEditable name="analytics" -->
+<DIV style="DISPLAY: none"><!-- SiteCatalyst code version: F.3. $Revision: 1.10 $
+Copyright 2002 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<SCRIPT language=JavaScript 
+type=text/javascript><!--
+var s_code=' '//--></SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/omniture_s_code.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript type=text/javascript><!--
+var s_accountName="mxmacromedia";
+var s_wd=window,s_tm=new Date;if(s_code!=' '){s_code=s_dc(
+s_accountName);if(s_code)document.write(s_code)}else
+document.write('<im'+'g src="http://192.168.112.2O7.net/b/ss/'+s_accountName+'/1/F.3-fb/s'+s_tm.getTime()+'?[AQB]'
++'&pageName='+escape(s_wd.s_pageName?s_wd.s_pageName:(s_wd.pageName?s_wd.pageName:''))
++'&server='+escape(s_wd.s_server?s_wd.s_server:(s_wd.server?s_wd.server:''))
++'&ch='+escape(s_wd.s_channel?s_wd.s_channel:(s_wd.channel?s_wd.channel:''))
++'&[AQE]" height="1" width="1" border="0" alt="" />')
+function sendAnalyticsEvent(str){var ns=s_accountName;if(str!=null)ns+=","+str;void(s_gs(ns));}
+//--></SCRIPT>
+<NOSCRIPT><IMG height=1 alt="" 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/F.gif" 
+width=1 border=0></NOSCRIPT><!--/DO NOT REMOVE/--> <!-- End SiteCatalyst code version: F.3. --></DIV><!-- InstanceEndEditable --><IMG 
+id=flash_pixel height=1 alt="" 
+src="Macromedia - Developer Center  An Overview of CSS in Dreamweaver  -1.files/pixel.gif" 
+width=1 name=flash_pixel> <!-- InstanceEnd --></BODY></HTML>

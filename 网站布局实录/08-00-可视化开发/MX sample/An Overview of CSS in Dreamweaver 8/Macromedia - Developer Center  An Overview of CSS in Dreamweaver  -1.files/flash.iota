@@ -1,0 +1,14 @@
+if(do_dw_var){
+document.writeln('<div id="globalnav">');
+document.writeln('	<object id="globalnav-object" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="756" height="134">');
+document.writeln('		<param name="movie" value="/swf/globalnav/globalnav_en_us.swf?fpReqMinor=79" />');
+document.writeln('		<param name="FlashVars" value="loc=en_US&htmlApp=false&gatewayURL=gwurl" />');
+document.writeln('		<param name="bgcolor" value="#ffffff" />');
+document.writeln('		<param name="menu" value="false" />');
+document.writeln('		<param name="quality" value="high" />');
+document.writeln('		<param name="salign" value="tl" />');
+document.writeln('		<param name="scale" value="noscale" />');
+document.writeln('		<embed id="globalnav-embed" src="/swf/globalnav/globalnav_en_us.swf?fpReqMinor=79" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="loc=en_US&htmlApp=false&gatewayURL=gwurl" bgcolor="#ffffff" menu="false" quality="high" salign="tl" scale="noscale" width="756" height="134"></embed>');
+document.writeln('	</object>');
+document.writeln('</div>');
+}

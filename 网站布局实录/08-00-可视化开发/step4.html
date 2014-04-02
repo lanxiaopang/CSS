@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css" media="screen">
+<!--
+@import url("screen.css");
+-->
+</style>
+<style type="text/css" media="print">
+<!--
+@import url("print.css");
+-->
+</style>
+</head>
+
+<body>	
+<div id="layout">
+<h1>ID vs CLASS</h1>
+<p>在使用CSS编写符合Web标准网站的时候，id与class不可避免的出现在我们的XHTML代码及CSS之中。在早期表格式布局的网站中，我们也会应用一部分样式表对网页字体、链接等元素进行基本控制，而在这些早期的设计中，我们对HTML中对象的指派无一例外的使用class定义方式。当设计师开始转向基于Web标准的CSS来构建网站时，id也开始时常出现在页面之中，但对于初学者而言，对于id及class的认识大多数仅存在于对元素的标记上，对于id与class二者之间到底存在着什么样的联系？到底该如何使用id或是class都留下了疑问，在本节中我们将详细探讨有关id与class</p>
+<h2>什么是id？</h2>
+<p>id是XHTML元素的一个属性，用于标识元素名称。无论是class还是id,他们都是XHTML所有对象都支持的一种公共属性，并且也是其中的核心属性。class对于网页来说他的主要功能是用于对象的样式设置，而id他除了可以定义样式，而且能够成为服务于网站交互行为一个特殊标识。每个定义的id名称在使用上要求每个页面中只能出现一次，如当我们在一个div中使用了id=”nav”这样的标识后，在本页中的其它地方，无论是div还是别的对象，我们都不能够再次使用id=”nav”进行定义。id名称是对网页中某一个对象的唯一标识，这种标识用于用户对这个对象进行交互行为的编写(Javascript)及样式定义。如果出现了二个重复的id而且页面中有对此id进行操作的javascript代码的话，javascript就无法正确的判断所要操作的对象的位置从而导致页面错误。不过由于浏览器对XHTML代码的解析是一种宽容的解析方式，因此在实际应用中即使我们重复使用id，并不会造成网页无法被浏览器解析，当然，如果我们使用了重复的id，是没办法通过w3c的页面XHTML代码校验的，但是CSS样式依然可以正常显示。尽管如此，也并不代表我们可以使用重复的id，我们应当尊守XHTML中的实用规范，将每个id名称单独使用。</p>
+</div>
+</body>
+</html>

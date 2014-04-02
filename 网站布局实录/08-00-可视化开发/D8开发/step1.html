@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="header">
+  <h1>IE捉迷藏问题</h1>
+  <ul id="nav" title="aa">
+    <li><a href="www.sohu.com" accesskey="A">首页</a></li>
+    <li><a href="#" accesskey="B">CSS入门</a></li>
+    <li><a href="#" id="current" accesskey="C">CSS高级技巧</a></li>
+    <li><a href="#" accesskey="D">CSS Hack </a></li>
+  </ul>
+</div>
+<div id="layout">
+  <div id="left">
+    <ul id="titlelist">
+      <li>IE捉迷藏</li>
+      <li>UL的不同表现</li>
+      <li>IE 3px问题</li>
+      <li>高度不适应</li>
+      <li>IE断头台问题</li>
+    </ul>
+  </div>
+  <div id="right">
+    <p>捉迷藏问题(<span class="strongText">Peekaboo Bug</span>)是IE浏览器中的一个非常典型的对CSS的支持上的bug，说他是bug毫不为过，捉迷藏问题主要出现在IE6浏览器，当div应用稍显复杂的时候，常常出现的情况是在用于版式布局的时候，有时候当我们制作一个左右二栏的网页，而每个栏中又有一些链接、div等，这个时候容易引发捉迷藏问题，如本例中的代码：</p>
+    <div class="codeview">
+      &lt;div id=&quot;layout&quot;&gt; <br />
+        &lt;div id=&quot;left&quot;&gt;#left&lt;/div&gt; <br />
+        &lt;div id=&quot;right&quot;&gt;#right &lt;/div&gt; <br />
+        &lt;div id=&quot;clear&quot;&gt;bottom&lt;/div&gt; <br />
+      &lt;/div&gt;
+    </div>
+    <p>本例中的XHTML结构代码尝试构建一个二栏式布局，其中#left为左栏，#right为右栏，包含bottom文字的为底部，我们尝试在这样一个结构中加如一些虚假内容：</p>
+    <div class="codeview">&lt;div id=&quot;layout&quot;&gt; <br />
+  &lt;div id=&quot;left&quot;&gt; #left &lt;a href=&quot;#&quot;&gt;链接A&lt;/a&gt; &lt;/div&gt; <br />
+  &lt;div id=&quot;right&quot;&gt; #right&lt;br/&gt; <br />
+      被隐藏的文本&lt;br&gt; <br />
+  &lt;a href=&quot;#&quot;&gt;链接B&lt;/a&gt; &lt;br /&gt; <br />
+  &lt;br /&gt; <br />
+  &lt;div&gt;#right中的div. &lt;a href=&quot;#&quot;&gt;链接C&lt;/a&gt;&lt;/div&gt; <br />
+      #right中的文本. &lt;a href=&quot;#&quot;&gt;链接D&lt;/a&gt; <br />
+  &lt;div&gt;#right中的div. &lt;a href=&quot;#&quot;&gt;链接E&lt;/a&gt;&lt;/div&gt; <br />
+      #right中的文本. &lt;a href=&quot;#&quot;&gt;链接F&lt;/a&gt; &lt;/div&gt; <br />
+  &lt;div id=&quot;clear&quot;&gt;bottom&lt;/div&gt; <br />
+  &lt;/div&gt;</div>
+    <p>接下来就是样式了，为了便于本例bug的显示，我们使用CSS先定制了这些对象的基本属性，然后加粗他们的边框</p>
+  </div>
+</div>
+</body>
+</html>

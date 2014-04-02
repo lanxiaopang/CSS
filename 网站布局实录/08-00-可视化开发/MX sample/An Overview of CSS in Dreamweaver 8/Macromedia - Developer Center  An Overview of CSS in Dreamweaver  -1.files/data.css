@@ -1,0 +1,240 @@
+TABLE {
+	FONT-SIZE: 100%; MARGIN-BOTTOM: 1em; BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+TH {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0.35em; VERTICAL-ALIGN: top; PADDING-TOP: 0.35em
+}
+TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0.35em; VERTICAL-ALIGN: top; PADDING-TOP: 0.35em
+}
+CAPTION {
+	PADDING-BOTTOM: 0.5em
+}
+TD P {
+	MARGIN-TOP: 0px
+}
+TD UL {
+	MARGIN-TOP: 0px
+}
+TABLE.data-meta {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-BOTTOM: 1.5em; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TABLE.data-meta TH {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TABLE.data-meta TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+#contentBody TABLE.data-meta TH {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.1em; VERTICAL-ALIGN: top; PADDING-TOP: 0.1em
+}
+#contentBody TABLE.data-meta TD {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.1em; VERTICAL-ALIGN: top; PADDING-TOP: 0.1em
+}
+#pod TABLE.data-meta TH {
+	PADDING-RIGHT: 0.1em; PADDING-LEFT: 0.1em; PADDING-BOTTOM: 0.3em; PADDING-TOP: 0.3em
+}
+#pod TABLE.data-meta TD {
+	PADDING-RIGHT: 0.1em; PADDING-LEFT: 0.1em; PADDING-BOTTOM: 0.3em; PADDING-TOP: 0.3em
+}
+UNKNOWN {
+	WIDTH: 100%
+}
+TABLE.data-rating {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TABLE.data-rating TH {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TABLE.data-rating TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TABLE.data-rating TD {
+	PADDING-RIGHT: 0.1em; PADDING-LEFT: 0.1em; PADDING-BOTTOM: 0.1em; PADDING-TOP: 0.1em
+}
+TABLE.data-rating TH#first {
+	PADDING-RIGHT: 0em; PADDING-LEFT: 0em; PADDING-BOTTOM: 0em; PADDING-TOP: 0em
+}
+TABLE.data-rating TH#last {
+	PADDING-RIGHT: 0em; PADDING-LEFT: 0em; PADDING-BOTTOM: 0em; PADDING-TOP: 0em
+}
+TABLE.data-rating TD#first {
+	PADDING-LEFT: 1.2em
+}
+TABLE.data-rating TD#last {
+	PADDING-RIGHT: 1.2em
+}
+#contentBody TABLE.admin TH {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0.1em; VERTICAL-ALIGN: top; PADDING-TOP: 0.1em
+}
+#contentBody TABLE.admin TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0.1em; VERTICAL-ALIGN: top; PADDING-TOP: 0.1em
+}
+TABLE {
+	BORDER-RIGHT: #7b8689 1px solid; BORDER-BOTTOM: #7b8689 1px solid
+}
+TH {
+	BORDER-TOP: #7b8689 1px solid; BORDER-LEFT: #7b8689 1px solid
+}
+TD {
+	BORDER-TOP: #7b8689 1px solid; BORDER-LEFT: #7b8689 1px solid
+}
+TD.nodata {
+	BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 1px solid
+}
+TD.data-none {
+	BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 1px solid
+}
+TABLE.data-meta TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+#pod TABLE.data-rating TH {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TABLE.data-rating TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TABLE.pckgDetail {
+	BORDER-RIGHT: medium none; WIDTH: 99%; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+ HTML TABLE.pckgDetail {
+	WIDTH: 93%
+}
+TABLE.pckgDetail TH {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+TABLE.pckgDetail TD {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+TBODY.pckg-ovw TD {
+	BORDER-LEFT: medium none
+}
+TBODY.pckg-ovw TD {
+	BORDER-TOP: #7b8689 1px solid; PADDING-TOP: 2em! important
+}
+TBODY.pckg-calc TH {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TBODY.pckg-calc TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+TBODY.pckg-calc TH {
+	FONT: bold 1em Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+TBODY.pckg-config TH {
+	BORDER-RIGHT: #7b8689 1px solid; BORDER-BOTTOM: #7b8689 1px solid
+}
+TBODY.pckg-config TD {
+	BORDER-RIGHT: #7b8689 1px solid; BORDER-BOTTOM: #7b8689 1px solid
+}
+ HTML TBODY.pckg-config TH {
+	BORDER-LEFT: #7b8689 1px solid
+}
+ HTML TBODY.pckg-config TD {
+	BORDER-LEFT: #7b8689 1px solid
+}
+TBODY.pckg-config TH {
+	BORDER-TOP: #7b8689 1px solid
+}
+TBODY.pckg-config TD {
+	BORDER-TOP: medium none
+}
+UNKNOWN {
+	BORDER-LEFT-STYLE: none
+}
+TBODY.pckg-config TH:unknown {
+	BORDER-LEFT: #7b8689 1px solid
+}
+TBODY.pckg-config TD:unknown {
+	BORDER-LEFT: #7b8689 1px solid
+}
+TR.data-split TH {
+	BORDER-TOP: #7b8689 1px solid; PADDING-TOP: 2em
+}
+TR.data-split TD {
+	BORDER-TOP: #7b8689 1px solid; PADDING-TOP: 2em
+}
+.data-priceTotal TH {
+	FONT: bold 1.2em Arial, Helvetica, sans-serif
+}
+.data-priceTotal TD {
+	FONT: bold 1.2em Arial, Helvetica, sans-serif
+}
+.data-num {
+	TEXT-ALIGN: right
+}
+.data-percent {
+	TEXT-ALIGN: right
+}
+.data-percent {
+	WIDTH: 2.5em
+}
+.data-time {
+	WHITE-SPACE: nowrap
+}
+TABLE.priceData-compact {
+	BORDER-RIGHT: medium none; MARGIN-BOTTOM: 1.5em; BORDER-BOTTOM: medium none
+}
+TABLE.priceData-compact TH {
+	PADDING-RIGHT: 8px; BORDER-TOP: medium none; PADDING-LEFT: 8px; PADDING-BOTTOM: 1px; BORDER-LEFT: medium none; LINE-HEIGHT: 1.35em; PADDING-TOP: 2px; BORDER-BOTTOM: #edeff0 1px solid
+}
+TABLE.priceData-compact TD {
+	PADDING-RIGHT: 8px; BORDER-TOP: medium none; PADDING-LEFT: 8px; PADDING-BOTTOM: 1px; BORDER-LEFT: medium none; LINE-HEIGHT: 1.35em; PADDING-TOP: 2px; BORDER-BOTTOM: #edeff0 1px solid
+}
+TABLE.priceData-compact TH {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: normal; PADDING-BOTTOM: 2px; PADDING-TOP: 0px
+}
+ HTML TABLE.priceData-compact TH {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; PADDING-TOP: 0px
+}
+.partial-width DIV.columns-2-AB-A TABLE.priceData-compact {
+	MARGIN-LEFT: -8px; WIDTH: 267px; MARGIN-RIGHT: -8px
+}
+.partial-width DIV.columns-2-AB-B TABLE.priceData-compact {
+	MARGIN-LEFT: -8px; WIDTH: 267px; MARGIN-RIGHT: -8px
+}
+ HTML TABLE.priceData-compact TD {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+UNKNOWN {
+	WIDTH: 100%
+}
+UNKNOWN {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+BR.sf-mb {
+	DISPLAY: none
+}
+BR.sf-mb:unknown {
+	DISPLAY: block
+}
+ HTML TABLE.max {
+	WIDTH: 94%! important
+}
+UNKNOWN {
+	WIDTH: 100%! important
+}
+UNKNOWN {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 100%; BORDER-BOTTOM: medium none
+}
+.options-pod#pricing-pod TABLE {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.options-pod#pricing-pod TH {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 1ex; BORDER-TOP: medium none; PADDING-LEFT: 0px; FONT-SIZE: 1em; PADDING-BOTTOM: 0.2em; BORDER-LEFT: medium none; LINE-HEIGHT: 1.35em; PADDING-TOP: 0.2em; BORDER-BOTTOM: medium none; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent
+}
+.options-pod#pricing-pod TD {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 1ex; BORDER-TOP: medium none; PADDING-LEFT: 0px; FONT-SIZE: 1em; PADDING-BOTTOM: 0.2em; BORDER-LEFT: medium none; LINE-HEIGHT: 1.35em; PADDING-TOP: 0.2em; BORDER-BOTTOM: medium none; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: transparent
+}
+#pricing-pod .price {
+	FONT-WEIGHT: bold
+}
+ HTML .options-pod#pricing-pod .op-body {
+	PADDING-BOTTOM: 1.35em
+}
+ HTML .options-pod#pricing-pod TABLE {
+	WIDTH: 93%
+}
