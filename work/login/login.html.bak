@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title> </title>
+<!--[if lte IE 6]>
+<script src="DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('*,div, ul,span, img, li, input , a');
+    </script>
+<![endif]--> 
+<!---->
+<style>
+	*{
+		margin:0 auto;
+		padding:0px;
+  }
+	body{
+		width:100%;
+		height:auto;
+		background:url(images/background.jpg) no-repeat;
+	}
+	img{
+		border:0px;
+ 	}
+ 	ul,li{list-style:none;}
+	.logo{
+		width:838px;
+		height:150px;
+		background:url(images/logo.png) no-repeat;
+		margin-left:5%;
+		margin-top:5%;
+		}
+	.main_content{
+		width:361px;
+		height:280px;
+		float:right;	
+		margin-right:8%;	
+		margin-top:3%;
+	}
+	.login{
+		width:361px;
+		height:200px;
+		background:url(images/login.png) no-repeat;	
+		vertical-align:top;
+		display: inline-block;
+	}
+	.fill{
+		width:175px;
+		height:64px;
+		margin-left:135px;		
+		margin-top:68px;		
+	}
+	.box{
+		width:173px;
+		height:27px;
+		float:right;
+		margin-bottom:8px;
+	  border:0; 
+	  background-color:transparent;
+	}
+	.btn{
+		width:200px;
+		height:24px;
+		margin-left:135px;
+	}
+	.btn li{
+		width:67px;
+		height:24px;
+		padding-left:15px;
+		padding-top:10px;
+		float:left;
+		}
+	.message{
+		width:361px;
+		height:80px;
+		padding:10px;
+	}
+	.message span{
+		color:#ffff00;
+	}
+</style>
+</head>
+
+<body>
+  <div class="logo">
+  </div>
+  <div class="main_content">
+		<div class="login">
+			<div class="fill">
+				<input name="" type="text" class="box" value="" maxlength="30" />   
+				<br/>
+				<input name="" type="password" class="box" value="" maxlength="20" />
+			</div>
+			<div class="btn">
+				<ul>
+					<li>
+						<a href="#"><img src="images/btn_login.gif"/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/btn_cancel.gif"/></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="message">
+			<span>
+				This account does not exist in the system.Make sure you enter the correct account!
+			</span>
+		</div>
+	</div>
+</body>
+</html>
