@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> :child </title>
+	<style type="text/css">
+		/* 定义对作为其父元素的第一个子节点的li元素起作用的CSS样式 */
+		li:first-child {
+			border: 1px solid black;
+		}
+		/* 定义对作为其父元素的最后一个子节点的li元素起作用的CSS样式 */
+		li:last-child {
+			background-color: #aaa;
+		}
+		/* 定义对作为其父元素的第2个子节点的li元素起作用的CSS样式 */
+		li:nth-child(2){
+			color: #888;
+		}
+		/* 定义对作为其父元素的倒数第2个子节点的li元素起作用的CSS样式 */
+		li:nth-last-child(2){
+			font-weight: bold; 
+		}
+		/* 定义对作为其父元素的唯一的子节点的span元素起作用的CSS样式 */
+		span:only-child {
+			font-size: 30pt;
+			font-family: "隶书";
+		}
+	</style>
+</head>
+<body>
+<ol>
+	<li>www.crazyit.org</li>
+	<li>www.fkjava.org</li>
+	<li>www.facejava.org</li>
+	<li>疯狂Java联盟</li>
+	<li>疯狂软件教育中心</li>
+</ol>
+<ul>
+	<li id="java">疯狂Java讲义</li>
+	<li id="javaee">轻量级Java EE企业应用实战</li>
+	<li id="ajax">疯狂Ajax讲义</li>
+	<li id="xml">疯狂XML讲义</li>
+	<li id="ejb">经典Java EE企业应用实战</li>
+	<li><span id="android">疯狂Android讲义</span></li>
+</ul>
+<span>疯狂Java联盟</span>
+</body>
+</html>

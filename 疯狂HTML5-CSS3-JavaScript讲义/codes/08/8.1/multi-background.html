@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title>背景相关属性</title>
+	<style type="text/css">
+	/* 为div元素增加边框 */
+	div#div1{
+		border:1px solid #000;
+		height: 160px;
+		width: 500px;
+		/* 依次指定了3个背景图片 */
+		background-image: url(snow.gif), url(face.gif), url(sky.gif);
+		/* 依次指定了3个背景图片的重复方式：纵向重复、横向重复、两个方向重复 */
+		background-repeat: repeat-y, repeat-x, repeat;
+		/* 依次指定了3个背景图片的位置 */
+		background-position: center top, left center, left top;
+	}
+	</style>
+</head>
+<body>
+<div id="div1"></div>
+</body>
+</html>

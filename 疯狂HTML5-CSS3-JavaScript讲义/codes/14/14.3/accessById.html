@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 根据ID访问HTML元素 </title>
+	<script type="text/javascript">
+		var accessById = function()
+		{
+			alert(document.getElementById("a").innerHTML + "\n"
+			+ document.getElementById("b").value);
+		}
+	</script>
+	</head>
+<body>
+	<div id="a">疯狂Java讲义</div>
+	<textarea id="b" rows="3" cols='25'>轻量级Java EE企业应用实战
+		</textarea>
+	<input type="button" value="访问2个元素" onclick="accessById();"/>
+</body>
+</html>

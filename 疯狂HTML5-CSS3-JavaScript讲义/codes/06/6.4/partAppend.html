@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> new document </title>
+	<style type="text/css">
+		/* 指定对于class属性为no的div元素内部的尾端插入content属性对应的内容 */
+		div>div.no:after{
+			content: url("buy.gif");
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<div class="no">疯狂Java讲义</div>
+	<div class="no">疯狂Android讲义</div>
+	<div>轻量级Java EE企业应用实战</div>
+	</div>
+</body>
+</html>

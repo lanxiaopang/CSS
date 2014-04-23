@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> matrix变形 </title>
+	<style type="text/css">
+		div {
+			position: absolute;
+			width: 120px;
+			height: 120px;
+			background-color: #bbb;
+			border: 2px solid black;
+		}
+		div.a {
+			left: 50px;
+			top: 50px;
+		}
+		div.b {
+			left: 50px;
+			top: 200px;
+		}
+	</style>
+</head>
+<body>
+<div class="a">
+未变换之前
+</div>
+<div class="a"
+style="-moz-transform-origin:left top;-moz-transform:matrix(1, 0, 0, 1, 80px, -30px);
+	-webkit-transform-origin:left top;-webkit-transform::matrix(1, 0, 0, 1, 80px, -30px);
+	-o-transform-origin:left top;-o-transform::matrix(1, 0, 0, 1, 80px, -30px);">
+左上角为变换中心,仅仅位移
+</div>
+<div class="b">
+未变换之前
+</div>
+<div class="b"
+style="-moz-transform:matrix(1.5, 0, 0, 0.6, 0px, 0px);
+	-webkit-transform::matrix(1.5, 0, 0, 0.6, 0px, 0px);
+	-o-transform::matrix(1.5, 0, 0, 0.6, 0px, 0px);">
+缩放1.5, 0.6
+</div>
+</body>
+</html>

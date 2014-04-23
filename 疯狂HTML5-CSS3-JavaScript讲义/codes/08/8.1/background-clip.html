@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title>背景相关属性</title>
+	<style type="text/css">
+	/* 为div元素增加边框 */
+	div{
+		border:10px dotted #444;
+		padding: 12px;
+		height: 30px;
+		width: 200px;
+	}
+	</style>
+</head>
+<body>
+background-image:url(wjc.gif)
+<div style="background-image:url(wjc.gif);">测试文字</div>
+background-image:url(wjc.gif);background-clip:no-clip;
+<div style="background-image:url(wjc.gif);
+background-clip:no-clip;">测试文字</div>
+background-image:url(wjc.gif);background-clip:padding-box;
+<div style="background-image:url(wjc.gif);
+background-clip:padding-box;">测试文字</div>
+background-image:url(wjc.gif);background-clip:content-box;
+<div style="background-image:url(wjc.gif);
+background-clip:content-box;">测试文字</div>
+</body>
+</html>

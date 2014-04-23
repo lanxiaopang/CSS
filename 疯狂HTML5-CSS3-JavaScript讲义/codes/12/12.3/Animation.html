@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> Animation动画 </title>
+	<style type="text/css">
+	/* 定义一个关键帧 */
+	@-webkit-keyframes 'fkjava' {
+		/* 定义动画开始处的关键帧 */
+		0% {
+			left: 100px;
+		}
+		/* 定义动画进行40%时的关键帧 */
+		40% {
+			left: 150px;
+		}
+		/* 定义动画进行60%时的关键帧 */
+		60% {
+			left: 75px;
+		}
+		/* 定义动画进行100%时的关键帧 */
+		100% {
+			left: 100px;
+		}
+	}
+	/* 为div元素定义CSS样式 */
+	div{
+		background-color: #ddd;
+		border: 1px solid black;
+		position: absolute;
+		left: 100px;
+		width: 60px;
+		height: 60px;
+	}
+	/* 为鼠标悬停的div元素定义CSS样式 */
+	div:hover {
+		/* 指定执行fkjava动画 */
+		-webkit-animation-name: 'fkjava';
+		/* 指定动画的执行时间 */
+		-webkit-animation-duration: 5s;
+		/* 指定动画的循环次数为1 */
+		-webkit-animation-iteration-count: 1;
+	}
+	</style>
+</head>
+<body>
+<div>鼠标悬停、开始动画</div>
+</body>
+</html>

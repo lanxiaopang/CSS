@@ -1,0 +1,18 @@
+<script type="text/javascript">
+	// 定义一个函数
+	var myfun = function(a , b)
+	{
+		alert("a的值是：" + a
+			+ "\nb的值是：" + b);
+	}
+	// 以call()方法动态地调用函数
+	myfun.call(window , 12 , 23);
+	var example = function(num1 , num2)
+	{
+		// 直接用arguments代表调用example函数时传入的所有参数
+		myfun.apply(this, arguments);
+	}
+	example(20 , 40);
+	// 为apply()动态调用传入数组
+	myfun.apply(window , [12 , 23]);
+</script>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> output元素 </title>
+</head>
+<body>
+<form action="do">
+<input id="color1" name="color1" type="color"/>
+<output name="a" for="color1" onforminput="innerHTML=color1.value;"></output><p>
+<input id="range1" name="range1" type="range" min="0" max="100" step="5"/>
+<output name="b" for="range1" onforminput="innerHTML=range1.value;"></output><p>
+<input value="提交" type="submit"/>
+</form>
+</body>
+</html>

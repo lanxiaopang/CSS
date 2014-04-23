@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 子选择器 </title>
+	<style type="text/css">
+	/* 对所有的div元素起作用的CSS样式 */
+	div {
+		width:350px;
+		height:60px;
+		background-color:#ddd;
+		margin:5px;
+	}
+	/* 对处于div之内、且class属性为a的元素起作用的CSS样式*/
+	div>.a {
+		width:200px;
+		height:35px;
+		border:2px dotted black;
+		background-color:#888;
+	}
+	</style>
+</head>
+<body>
+<div>没有任何属性的div元素</div>
+<div><p class="a">class属性为a、且是div子节点的元素</p></div>
+<div><section><p class="a">class属性为a、且处于div内部的元素</p></section></div>
+</body>
+</html>

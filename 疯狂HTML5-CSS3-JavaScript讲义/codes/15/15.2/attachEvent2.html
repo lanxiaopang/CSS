@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 使用attachEvent绑定事件处理函数 </title>
+</head>
+<body>
+	<input type="button" id="bn1" name="bn1" value="单击我" />
+	<script type="text/javascript">
+	var test = function()
+	{
+		alert("单击按钮");
+	}
+	var haha = function()
+	{
+		alert("haha函数也被触发");
+	}
+	// 使用attachEvent绑定事件处理函数
+	document.getElementById("bn1")
+		.attachEvent("onclick" , test);
+	// 使用attachEvent绑定事件处理函数
+	document.getElementById("bn1")
+		.attachEvent("onclick" , haha);
+</script>
+</body>
+</html>

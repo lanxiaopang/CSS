@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 可拖动的Div </title>
+</head>
+<body>
+<div id="source" style="width:80px;height:80px;
+	border:1px solid black;
+	background-color: #bbb;"
+	draggable="true">疯狂软件教育</div>
+<script type="text/javascript">
+	var source = document.getElementById("source");
+	source.ondragstart = function(evt)
+	{
+		// 让拖动操作携带数据
+		evt.dataTransfer.setData("text/plain" , "www.fkjava.org");
+	}
+	document.ondragover = function(evt)
+	{
+		// 取消事件的默认行为
+		return false;
+	}
+</script>
+</body>
+</html>

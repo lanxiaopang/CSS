@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title>背景相关属性</title>
+	<style type="text/css">
+	/* 为div元素增加边框 */
+	div{
+		border:1px solid #000;
+		height: 50px;
+		width: 200px;
+	}
+	</style>
+</head>
+<body>
+background-image:url(wjc.gif)
+<div style="background-image:url(wjc.gif);"></div>
+background-image:url(wjc.gif);background-size:100% 80%;
+(背景图片的宽度与组件宽度相同、高度为组件高度的80％)
+<div style="background-image:url(wjc.gif);
+-webkit-background-size:100% 80%;background-size:100% 80%;"></div>
+background-image:url(wjc.gif);background-size:20% auto;
+(背景图片的宽度为组件宽度20%、高度保持纵横比缩放)
+<div style="background-image:url(wjc.gif);
+-webkit-background-size:20% auto;background-size:20% auto;"></div>
+background-image:url(wjc.gif);background-size:auto 50%;
+(背景图片的宽度保持纵横比缩放、高度为组件宽度50%)
+<div style="background-image:url(wjc.gif);
+-webkit-background-size:auto 50%;background-size:auto 50%;"></div>
+background-image:url(wjc.gif);;background-size:60px 30px;
+(背景图片的宽度为60px、高度为30px)
+<div style="background-image:url(wjc.gif);
+-webkit-background-size:60px 30px;background-size:60px 30px;"></div>
+background-image:url(wjc.gif);background-size:40px auto;
+(背景图片的宽度为40px，高度保持纵横比缩放)
+<div style="background-image:url(wjc.gif);
+-webkit-background-size:40px auto;background-size:40px auto;"></div>
+background-image:url(wjc.gif);background-size:auto 50%;
+(背景图片的宽度保持纵横比缩放、高度为组件宽度20px)
+<div style="background-image:url(wjc.gif);
+-webkit-background-size:auto 20px;background-size:auto 20px;"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+CACHE MANIFEST
+#该文件的第一行必须是CACHE MANIFEST
+#下面指定该清单文件的版本号
+#version 1
+#CACHE:后面列出的是需要缓存的资源
+CACHE:
+index.html
+logo.jpg
+#NETWORK:后面列出的不进行缓存的资源
+NETWORK:
+*
+#FALLBACK:后面每行需要列出两个资源。
+#第一个资源是处于在线状态时使用的资源。
+#第二个资源是处于离线状态时所使用的资源。
+FALLBACK:
+test.js offline.js

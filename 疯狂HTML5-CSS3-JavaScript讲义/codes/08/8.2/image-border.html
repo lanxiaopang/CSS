@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 图片边框 </title>
+	<style type="text/css">
+		/* 设置div元素的宽度和高度 */
+		div {
+			width:400px;
+			height:45px;
+		}
+	</style>
+</head>
+<body>
+border-image: url(border.png) 27
+<div style="-o-border-image: url(border.png) 27;
+-moz-border-image: url(border.png) 27;
+-webkit-border-image: url(border.png) 27;
+">默认边框宽度</div>
+border-image: url(border.png) 27/27px
+<div style="-o-border-image: url(border.png) 27/27px;
+-moz-border-image: url(border.png) 27/27px;
+-webkit-border-image: url(border.png) 27/27px;
+">指定边框宽27px，默认是拉伸边框图片</div>
+border-image: url(border.png) 27/27px repeat
+<div style="-o-border-image: url(border.png) 27/27px repeat;
+-moz-border-image: url(border.png) 27/27px repeat;
+-webkit-border-image: url(border.png) 27/27px repeat;
+">指定边框宽27px，平铺边框图片</div>
+border-image: url(border.png) 27/27px round;
+<div style="-o-border-image: url(border.png) 27/27px round;
+-moz-border-image: url(border.png) 27/27px round;
+-webkit-border-image: url(border.png) 27/27px round;
+">指定边框宽27px，round方式平铺边框图片</div>
+border-image: url(border.png) 27/27px stretch round;
+<div style="-o-border-image: url(border.png) 27/27px stretch round;
+-moz-border-image: url(border.png) 27/27px stretch round;
+-webkit-border-image: url(border.png) 27/27px stretch round;
+">指定边框宽27px，横向stretch方式覆盖边框图片，
+纵向round方式平铺图片</div>
+</body>
+</html>

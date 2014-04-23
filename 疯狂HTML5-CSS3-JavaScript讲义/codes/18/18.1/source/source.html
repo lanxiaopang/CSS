@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 跨文档发送消息 </title>
+	<script type="text/javascript">
+	var send = function() 
+	{
+		// 打开一个新窗口
+		var targetWin = window.open('http://localhost:8888/target/target.html'
+			,'_blank','width=400,height=300');    //①
+		// 等该窗口装载完成时，向该窗口发送消息
+		targetWin.onload = function ()
+		{ 
+			// 向http://localhost:8888/target发送消息
+			targetWin.postMessage(document.getElementById("msg").value
+				, "http://localhost:8888/target");    //②
+		}
+	}
+	// 通过onmessage监听器监听其他窗口发送回来的消息
+	window.onmessage = function(ev) 
+	{
+		// 忽略来自其他域名的跨文档消息（只接受http://localhost:8888的消息）
+		if (ev.origin != "http://localhost:8888") 
+		{
+			return;
+		}
+		var show = document.getElementById("show");
+		// 显示消息
+		show.innerHTML += (ev.origin + "传来了消息:" + ev.data + "<br/>");
+	};
+	</script>
+</head>
+<body>
+	消息：<input type="text" id="msg" name="msg"/>
+	<button onclick="send();">发送消息</button>
+	<div id="show"></div>
+</body>
+</html>

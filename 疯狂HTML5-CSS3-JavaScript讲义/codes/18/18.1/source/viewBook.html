@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 选择图书 </title>
+	<script type="text/javascript">
+		var chooseBook = function()
+		{
+			// 打开一个新窗口
+			var targetWin = window.open('http://localhost:8888/target/chooseBook.html'
+				,'_blank','width=510,height=300');
+			// 等该窗口装载完成时，向该窗口发送消息
+			targetWin.onload = function ()
+			{ 
+				var data = [
+					{
+						name : '疯狂Java讲义',
+						price : 109,
+						author : 'yeeku'
+					},
+					{
+						name : '疯狂Android讲义',
+						price : 89,
+						author : 'yeeku'
+					},
+					{
+						name : '轻量级Java EE企业应用实战',
+						price : 99,
+						author : 'yeeku'
+					}
+				];
+				// 向http://localhost:8888/target发送消息
+				targetWin.postMessage(data
+					, "http://localhost:8888/target");    //①
+			}
+		}
+	// 通过onmessage监听器监听其他窗口发送回来的消息
+	window.onmessage = function(ev) 
+	{
+		// 忽略来自其他域名的跨文档消息（只接受http://localhost:8888的消息）
+		if (ev.origin != "http://localhost:8888") 
+		{
+			return;
+		}
+		var show = document.getElementById("result");
+		// 显示消息
+		show.innerHTML = ("您选择的图书为：<br/>"
+			+ "书名：" + ev.data.name + "<br/>"
+			+ "价格：" + ev.data.price + "<br/>"
+			+ "作者：" + ev.data.author + "<br/>");
+	};
+	</script>
+</head>
+<body>
+<a href="#" onclick="chooseBook();">选择图书</a>
+<div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title>轮廓相关属性测试</title>
+	<style type="text/css">
+		body {
+			font-size: 24pt;
+		}
+		/* 设置div元素的宽度和高度 */
+		div {
+			font-size: 12pt;
+			width: 400px;
+			height: 60px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+outline: rgba(50,50,50,0.5) solid 10px
+<div style="outline: rgba(50,50,50,0.5) solid 10px;">
+宽度为10的灰色实线轮廓</div>
+outline: rgba(50,50,50,0.5) groove 16px
+<div style="outline: rgba(50,50,50,0.5) groove 16px;">
+宽度为16的灰色凹槽线轮廓</div>
+outline: rgba(50,50,50,0.5) ridge 16px
+<div style="outline: rgba(50,50,50,0.5) ridge 16px;">
+宽度为16的灰色凸槽线轮廓</div>
+outline: rgba(50,50,50,0.5) ridge 10px;outline-offset:10px;
+<div style="outline: rgba(50,50,50,0.5) ridge 10px;
+	outline-offset:10px;">
+宽度为10、偏移距也为10的灰色虚线轮廓</div>
+</body>
+</html>

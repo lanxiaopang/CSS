@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 通过属性进行校验 </title>
+</head>
+<body>
+<form action="add">
+	图书名：<input id="name" name="name" type="text" required/><br/>
+	图书ISBN：<input id="isbn" name="isbn" type="text"
+		required pattern="\d{3}-\d-\d{3}-\d{5}"/><br/>
+	图书价格：<input id="price" name="price" type="number" 
+		min="20" max="150" step="5"/><br/>
+	<input type="submit" value="提交" onclick="check();"/>
+</form>
+<script type="text/javascript">
+	var check = function()
+	{
+		if(!document.getElementById("name").checkValidity())
+		{
+			document.getElementById("name").setCustomValidity("图书名是必填的！");
+		}
+		if(!document.getElementById("isbn").checkValidity())
+		{
+			document.getElementById("isbn").setCustomValidity("图书ISBN必须填写，"
+				+ "\n而且必须符合xxx-x-xxx-xxxxx的格式（其中x代表数字）。");
+		}
+		if(!document.getElementById("price").checkValidity())
+		{
+			document.getElementById("price").setCustomValidity("图书价格必须填写，"
+				+ "\n而且必须在20~150之间，且是5的倍数。");
+		}
+	};
+</script>
+</body>
+</html>

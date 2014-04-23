@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 表格相关属性 </title>
+	<style type="text/css">
+	table {
+		table-layout: fixed;
+		border-collapse:collapse;
+		border: 1px solid black;
+	}
+	td {
+		background-color:#ccc;
+		border: 1px solid black;
+	}
+	</style>
+</head>
+<body>
+表格的宽度将由两个col元素出来
+<table>
+	<!-- 表格的宽度将由如下两个col元素计算出来 -->
+	<col style="width:240px"/>
+	<col style="width:80px"/>
+	<tr>
+		<td>疯狂Java讲义</td>
+		<td>轻量级Java EE企业应用实战</td>
+	</tr>
+	<tr>
+		<td>疯狂Android讲义</td>
+		<td>经典Java EE企业应用实战</td>
+	</tr>
+</table>
+表格的宽度将由如下第一行的单元格的宽度计算出来
+<table>
+	<tr>
+		<!-- 表格的宽度将由如下第一行的单元格的宽度计算出来 -->
+		<td style="width:80px">疯狂Java讲义</td>
+		<td style="width:300px">轻量级Java EE企业应用实战</td>
+	</tr>
+	<tr>
+		<td>疯狂Android讲义</td>
+		<td>经典Java EE企业应用实战</td>
+	</tr>
+</table>
+每列将会平均分配该表格的宽度
+<!-- 每列将会平均分配该表格的宽度 -->
+<table style="width:300px">
+	<tr>
+		<td>疯狂Java讲义</td>
+		<td>轻量级Java EE企业应用实战</td>
+	</tr>
+	<tr>
+		<td>疯狂Android讲义</td>
+		<td>经典Java EE企业应用实战</td>
+	</tr>
+</table>
+</body>
+</html>

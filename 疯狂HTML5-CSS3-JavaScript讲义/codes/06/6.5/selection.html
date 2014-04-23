@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> UI元素状态的伪类选择器 </title>
+	<style type="text/css">
+		td {
+			border:1px solid black;
+			padding:4px;
+		}
+		/* 为有内容被选择的元素设置CSS样式 */
+		::selection {
+			background-color: red;
+			color: white;
+		}
+		/* 专为基于Gecko内核浏览器指定CSS样式：
+		为有内容被选择的元素设置CSS样式 */
+		::-moz-selection {
+			background-color: red;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<table style="width:400px;border-collapse:collapse">
+	<tr>
+		<td>疯狂Java讲义</td><td>109</td>
+	</tr>
+	<tr>
+		<td>轻量级Java EE企业应用实战</td><td>89</td>
+	</tr>
+	<tr contentEditable="true">
+		<td>疯狂Android讲义</td><td>89</td>
+	</tr>
+</table>
+<input type="text" readonly value="只读的文本框"/>
+<input type="text" value="可读写的文本框"/>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> :first-letter </title>
+	<style type="text/css">
+		span {
+			display:block;
+		}
+		/* span元素里第一个字母加粗、变蓝
+		由于span是内联元素，因此需要先把span的display设为block
+		*/
+		span:first-letter{
+			color:#f00;
+			font-size:20pt;
+		}
+		/* section元素里第一个字母加粗、变蓝 */
+		section:first-letter{
+			color:#00f;
+			font-size:30pt;
+			font-weight:bold;
+		}
+		/* p元素里第一个字母加粗、变蓝 */
+		p:first-letter{
+			color:#00f;
+			font-size:40pt;
+			font-weight:bold;
+		}
+	</style>
+</head>
+<body>
+<span>abc</span>
+<section>其实我是一个程序员</section>
+<p>疯狂Java讲义</p>
+</body>
+</html>

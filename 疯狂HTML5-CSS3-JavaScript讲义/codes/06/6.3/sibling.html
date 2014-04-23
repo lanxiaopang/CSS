@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> E~F伪类选择器 </title>
+	<style type="text/css">
+		/* 匹配id为android的元素后面、class属性为long的兄弟节点 */
+		#android ~ .long{
+			background-color: #00FF00;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<div>疯狂Java讲义</div>
+	<div class="long">轻量级Java EE企业应用实战</div>
+	<div id="android">疯狂Android讲义</div>
+	<p class="long">经典Java EE企业应用实战</p>
+	<div class="long">JavaScript权威指南</div>
+</div>
+</body>
+</html>

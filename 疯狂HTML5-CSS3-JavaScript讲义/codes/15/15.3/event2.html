@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 跨浏览器访问事件 </title>
+</head>
+<body>
+	<button id="a">按钮</button>
+	<script type="text/javascript">
+	// 定义一个形参evt
+	var clickHandler = function(evt)
+	{
+		// 对于DOM事件模型，访问事件源用target属性
+		if (evt)
+		{
+			alert(evt.target.innerHTML);
+		}
+		// 对于IE浏览器
+		else
+		{
+			alert(window.event.srcElement.innerHTML);
+		}
+	}
+	// 为按钮a绑定事件处理器
+	document.getElementById("a").onclick = clickHandler;
+	</script>
+</body>
+</html>

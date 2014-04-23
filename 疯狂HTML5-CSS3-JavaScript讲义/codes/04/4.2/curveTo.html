@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> curveTo示意 </title>
+</head>
+<body>
+<h2> curveTo示意 </h2>
+<canvas id="mc" width="420" height="280"
+	style="border:1px solid black"></canvas>
+<script type="text/javascript">
+	/*
+		该方法负责绘制花朵。
+		n：该参数控制花朵的花瓣数。
+		dx、dy：控制花朵的位置。
+		size：控制花朵的大小
+		length：控制花瓣的长度
+	*/
+	function createFlower(context , n , dx , dy , size , length)
+	{
+		// 开始创建路径  
+		context.beginPath(); 
+		context.moveTo(dx , dy + size);
+		var dig = 2 * Math.PI / n;
+		for(var i = 1; i < n + 1 ; i++) 
+		{
+			// 结算控制点坐标
+			var ctrlX = Math.sin((i - 0.5) * dig) * length + dx;
+			var ctrlY= Math.cos((i - 0.5 ) * dig) * length + dy;
+			// 结算结束点的坐标
+			var x = Math.sin(i * dig) * size + dx;
+			var y = Math.cos(i * dig) * size + dy; 
+			// 绘制二次曲线
+			context.quadraticCurveTo(ctrlX , ctrlY , x , y);
+		}
+		context.closePath();  
+	}
+	// 获取canvas元素对应的DOM对象
+	var canvas = document.getElementById('mc');
+	// 获取在canvas上绘图的CanvasRenderingContext2D对象
+	var ctx = canvas.getContext('2d');
+	// 绘制5瓣的花朵
+	createFlower(ctx , 5 , 70 , 100 , 30 , 80);
+	ctx.fillStyle = "#f00";
+	ctx.fill();
+	// 绘制6瓣的花朵
+	createFlower(ctx , 6 , 200 , 100 , 30 , 80);
+	ctx.fillStyle = "#ff0";
+	ctx.fill();
+	// 绘制7瓣的花朵
+	createFlower(ctx , 7 , 330 , 100 , 30 , 80);
+	ctx.fillStyle = "#f0f";
+	ctx.fill();
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 删除列表项 </title>
+</head>
+<body>
+	<input id="opValue" type="text"/>
+	<input id="add" type="button" value="增加"
+		onclick="add();"/>
+	<input id="del" type="button" value="删除"
+		onclick="del();"/><br />
+	<select id="show" size="8" style="width:120px;">
+	</select>
+	<script type="text/javascript">
+		var show = document.getElementById("show");
+		// 增加下拉列表选项的函数
+		var add = function()
+		{
+			// 以文本框的值创建一个<option.../>元素
+			var op = new Option(document
+				.getElementById('opValue').value);
+			//增加选项
+			show.options[show.options.length] = op;
+		}
+		var del = function()
+		{
+			// 如果有选项
+			if(show.options.length > 0)
+			{
+				// 删除最后的一个选项
+				show.remove(show.options.length - 1);
+			}
+		}
+	</script>
+</body>
+</html>

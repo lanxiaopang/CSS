@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 画图入门 </title>
+</head>
+<body>
+<h2> 画图入门 </h2>
+<canvas id="mc" width="300" height="180"
+	style="border:1px solid black"></canvas>
+<script type="text/javascript">
+	// 获取canvas元素对应的DOM对象
+	var canvas = document.getElementById('mc');
+	// 获取在canvas上绘图的CanvasRenderingContext2D对象
+	var ctx = canvas.getContext('2d');
+	// 设置填充颜色
+	ctx.fillStyle = '#f00';
+	// 绘制矩形
+	ctx.fillRect(30 , 40 , 80 , 100);
+</script>
+</body>
+</html>

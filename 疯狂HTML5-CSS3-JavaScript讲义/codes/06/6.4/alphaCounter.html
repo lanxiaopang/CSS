@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 自定义编号 </title>
+	<style type="text/css">
+		/* 为div的子div元素定义了一个计数器：mycounter */
+		div>div{
+			counter-increment: mycounter;
+		}
+		/* 在div的子div元素的前端插入自定义风格的mycounter计数器  */
+		div>div:before{
+			content: '第' counter(mycounter , lower-greek) '本.';
+			font-size: 20pt;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<div>疯狂Java讲义</div>
+	<div>疯狂Android讲义</div>
+	<div>轻量级Java EE企业应用实战</div>
+	</div>
+</body>
+</html>
+ 

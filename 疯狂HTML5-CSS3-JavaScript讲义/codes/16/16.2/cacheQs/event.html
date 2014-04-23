@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML>
+<html manifest="event.manifest">
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 测试applicationCache事件 </title>
+	<script type="text/javascript">
+	var test = function() 
+	{
+		var msg = document.getElementById("msg");
+		// 为applicationCache的不同事件绑定事件监听器
+		applicationCache.onchecking = function()
+		{
+			msg.innerHTML += "onchecking<br/>";
+		};
+		applicationCache.onnoupdate = function()
+		{
+			msg.innerHTML += "onnoupdate<br/>";
+		};
+		applicationCache.ondownloading = function()
+		{
+			msg.innerHTML += "ondownloading<br/>";
+		};
+		applicationCache.onprogress = function()
+		{
+			msg.innerHTML += "onprogress<br/>";
+		};
+		applicationCache.onupdateready = function()
+		{
+			msg.innerHTML += "onupdateready<br/>";  
+		};
+		applicationCache.oncached = function()
+		{
+			msg.innerHTML+="oncached<br/>";
+		};
+		applicationCache.onerror = function()
+		{
+			msg.innerHTML += "onerror<br/>"; 
+		};
+	}
+	</script>
+</head>
+<body onload="test();">
+	<h2>测试applicationCache事件</h2>
+	<div id="msg"></div>
+</body>
+</html>

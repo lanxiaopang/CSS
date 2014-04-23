@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 图片相关标签 </title>
+</head>
+<body>
+<img src="images/logo.jpg" alt="疯狂Java的Logo" /><br />
+<!-- 定义图片，指定高、宽 -->
+<img src="images/logo.jpg" width="300" height="120"
+	alt="疯狂Java的Logo" /><br />
+<!-- 定义图片，使用指定的图片映射 -->
+<img src="images/logo.jpg" width="300" 
+	height="120" border="0" usemap="#test"
+	alt="疯狂Java的Logo" /><br />
+<!-- 定义图片映射 -->
+<map name="test" id="test">
+	<!-- 为该图片映射定义2个区域 -->
+	<area shape="circle" coords="57,55,25" 
+		href="http://www.fkjava.org" alt="fkjava.org" />
+	<area shape="poly" coords="188,28,185,50,200,74,224,72,246,51"
+		href="http://www.crazyit.org" alt="crazyit.org" />
+</map>
+</body>
+</html>

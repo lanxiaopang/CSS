@@ -1,0 +1,10 @@
+<script type="text/javascript">
+	var loc = window.location;
+	var locStr = "当前的location信息是:\n";
+	// 遍历location对象的全部属性
+	for (var propname in loc)
+	{
+		locStr += propname + ": " + loc[propname] + "\n"
+	}
+	alert(locStr);
+</script>

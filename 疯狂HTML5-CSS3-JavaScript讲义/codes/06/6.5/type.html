@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> :type </title>
+	<style type="text/css">
+		span {
+			display: block;
+			padding: 5px;
+		}
+		/* 匹配span选择器，且是与它同类型、同级的兄弟元素中的第一个的CSS样式 */
+		span:first-of-type{
+			border: 1px solid black;
+		}
+		/* 匹配span选择器，且是与它同类型、同级的兄弟元素中的最后一个的CSS样式 */
+		span:last-of-type {
+			background-color: #aaa;
+		}
+		/* 匹配span选择器，且是与它同类型、同级的兄弟元素中的第2个的CSS样式 */
+		span:nth-of-type(2){
+			color: #888;
+		}
+		/* 匹配span选择器，且是与它同类型、同级的兄弟元素中的倒数第2个的CSS样式 */
+		span:nth-last-of-type(2){
+			font-weight: bold; 
+		}
+	</style>
+</head>
+<body>
+<div>www.crazyit.org</div>
+<span>www.fkjava.org</span>
+<span>www.facejava.org</span>
+<span>疯狂Java联盟</span>
+<span>疯狂软件教育中心</span>
+<hr/>
+<div>
+	<div id="java">疯狂Java讲义</div>
+	<div id="javaee">轻量级Java EE企业应用实战</div>
+	<span id="ajax">疯狂Ajax讲义</span>
+	<span id="xml">疯狂XML讲义</span>
+	<span id="ejb">经典Java EE企业应用实战</span>
+	<span id="android">疯狂Android讲义</span>
+	<div id="struts">Struts 2.1权威指南</div>
+</div>
+</body>
+</html>

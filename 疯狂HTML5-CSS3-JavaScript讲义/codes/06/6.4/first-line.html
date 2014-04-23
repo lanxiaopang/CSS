@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> :first-line </title>
+	<style type="text/css">
+		span {
+			display:block;
+		}
+		/* span元素里第一行文字的字体加大、变红
+		由于span是内联元素，因此需要先把span的display设为block
+		*/
+		span:first-line{
+			color:#f00;
+			font-size:20pt;
+		}
+		/* section元素里第一行文字的字体加大、变蓝 */
+		section:first-line{
+			color:#00f;
+			font-size:30pt;
+		}
+		/* p元素里第一行文字的字体加大、变蓝 */
+		p:first-line{
+			color:#00f;
+			font-size:30pt;
+		}
+	</style>
+</head>
+<body>
+<span>abc<br/>xyz</span>
+<section>去年今日此门中，<br/>
+人面桃花相印红。</section>
+<p style="width:160px">疯狂Java讲义</p>
+</body>
+</html>

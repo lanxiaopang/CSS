@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 跨文档发送消息接收 </title>
+	<script type="text/javascript">
+		window.onmessage = function(ev) 
+		{
+			// 忽略来自其他域名的跨文档消息（只接受http://localhost:8888的消息）
+			if (ev.origin != "http://localhost:8888") 
+			{
+				return;
+			}
+			document.body.innerHTML = (ev.origin + "传来了消息:" + ev.data);
+			// 向发送该消息的页面回传消息
+			ev.source.postMessage("回传消息，这里是" + this.location
+				, ev.origin);    //①
+		};
+	</script>
+</head>
+<body>
+</body>
+</html>

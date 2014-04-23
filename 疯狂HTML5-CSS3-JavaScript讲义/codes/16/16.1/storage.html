@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" /> 
+	<title> Storage示例 </title>  
+</head>  
+<body>
+	<h2> Storage示例</h2>  
+	<input type="text" id="input"/>
+	<!-- 定义是否用Local Storage保存的数据的复选框 -->
+	使用Local Storage保存：<input type="checkbox" id="local"/>
+	<div id="show"></div>
+	<input type="button" value="保存数据"
+		onclick="saveStorage('input');"/> 
+	<input type="button" value="读取数据"
+		onclick="loadStorage('show');"/>
+	<script type="text/javascript">
+		var saveStorage = function(id)
+		{
+			// 如果勾选了复选框，使用Local Storage保存数据
+			// 否则使用Session Storage保存数据
+			var checked = document.getElementById("local").checked;
+			var storage = checked ? localStorage : sessionStorage;
+			var target = document.getElementById(id);
+			storage.setItem("message" , target.value);
+		}
+		var loadStorage = function(id)
+		{
+			// 如果勾选了复选框，使用Local Storage保存数据
+			// 否则使用Session Storage保存数据
+			var checked = document.getElementById("local").checked;
+			var storage = checked ? localStorage : sessionStorage;
+			var target = document.getElementById(id);
+			// 读取数据
+			target.innerHTML = storage.getItem("message");
+		}
+	</script>
+</body>
+</html>

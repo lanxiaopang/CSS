@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 访问事件对象 </title>
+</head>
+<body>
+	<button id="a">按钮</button>
+	<script type="text/javascript">
+		// 定义一个形参evt
+		var clickHandler = function(evt)
+		{
+			// DOM的事件对象将作为第一个参数传入clickHandler对象
+			alert(evt.target.innerHTML);
+		}
+		// 为按钮a绑定事件处理器
+		document.getElementById("a").onclick = clickHandler;
+	</script>
+</body>
+</html>

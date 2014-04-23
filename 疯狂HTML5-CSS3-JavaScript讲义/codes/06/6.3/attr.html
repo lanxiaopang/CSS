@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 属性选择器 </title>
+	<style type="text/css">
+	/* 对所有div元素都起作用的CSS样式 */
+	div {
+		width:300px;
+		height:30px;
+		background-color:#eee;
+		border:1px solid black;
+		padding:10px;
+	}
+	/* 对有id属性的div元素起作用的CSS样式 */
+	div[id] {
+		background-color:#aaa;
+	}
+	/* 对有id属性值包含xx的div元素起作用的CSS样式 */
+	div[id*=xx] {
+		background-color:#999;
+	}
+	/* 对有id属性值以xx开头的div元素起作用的CSS样式 */
+	div[id^=xx] {
+		background-color:#555;
+		color:#fff;
+	}
+	/* 对有id属性值等于xx的div元素起作用的CSS样式 */
+	div[id=xx] {
+		background-color:#111;
+		color:#fff;
+	}
+	</style>
+</head>
+<body>
+<div>没有任何属性的div元素</div>
+<div id="a">带id属性的div元素</div>
+<div id="zzxx">id属性值包含xx子字符串的div元素</div>
+<div id="xxyy">id属性值以xx开头的div元素</div>
+<div id="xx">id属性值为xx的div元素</div>
+</body>
+</html>

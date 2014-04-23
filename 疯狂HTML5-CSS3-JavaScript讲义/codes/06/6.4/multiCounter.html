@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 多级编号 </title>
+	<style type="text/css">
+		/* 为div的子h2元素定义了一个计数器：categorycounter
+		   并使用counter-reset重置subcounter计数器 */
+		div>h2{
+			counter-increment: categorycounter;
+			counter-reset: subcounter;
+		}
+		/* 为div的子div元素定义了一个计数器：subcounter */
+		div>div{
+			counter-increment: subcounter;
+		}
+		/* 在div的子h2元素的前端插入categorycounter计数器和一个点  */
+		div>h2:before{
+			content: counter(categorycounter , georgian) '.';
+			font-size: 20pt;
+			font-weight: bold;
+		}
+		/* 在div的子div元素的前端插入自定义的subcounter计数器 */
+		div>div:before{
+			content: '第' counter(subcounter , cjk-ideographic) '本.';
+			font-size: 14pt;
+			font-weight: bold;
+			margin-left:24px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h2>疯狂Java体系图书</h2>
+		<div>疯狂Java讲义</div>
+		<div>疯狂Android讲义</div>
+		<div>轻量级Java EE企业应用实战</div>
+		<h2>其他图书</h2>
+		<div>Struts 2.1权威指南</div>
+		<div>JavaScript权威指南</div>
+	</div>
+</body>
+</html>
+ 

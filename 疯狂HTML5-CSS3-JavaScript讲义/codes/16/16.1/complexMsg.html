@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 客户端留言板 </title>
+	<style type="text/css">
+		table {
+			border-collapse: collapse;
+		}
+		td , th{
+			border: 1px solid #888;
+			padding: 4px;
+		}
+	</style>
+</head>
+<body>
+	<h2>客户端留言板</h2>
+	留言标题：<input id="title" name="title" type="text" size="60"/><br/>
+	留言信息：<textarea id="content" name="content" cols="50" rows="8"></textarea><br/>
+	留言人：<input id="user" name="user" type="text"/><br/>
+	<input type="button" value="添加留言" onclick="addMsg();"/>
+	<input type="button" value="清除留言" onclick="clearMsg();"/>
+	<hr/>
+	<table style="width:750px">
+		<tr>
+			<th>留言标题</th>
+			<th>留言内容</th>
+			<th>留言人</th>
+			<th>留言时间</th>
+		</tr>
+		<tbody id="show"></tbody>
+	</table>
+	<script type="text/javascript">
+		// 加载留言信息
+		var loadMsg = function()
+		{
+			var tb = document.getElementById("show");
+			// 清空原来显示的内容。
+			tb.innerHTML = "";
+			// 遍历所有留言信息
+			for(var i = 0 ; i < localStorage.length ; i++)
+			{
+				var key = localStorage.key(i);
+				var date = new Date();
+				date.setTime(key);
+				// 获取留言时间
+				var datestr = date.toLocaleDateString()
+					+ "&nbsp;" + date.toLocaleTimeString();
+				// 获取留言字符串
+				var msgStr = localStorage.getItem(key);
+				// 把留言字符串转换成JavaScript对象
+				var msg = JSON.parse(msgStr);
+				var row = tb.insertRow(i);
+				// 添加第一个单元格，并显示留言内容
+				row.insertCell(0).innerHTML = msg.title;
+				// 添加第二个单元格，并显示留言内容
+				row.insertCell(1).innerHTML = msg.content;
+				// 添加第三个单元格，并显示留言内容
+				row.insertCell(2).innerHTML = msg.user;
+				// 添加第四个单元格，并显示留言内容。
+				row.insertCell(3).innerHTML = datestr;
+			}
+		}
+		var addMsg = function()
+		{
+			var titleElement = document.getElementById("title");
+			var contentElement = document.getElementById("content");
+			var userElement = document.getElementById("user");
+			// 将留言标题、留言内容、留言用户封装成对象
+			var msg = {
+				title: titleElement.value,
+				content: contentElement.value,
+				user: userElement.value
+			}
+			var time = new Date().getTime();
+			// 以当前时间为key来保存留言信息
+			localStorage.setItem(time , JSON.stringify(msg));
+			titleElement.value = "";
+			contentElement.value = "";
+			userElement.value = "";
+			alert("数据已保存。");
+			loadMsg();
+		}
+		function clearMsg()
+		{
+			// 清空Local Storage里保存的数据。
+			localStorage.clear();
+			alert("全部留言信息已被清除。");
+			loadMsg();
+		}
+		window.onload = loadMsg();
+	</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> JavaScript校验表单 </title>
+</head>
+<body>
+<div>
+	<h2>数据校验表单</h2>
+	<form method="post"
+		id="register" name="register" action="#">
+		用户名：<input type="text" name="user" /><br />
+		密&nbsp;&nbsp;码：<input type="password" name="pass" /><br />
+		电&nbsp;&nbsp;邮：<input type="text" name="email" /><br />
+		<input type="submit" value="提交" />
+	</form>
+</div>
+<script type="text/javascript">
+	// 为字符串增加trim方法，使用正则表达式截取空格
+	String.prototype.trim = function()
+	{
+		return this.replace( /^\s*/, "" ).replace( /\s*$/, "" );
+	}
+	// 负责处理表单submit事件的函数
+	var check = function()
+	{
+		// 访问页面中第一个表单
+		var form = document.forms[0];
+		// 错误字符串
+		var errStr = "";
+		// 当用户名为空
+		if (form.user.value == null 
+			|| form.user.value.trim() == "")
+		{
+			errStr += "\n用户名不能为空!";
+			form.user.focus();
+		}
+		// 当密码为空
+		if (form.pass.value == null 
+			|| form.pass.value.trim() == "")
+		{
+			errStr += "\n密码不能为空!";
+			form.pass.focus();
+		}
+		// 当电子邮件为空
+		if (form.email.value == null
+			|| form.email.value.trim() == "")
+		{
+			errStr += "\n电子邮件不能为空!";
+			form.email.focus();
+		}
+		// 使用正则表达式校验电子邮件的格式是否正确
+		if(!/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
+			.test(form.email.value.trim()))
+		{
+			errStr += "\n电子邮件的格式不正确!";
+			form.email.focus();
+		}
+		//	如果错误字符串不为空，表明校验出错
+		if( errStr != "" )
+		{
+			// 弹出出错信息
+			alert(errStr);
+			// 返回false，用于阻止表单提交
+			return false;
+		}
+	}
+	// 为第一个表单的onsubmit绑定事件处理器
+	document.forms[0].onsubmit = check;
+</script>
+</body>
+</html>

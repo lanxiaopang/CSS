@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 漂浮的气球 </title>
+	<style type="text/css">
+		img#target {
+			position: absolute;
+			/* 指定气球图片的left、top属性会采用平滑渐变的方式来改变 */
+			-moz-transition: left 5s linear , top 5s linear;
+			-webkit-transition: left 5s linear , top 5s linear;
+			-o-transition: left 5s linear , top 5s linear;
+		}
+	</style>
+</head>
+<body>
+<img id="target" src="balloon.gif" alt="气球"/>
+<script type="text/javascript">
+	var target = document.getElementById("target");
+	target.style.left = "0px";
+	target.style.top = "0px";
+	// 为鼠标按下事件绑定监听器
+	document.onmousedown = function(evt)
+	{
+		// 将鼠标事件的X、Y坐标赋给气球图片的left、top。
+		target.style.left = evt.pageX + "px";
+		target.style.top = evt.pageY + "px";
+	}
+</script>
+</body>
+</html>

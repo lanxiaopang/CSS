@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> Transition动画 </title>
+	<style type="text/css">
+		div {
+			width: 200px;
+			height: 160px;
+			background-color: red;
+			/* 指定背景色、宽度、高度会以平滑简便的方式来改变
+			指定动画持续时间为2秒，动画会延迟2秒之后才启动。
+			*/
+			-moz-transition: background-color 2s linear 2s,
+				width 2s linear 2s, height 2s linear 2s;
+			-webkit-transition: background-color 2s linear 2s,
+				width 2s linear 2s, height 2s linear 2s;
+			-o-transition: background-color 2s linear 2s,
+				width 2s linear 2s, height 2s linear 2s;
+		}
+	</style>
+	<script type="text/javascript">
+		// 定义目标组件的初始宽度、高度
+		var originWidth = 200;
+		var originHeight = 160;
+		var zoom = function(scale , bgColor)
+		{
+			var target = document.getElementById("target");
+			// 设置缩放之后的宽度、高度
+			target.style.width = originWidth * scale + "px";
+			target.style.height = originHeight * scale + "px";
+			// 设置背景色
+			target.style.backgroundColor = bgColor;
+		}
+	</script>
+</head>
+<body>
+<button onclick="zoom(2 , 'blue');">放大</button>
+<button onclick="zoom(0.5 , 'green');">缩小</button>
+<button onclick="zoom(1 , 'red');">恢复</button>
+<div id="target">
+</div>
+</body>
+</html>

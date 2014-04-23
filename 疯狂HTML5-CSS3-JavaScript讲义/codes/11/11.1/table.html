@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 表格相关属性 </title>
+	<style type="text/css">
+	table {
+		width: 400px;
+		border: 1px solid black;
+	}
+	td {
+		background-color:#ccc;
+		border: 1px solid black;
+	}
+	</style>
+</head>
+<body>
+<!-- 表格的单元格边框合并在一起，看起来分割线为单线,并将表格标题放在右边 -->
+border-collapse:collapse;caption-side:right;
+<table style="border-collapse:collapse;caption-side:right;">
+	<caption>表格标题</caption>
+	<tr>
+		<td>疯狂Java讲义</td>
+		<td>轻量级Java EE企业应用实战</td>
+	</tr>
+	<tr>
+		<td>疯狂Android讲义</td>
+		<td>经典Java EE企业应用实战</td>
+	</tr>
+</table>
+<!-- 表格的单元格边框分开，看起来表格分割线为双线，并隐藏空格的边框线 -->
+border-collapse:seperate;empty-cells:hide;
+<table style="border-collapse:seperate;empty-cells:hide;">
+	<tr>
+		<td>疯狂Java讲义</td>
+		<td>轻量级Java EE企业应用实战</td>
+	</tr>
+	<tr>
+		<td>疯狂Android讲义</td>
+		<td></td>
+	</tr>
+</table>
+<!-- 表格的单元格边框分开，看起来表格分割线为双线，并设置两个单元格的间距 -->
+border-collapse:seperate;border-spacing:20px;
+<table style="border-collapse:seperate;border-spacing:20px">
+	<tr>
+		<td>疯狂Java讲义</td>
+		<td>轻量级Java EE企业应用实战</td>
+	</tr>
+	<tr>
+		<td>疯狂Android讲义</td>
+		<td>经典Java EE企业应用实战</td>
+	</tr>
+</table>
+</body>
+</html>

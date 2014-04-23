@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html manifest="swapCache.manifest">
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 检测服务器更新 </title>
+</head>
+<body>
+<h2> 检测服务器更新 </h2>
+<script type="text/javascript">
+	setInterval(function()
+	{
+		// 手动检查服务器是否有更新
+		applicationCache.update();
+	} , 2000);
+	applicationCache.onupdateready = function()
+	{	
+		if(confirm("已从远程服务器下载了需要更新的缓存，是否立即更新？"))
+		{
+			// 立即更新缓存
+			applicationCache.swapCache();
+			// 重新加载页面
+			location.reload();
+		}
+	}
+</script>
+</body>
+</html>

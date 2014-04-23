@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 使用定时器 </title>
+</head>
+<body>
+	<span id="tm"></span>
+	<script type="text/javascript">
+		// 定义定时器变量
+		var timer;
+		// 保存页面运行的起始时间
+		var cur = new Date().getTime(); 
+		var setTime = function()
+		{
+			// 在tm元素中显示当前时间
+			document.getElementById("tm").innerHTML
+				= new Date().toLocaleString();
+			// 如果当前时间比起始时间小于等于60秒，执行定时器的调度
+			if (new Date().getTime() - cur <= 60 * 1000)
+			{
+				// 指定延迟1000毫秒后执行setTime()函数。
+				window.setTimeout("setTime();" , 1000);
+			}
+		}
+		// 直接调用setTime()函数
+		setTime();
+	</script>
+</body>
+</html>

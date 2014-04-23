@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 计算质数 </title>
+	<style type="text/css">
+		#show {
+			width: 400px;
+			background-color: #ddd;
+			border-collapse: collapse;
+		}
+		td {
+			border: 1px solid #555;
+		}
+	</style>
+</head>
+<body>
+	起始值：<input type="text" id="start" name="start"/><br/>
+	结束值：<input type="text" id="end" name="end"/><br/>
+	个数：<input type="text" id="count" name="count"/><br/>
+	<input type="button" value="计算" onclick="cal();"/>
+	<table id="show"></table>
+	<script type="text/javascript">
+		var cal = function()
+		{
+			// 得到用户输入的start、end两个值
+			var start = parseInt(document.getElementById("start").value);
+			var end = parseInt(document.getElementById("end").value);
+			var count = parseInt(document.getElementById("count").value);
+			// 如果start大于、等于end，直接结束该函数
+			if (start >= end)
+			{
+				return;
+			}
+			var cal = new Worker("worker.js");
+			// 定义需要提交给Worker线程的数据
+			var data = {
+				start : start,
+				end : end,
+				count : count
+			};
+			// 向Worker线程提交数据。
+			cal.postMessage(JSON.stringify(data));
+			cal.onmessage = function(event)
+			{
+				var table = document.getElementById("show");
+				// 清空该表格原有的内容
+				table.innerHTML = "";
+				// 获取Worker线程返回的数据
+				var result = event.data;
+				var nums = result.split(",");
+				// 定义表格总共包含多少列
+				var COLS_NUM = 7;
+				for (var i = 0 ; i <= (nums.length - 1) / COLS_NUM ; i++)
+				{
+					// 添加表格行
+					var row = table.insertRow(i);
+					// 循环插入7个单元格
+					for(var j = 0 ; j < COLS_NUM &&
+						i * COLS_NUM + j < nums.length - 1 ; j++)
+					{
+						// 插入单元格、并为单元格设置innerHTML属性
+						row.insertCell(j).innerHTML = nums[i * COLS_NUM + j]
+					}
+				}
+			}
+		};
+	</script>
+</body>
+</html>

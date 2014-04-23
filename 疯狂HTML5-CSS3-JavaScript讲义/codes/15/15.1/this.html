@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> new document </title>
+</head>
+<body>
+<input type="button" value="按钮" name="bn"
+	onclick="showThisName();"/>
+<script type="text/javascript">
+	// 为当前的浏览器窗口的name属性赋值
+	window.name = "测试窗口";
+	var showThisName = function() 
+	{
+		// 此时的this将引用到脚本所在的窗口
+		alert(this.name);
+	}
+</script>
+</body>
+</html>

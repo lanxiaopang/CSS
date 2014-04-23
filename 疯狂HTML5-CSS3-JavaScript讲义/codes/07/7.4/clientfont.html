@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 优先使用客户端字体 </title>
+	<style type="text/css">
+		/* 定义服务器字体：CrazyIt
+		该字体优先使用客户端字体：Goudy Stout
+		当客户端字体不存在时，使用Blazed.ttf作为替代字体。
+		*/
+		@font-face {
+			font-family: CrazyIt;
+			src: local("Goudy Stout"), url("Blazed.ttf") format("TrueType");
+		}
+	</style>
+</head>
+<body>
+<div style="font-family:CrazyIt;font-size:24pt">
+Our domain is Http://www.crazyit.org
+</div>
+</body>
+</html>

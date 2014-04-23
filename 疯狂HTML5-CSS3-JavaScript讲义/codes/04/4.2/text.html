@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 绘制文字 </title>
+</head>
+<body>
+<h2> 绘制文字 </h2>
+<canvas id="mc" width="600" height="280"
+	style="border:1px solid black"></canvas>
+<script type="text/javascript">
+	// 获取canvas元素对应的DOM对象
+	var canvas = document.getElementById('mc');
+	// 获取在canvas上绘图的CanvasRenderingContext2D对象
+	var ctx = canvas.getContext('2d');
+	ctx.fillStyle = '#00f';
+	ctx.font = 'italic 50px 隶书';
+	ctx.textBaseline = 'top';
+	// 填充字符串
+	ctx.fillText('疯狂Java讲义', 0, 0);
+	ctx.strokeStyle = '#f0f';
+	ctx.font='bold 45px 宋体';
+	// 绘制字符串的边框
+	ctx.strokeText('轻量级Java EE企业应用实战', 0, 50);
+</script>
+</body>
+</html>

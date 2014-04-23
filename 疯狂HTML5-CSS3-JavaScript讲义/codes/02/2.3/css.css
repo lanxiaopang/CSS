@@ -1,0 +1,24 @@
+article {
+	font-size:11pt;
+}
+header {
+	background-color:#ddd;
+}
+footer {
+	border-top: 1px solid black;
+	font-size: 12px;
+	text-align: center;
+}
+aside {
+	position:absolute;
+	background-color:#dda;
+	border:1px solid black;
+	width: 200px;
+	left:75%;
+}
+article>aside{
+	top:40%;
+}
+body>aside{
+	top:5%;
+}

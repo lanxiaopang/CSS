@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 多栏布局 </title>
+	<style type="text/css">
+		body{
+			margin:0px;
+		}
+		div#container {
+			width: 960px;
+			margin:auto;
+		}
+		div>div {
+			border: 1px solid #aaf;
+			/* 设置HTML组件的width属性包括边框 */
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			border-radius: 12px 12px 0px 0px;
+			background-color: #ffc;
+			padding:5px;
+		}
+	</style>
+</head>
+<body>
+<div id="container">
+<!-- float:left;浮向左边 -->
+<div style="float:left;width:220px">
+<h2>疯狂软件开班信息</h2>
+<ul>
+	<li>2011年11月10日&nbsp;已满已开班</li>
+	<li>2011年12月02日&nbsp;爆满已开班</li>
+	<li>2012年02月08日&nbsp;已满已开班</li>
+</ul>
+</div>
+<!-- float:left;浮向左边 -->
+<div style="float:left;width:500px;">
+<h2>疯狂软件介绍</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;疯狂Java品牌专注高级软件编程，以“十年磨一剑”的心态打造全国最强（不是之一）疯狂Java学习体系：包括疯狂Java体系原创图书，疯狂Java学习路线图，这些深厚的知识沉淀已被大量高校、培训机构奉为经典。<br/> 
+&nbsp;&nbsp;&nbsp;&nbsp;疯狂Java怀抱“软件强国”的理想，立志以务实的技术来改变中国的软件教育。经过八年沉淀，疯狂Java强势回归。疯狂Java创始人李刚，携疯狂Java精英讲师团队肖文吉、李韩飞、黄勇、陈辉等老师将带给广大学习者“非一般”的疯狂。
+</div>
+<!-- float:left;浮向左边 -->
+<div style="float:left;width:240px">
+<h2>公司动态</h2>
+<ul>
+	<li>《疯狂Java讲义》(第2版)上市</li>
+	<li>泰豪电网软件公司来校召开现场招聘会</li>
+	<li>疯狂学子赴武汉光谷软件园入职</li>
+	<li>新华南方来校现场招聘</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

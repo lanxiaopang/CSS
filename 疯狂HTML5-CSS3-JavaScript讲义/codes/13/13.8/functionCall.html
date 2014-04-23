@@ -1,0 +1,17 @@
+<script type="text/javascript">
+	// 定义一个each函数
+	var each = function(array , fn)
+	{
+		for(var index in array)
+		{
+			// 以window为调用者来调用fn函数，
+			// index、array[index]是传给fn函数的参数
+			fn.call(null , index , array[index]);
+		}
+	}
+	// 调用each函数，第一个参数是数组，第二个参数是函数
+	each([4, 20 , 3] , function(index , ele)
+	{
+		document.write("第" + index + "个元素是：" + ele + "<br />");
+	});
+</script>

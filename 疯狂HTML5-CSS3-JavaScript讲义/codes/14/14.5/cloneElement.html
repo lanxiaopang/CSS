@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 复制节点 </title>
+</head>
+<body>
+	<ul id = "d">
+		<li>疯狂Java讲义</li>
+	</ul>
+	<script type="text/javascript">
+		// 获取ID为d的节点
+		var ul = document.getElementById("d");
+		// 复制ul的第二个子节点（不复制当前节点的后代节点）
+		var ajax = ul.firstChild.nextSibling.cloneNode(false);
+		// 修改被复制的节点
+		ajax.innerHTML = "疯狂Ajax讲义";
+		// 将复制的节点添加到页面中
+		ul.appendChild(ajax);
+	</script>
+</body>
+</html>

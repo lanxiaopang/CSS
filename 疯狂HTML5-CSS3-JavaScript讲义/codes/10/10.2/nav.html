@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 导航菜单 </title>
+	<style type="text/css">
+		body>div{
+			text-align: center;
+			margin: auto;
+		}
+		div>div{
+			/* 设置为inline-block盒模型，保证一行显示 */
+			display: inline-block;
+			border: 1px solid black;
+		}
+		a {
+			text-decoration:none;
+			/* 设置为block盒模型，允许设置高度、宽度 */
+			display: block;
+			width: 120px;
+			padding: 10px;
+			/* 设置默认背景色 */
+			background-color: #eee;
+		}
+		a:hover {
+			/* 设置鼠标悬停时的背景色 */
+			background-color: #aaa;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<div><a href="http://www.crazyit.org">疯狂Java联盟</a></div><div>
+	<a href="http://www.fkjava.org">疯狂软件教育</a></div><div>
+	<a href="http://www.fkjava.org/companyInfo.html">关于我们</a></div><div>
+	<a href="http://www.crazyit.org">疯狂成员</a></div>
+</div>
+</body>
+</html>

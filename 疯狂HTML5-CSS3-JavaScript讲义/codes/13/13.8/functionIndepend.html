@@ -1,0 +1,17 @@
+<script type="text/javascript">
+	function Person(name)
+	{
+		this.name = name;
+		// 定义一个info方法
+		this.info = function()
+		{
+			alert("我的name是：" + this.name);
+		}
+	}
+	var p = new Person("yeeku");
+	// 调用p对象的info方法
+	p.info();
+	var name = "测试名称";
+	// 以window对象作为调用者来调用p对象的info方法
+	p.info.call(window);
+</script>

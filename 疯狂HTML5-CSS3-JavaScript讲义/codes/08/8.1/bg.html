@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title>背景相关属性</title>
+	<style type="text/css">
+	/* 为div元素增加边框 */
+	div{
+		border:1px solid #000;
+		height: 50px;
+		width: 200px;
+	}
+	</style>
+</head>
+<body>
+<!-- 灰色背景 -->
+background-color:#aaa 
+<div style="background-color:#aaa;">测试文字</div>
+<!-- 以默认样式指定背景图片，将会在横向、纵向上平铺 -->
+background-image:url(wjc.gif)
+<div style="background-image:url(wjc.gif);">测试文字</div>
+<!-- 不平铺的背景图片 -->
+background-image:url(wjc.gif);background-repeat: no-repeat
+<div style="background-image:url(wjc.gif);
+	background-repeat:no-repeat;">测试文字</div>
+<!-- 仅横向平铺的背景图片 -->
+background-image:url(logo.gif);background-repeat: repeat-x
+<div style="background-image:url(wjc.gif);
+	background-repeat:repeat-x;">测试文字</div>
+<!-- 不平铺的背景图片，并指定背景图片的位置 -->
+background-image:url(wjc.gif);background-repeat:no-repeat;
+	background-position: 35% 80%;
+<div style="background-image:url(wjc.gif);background-repeat:
+	no-repeat;background-position:35% 80%;">测试文字</div>
+<!-- 不平铺的背景图片，并指定背景图片的位置 -->
+background-image:url(wjc.gif);background-repeat:no-repeat;
+	background-position: 30px 12px;
+<div style="background-image:url(wjc.gif);background-repeat:
+	no-repeat;background-position:30px 8px;">测试文字</div>
+<!-- 不平铺的背景图片，并指定背景图片的位置 -->
+background-image:url(wjc.gif);background-repeat:no-repeat;
+	background-position: center bottom;
+<div style="background-image:url(wjc.gif);background-repeat:
+	no-repeat;background-position:center bottom;">测试文字</div>
+</body>
+</html>

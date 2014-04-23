@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 基础盒模型 </title>
+	<style type="text/css">
+		div,span{
+			width: 300px;
+			height: 40px;
+			border: 1px solid black;
+		}
+		/* 将div元素改为inline盒模型 */
+		body>div{
+			display:inline;
+		}
+		/* 将span元素改为block盒模型 */
+		body>span{
+			display:block;
+		}
+	</style>
+</head>
+<body>
+<div>div元素一</div>
+<div>div元素二</div>
+<span>span元素一</span>
+<span>span元素二</span>
+</body>
+</html>

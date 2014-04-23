@@ -1,0 +1,22 @@
+<script type="text/javascript">
+	// 直接定义一个函数，并未指定该函数属于哪个对象。
+	// 该对象默认属于window对象
+	var hello = function(name)
+	{
+		document.write(name + ", 您好<br />");		
+	}
+	// 以window作为调用者，调用hello函数
+	window.hello("孙悟空");
+	// 定义一个对象
+	var p = {
+		// 定义一个函数，该函数属于p对象。
+		walk: function()
+		{
+			for(var i = 0 ; i < 2 ; i++)
+			{
+				document.write("慢慢地走...");
+			}
+		}
+	}
+	p.walk();
+</script>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> fisheye </title>
+	<style type="text/css">
+		a:link {
+			text-decoration: none;
+		}
+		div>a{
+			display: inline-block;
+			text-align: center;
+			width: 120px;
+			padding: 8px;
+			background-color: #eee;
+			border: 2px solid black;
+			border-radius : 20px;
+		}
+		/* 定义一个关键帧 */
+		@-webkit-keyframes 'fisheye' {
+			/* 定义动画开始处的关键帧 */
+			0% {
+				-webkit-transform: scale(1);
+				background-color: #eee;
+				border-radius : 10px;
+			}
+			/* 定义动画进行40%时的关键帧 */
+			40% {
+				-webkit-transform: scale(1.5);
+				background-color: #bbb;
+				border-radius : 10px;
+			}
+			/* 定义动画进行100%时的关键帧 */
+			100% {
+				-webkit-transform: scale(1);
+				background-color: #eee;
+				border-radius : 10px;
+			}
+		}
+		div>a:hover {
+			/* 指定执行fkjava动画 */
+			-webkit-animation-name: 'fisheye';
+			/* 指定动画的执行时间 */
+			-webkit-animation-duration: 3s;
+			/* 指定动画的循环无限次 */
+			-webkit-animation-iteration-count: infinite;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<a href="http://www.crazyit.org" alt="crazyit">疯狂Java联盟</a>
+	<a href="http://www.fkjava.org" alt="fkjava">疯狂软件教育</a>
+	<a href="http://www.crazyit.org" alt="fkjava">关于我们</a>
+	<a href="http://www.fkjava.org" alt="fkjava">疯狂成员</a>
+</div>
+</body>
+</html>

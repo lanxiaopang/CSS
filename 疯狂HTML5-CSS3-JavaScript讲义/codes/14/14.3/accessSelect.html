@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 访问列表项 </title>
+</head>
+<body>
+	<select id="mySelect" name="mySelect" size="6">
+		<option value="java">疯狂Java讲义</option>
+		<option value="ssh">轻量级Java EE企业应用实战</option>
+		<option value="ajax" selected>疯狂Ajax讲义</option>
+		<option value="xml">疯狂XML讲义</option>
+		<option value="ejb">经典Java EE企业应用实战</option>
+		<option value="workflow">疯狂Android讲义</option>
+	</select><br />
+	<input type="button" value="第一个" onclick=
+		"change(curTarget.options[0]);" />
+	<input type="button" value="上一个"	onclick=
+		"change(curTarget.options[curTarget.selectedIndex - 1]);" />
+	<input type="button" value="下一个" onclick=
+		"change(curTarget.options[curTarget.selectedIndex + 1]);" />
+	<input type="button" value="最后一个" onclick=
+		"change(curTarget.options[curTarget.length - 1]);" />
+	<script type="text/javascript">
+		var curTarget = document.getElementById("mySelect");
+		var change = function(target)
+		{
+			alert(target.text);
+		}
+	</script>
+</body>
+</html>

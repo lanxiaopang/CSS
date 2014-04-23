@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> new document </title>
+</head>
+<body>
+<a href="aaa">测试</a>
+<div id="aa" draggable="true" style="width:80px;height:60px;border:1px solid black;">拖动我</div>
+<div id="text" style="width: 200px; height: 200px; border: 1px solid gray;"></div>
+<script type="text/javascript">
+	var source = document.getElementById("aa");
+	var dest = document.getElementById("text");
+	source.ondragstart = function(evt)
+	{
+		var dt = evt.dataTransfer;
+		dt.effectAllowed = 'all';	
+		dt.setData("text/plain", "你好");
+	}
+
+
+	dest.ondrop = function(evt)
+	{
+		var dt = evt.dataTransfer;
+		data = evt.dataTransfer.getData("text/plain");
+		dest.innerHTML += data;
+//		dt.dropEffect = "all";
+	}
+
+// 允许拖动
+//document.ondragover = function(e){return false;};
+//// 取消拖动到浏览器的默认效果
+//document.ondrop = function(e){return false;};
+</script>
+</body>
+</html>

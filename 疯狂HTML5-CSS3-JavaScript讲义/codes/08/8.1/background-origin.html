@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title>背景相关属性</title>
+	<style type="text/css">
+	/* 为div元素增加边框 */
+	div{
+		border:10px dotted #444;
+		padding: 12px;
+		height: 30px;
+		width: 200px;
+	}
+	</style>
+</head>
+<body>
+<!-- 背景图片从内容区开始覆盖 -->
+background-image:url(wjc.gif);background-origin:content;
+<div style="background-image:url(wjc.gif);background-origin:content;
+-webkit-background-origin:content;background-repeat:no-repeat;">测试文字</div>
+<!-- 背景图片从内补丁区开始覆盖 -->
+background-image:url(wjc.gif);background-origin:padding;
+<div style="background-image:url(wjc.gif);background-origin:padding;
+-webkit-background-origin:padding;background-repeat:no-repeat;">测试文字</div>
+<!-- 背景图片从边框区开始覆盖 -->
+background-image:url(wjc.gif);background-origin:border;
+<div style="background-image:url(wjc.gif);background-origin:border;
+-webkit-background-origin:border;background-repeat:no-repeat;">测试文字</div>
+</body>
+</html>

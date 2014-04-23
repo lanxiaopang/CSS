@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 变形 </title>
+	<style type="text/css">
+		div {
+			position: absolute;
+			width: 90px;
+			height: 90px;
+			background-color: #bbb;
+			border: 2px solid black;
+		}
+		div.a {
+			left: 30px;
+			top: 30px;
+		}
+		div.b {
+			left: 30px;
+			top: 150px;
+		}
+		div.c {
+			left: 30px;
+			top: 270px;
+		}
+	</style>
+</head>
+<body>
+<div class="a">
+未变换之前
+</div>
+<div class="a"
+style="-moz-transform-origin:left top;-moz-transform:rotate(-25deg);
+	-webkit-transform-origin:left top;-webkit-transform:rotate(-25deg);
+	-o-transform-origin:left top;-o-transform:rotate(-25deg);">
+左上角为变换中心
+</div>
+<div class="b">
+未变换之前
+</div>
+<div class="b"
+style="-moz-transform-origin:right bottom;-moz-transform:rotate(65deg);
+	-webkit-transform-origin:right bottom;-webkit-transform:rotate(65deg);
+	-o-transform-origin:right bottom;-o-transform:rotate(65deg);">
+右下角为变换中心
+</div>
+<div class="c">
+未变换之前
+</div>
+<div class="c"
+style="-moz-transform-origin:right center;-moz-transform:rotate(-90deg);
+	-webkit-transform-origin:right center;-webkit-transform:rotate(-90deg);
+	-o-transform-origin:right center;-o-transform:rotate(-90deg);">
+右边界的中间为变换中心
+</div>
+</body>
+</html>

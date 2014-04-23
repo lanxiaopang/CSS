@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 多级列表 </title>
+	<style type="text/css">
+		body>div{
+			display: list-item;
+			list-style-type: disc ;
+			margin-left: 20px;
+		}
+		div>div{
+			display: list-item;
+			list-style-type: square;
+			margin-left: 40px;
+		}
+	</style>
+</head>
+<body>
+<div id="div1">
+	疯狂Java体系图书
+	<div>疯狂Java讲义</div>
+	<div>疯狂Android讲义</div>
+	<div>轻量级Java EE企业应用实战</div>
+</div>
+<div id="div2">
+	疯狂Java相关
+	<div>疯狂Java联盟</div>
+	<div>疯狂软件教育</div>
+	<div>疯狂Java实训营</div>
+</div>
+</body>
+</html>

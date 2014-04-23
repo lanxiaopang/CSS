@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> contentEditable属性 </title>
+</head>
+<body>
+<!-- 直接指定contentEditable="true"表明该元素是可编辑的 -->
+<div contentEditable="true" style="width:500px;border:1px solid black">
+疯狂Java讲义
+<!-- 该元素的父元素有contentEditable="true"，因此该表格也是可编辑的 -->
+<table style="width:420px;border-collapse:collapse" border="1">
+<tr>
+	<td>疯狂Java讲义</td>
+	<td>疯狂Android讲义</td>
+</tr>
+<tr>
+	<td>轻量级Java EE企业应用实战</td>
+	<td>经典Java EE企业应用实战</td>
+</tr>
+</table>
+</div>
+<hr/>
+<!-- 这个表格默认是不可编辑的
+	双击之后该表格变为可编辑状态 -->
+<table id="target" 
+	ondblclick="this.contentEditable=true;"
+	style="width:420px;border-collapse:collapse" border="1">
+<tr>
+	<td>Java</td>
+	<td>Ruby</td>
+</tr>
+<tr>
+	<td>C/C++</td>
+	<td>Python</td>
+</tr>
+</table>
+</body>
+</html>

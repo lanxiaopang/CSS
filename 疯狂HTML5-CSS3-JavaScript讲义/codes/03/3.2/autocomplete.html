@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> autocomplete属性 </title>
+</head>
+<body>
+<form method="post" action="buy">
+	请输入图书：<input type="text" name="name" list="books" autocomplete="off"/><br/>
+	<input type="submit" value="购买"/>
+</form>
+<datalist id="books">
+	<option value="疯狂Java讲义">疯狂Java讲义</option>
+	<option value="轻量级Java EE企业应用实战">轻量级Java EE企业应用实战</option>
+	<option value="疯狂Android讲义">疯狂Android讲义</option>
+</datalist>
+</body>
+</html>

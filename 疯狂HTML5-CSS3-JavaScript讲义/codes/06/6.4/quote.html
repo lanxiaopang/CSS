@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 添加符号 </title>
+	<style type="text/css">
+		/* 定义open-quote为<<，close-quote为>> */
+		div>div{
+			quotes: "<<" ">>";
+		}
+		/* 指定为div的子div的前端插入open-quote */
+		div>div:before{
+			content: open-quote;
+		}
+		/* 指定为div的子div的尾端插入close-quote */
+		div>div:after{
+			content: close-quote;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<div>疯狂Java讲义</div>
+	<div>疯狂Android讲义</div>
+	<div>轻量级Java EE企业应用实战</div>
+	</div>
+</body>
+</html>
+ 

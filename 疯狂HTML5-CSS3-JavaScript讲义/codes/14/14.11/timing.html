@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 分析页面加载时间 </title>
+	<script type="text/javascript">
+		var load = function()
+		{
+			// 记录页面加载完成时的时刻
+			var now = new Date().getTime();
+			var page_load_time = now - performance.timing.navigationStart;
+			alert("页面加载时间: " + page_load_time);
+		}
+	</script>
+</head>
+<body onload="load();">
+<img src="http://www.crazyit.org/logo.jpg" alt="疯狂Java联盟"/>
+</body >
+</html>

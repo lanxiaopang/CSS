@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 测试this关键字 </title>
+</head>
+<body>
+<body>
+<input id="bn1" type="button" value="按钮1" 
+	onclick="alert(this.value);"/>
+<input id="bn2" type="button" value="按钮2" />
+<input id="bn3" type="button" value="按钮3" />
+<script type="text/javascript">
+	var test = function()
+	{
+		alert(this.value);
+	}
+	// 将test函数设置为按钮bn3的事件处理器
+	document.getElementById("bn2").onclick = test;
+	// 使用JSON格式定义了一个对象
+	var p = 
+	{
+		value: 'p对象',
+		info: function()
+		{
+			alert(this.value);
+		}
+	}
+	// 将对象p的info方法设置为按钮bn3的事件处理器
+	document.getElementById("bn3").onclick = p.info;
+	// 直接调用对象p的info()方法
+	p.info();
+</script>
+</body>
+</html>

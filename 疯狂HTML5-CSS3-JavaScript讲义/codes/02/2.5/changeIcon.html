@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 拖放行为 </title>
+</head>
+<body>
+<div id="source" draggable="true" style="width:80px;height:60px;
+	border:1px solid black;">拖动我</div>
+<script type="text/javascript">
+	var source = document.getElementById("source");
+	var dest = document.getElementById("text");
+	var myIcon = document.createElement("img");
+	myIcon.src = "my.gif";
+	source.ondragstart = function(evt)
+	{
+		var dt = evt.dataTransfer;
+		// 可设置move、copy等属性值看看效果
+		dt.effectAllowed = 'link';
+		dt.setDragImage(myIcon , 0 , 0);
+		dt.setData("text/plain", "www.fkjava.org");
+	}
+	// 允许拖动
+	document.ondragover = function(e){return false;};
+</script>
+</body>
+</html>

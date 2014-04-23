@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title> 使用WebSocket通信 </title>
+</head>
+<body>
+<script type="text/javascript">
+	// 创建Web Socket对象
+	var webSocket = new WebSocket("ws://127.0.0.1:30000");
+	// 当WebSocket建立网络连接时激发该函数
+	webSocket.onopen= function()
+	{
+		alert("已打开连接");
+		// 发送消息
+		webSocket.send("我是疯狂软件教育中心");
+	}
+	// 为onmessage事件绑定监听器，接收消息
+	webSocket.onmessage= function(event)
+	{
+		// 接收消息
+		alert("收到的消息是：" + event.data);
+	}
+</script>
+</body>
+</html>

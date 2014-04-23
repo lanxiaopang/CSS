@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> select元素 </title>
+</head>
+<body>
+<form action="http://www.crazyit.org" method="post">
+	下面是简单下拉菜单：<br />
+	<select id="skills" name="skills">
+		<option value="java">Java语言</option>
+		<option value="c">C语言</option>
+		<option value="ruby">Ruby语言</option>
+	</select><br /><br /><br />
+	下面是允许多选的列表框：<br />
+	<select id="books" name="books" 
+		multiple="multiple" size="4">
+		<option value="java">疯狂Java讲义</option>
+		<option value="android">疯狂Android讲义</option>
+		<option value="ee">轻量级Java EE企业应用实战</option>
+	</select><br />
+	下面是允许多选的列表框：<br />
+	<select id="leegang" name="leegang" 
+		multiple="multiple" size="6">
+		<optgroup label="疯狂Java体系图书">
+			<option value="java" label="aaaaaaaa">疯狂Java讲义</option>
+			<option value="android">疯狂Android讲义</option>
+			<option value="ee">轻量级Java EE企业应用实战</option>
+		</optgroup>
+		<optgroup label="其他图书">
+			<option value="struts">Struts 2.1权威指南</option>
+			<option value="ror">RoR敏捷开发最佳实践</option>
+		</optgroup>
+	</select><br />
+	<button type="submit"><b>提交</b></button><br />
+</form>
+</body>
+</html>

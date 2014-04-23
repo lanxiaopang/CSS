@@ -1,0 +1,17 @@
+<script type="text/javascript">
+	switch (performance.navigation.type)
+	{
+		case 0:
+			alert("正常导航到该页面！");
+			break;
+		case 1:
+			alert("用户重新加载该页面！");
+			break;
+		case 2:
+			alert("用户“前进”到该页面！");
+			break;
+		default :
+			alert("其他方法进入该页面！");
+			break;
+	}
+</script>
